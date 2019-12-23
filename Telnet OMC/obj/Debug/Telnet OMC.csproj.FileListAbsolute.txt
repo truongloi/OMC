@@ -1,0 +1,78 @@
+D:\Ca nhan\CodeC#\Telnet_OMC_v2\Telnet OMC\Telnet OMC\bin\Debug\Telnet OMC.exe
+D:\Ca nhan\CodeC#\Telnet_OMC_v2\Telnet OMC\Telnet OMC\bin\Debug\Telnet OMC.pdb
+D:\Ca nhan\CodeC#\Telnet_OMC_v2\Telnet OMC\Telnet OMC\obj\Debug\Telnet OMC.csprojResolveAssemblyReference.cache
+D:\Ca nhan\CodeC#\Telnet_OMC_v2\Telnet OMC\Telnet OMC\obj\Debug\Telnet_OMC.frmMain.resources
+D:\Ca nhan\CodeC#\Telnet_OMC_v2\Telnet OMC\Telnet OMC\obj\Debug\Telnet_OMC.Properties.Resources.resources
+D:\Ca nhan\CodeC#\Telnet_OMC_v2\Telnet OMC\Telnet OMC\obj\Debug\Telnet OMC.csproj.GenerateResource.Cache
+D:\Ca nhan\CodeC#\Telnet_OMC_v2\Telnet OMC\Telnet OMC\obj\Debug\Telnet OMC.exe.licenses
+D:\Ca nhan\CodeC#\Telnet_OMC_v2\Telnet OMC\Telnet OMC\obj\Debug\Telnet OMC.exe
+D:\Ca nhan\CodeC#\Telnet_OMC_v2\Telnet OMC\Telnet OMC\obj\Debug\Telnet OMC.pdb
+D:\Ca nhan\CodeC#\Telnet_OMC_v2\Telnet OMC\Telnet OMC\obj\Debug\Telnet_OMC.ucGponZTE_KetNoi.resources
+D:\Ca nhan\CodeC#\Telnet_OMC_v2\Telnet OMC\obj\Debug\Telnet OMC.exe
+D:\Ca nhan\CodeC#\Telnet_OMC_v2\Telnet OMC\obj\Debug\Telnet OMC.pdb
+D:\Ca nhan\CodeC#\Telnet_OMC_v2\Telnet OMC\bin\Debug\Telnet OMC.exe
+D:\Ca nhan\CodeC#\Telnet_OMC_v2\Telnet OMC\bin\Debug\Telnet OMC.pdb
+D:\Ca nhan\CodeC#\Telnet_OMC_v2\Telnet OMC\obj\Debug\Telnet_OMC.frmMain.resources
+D:\Ca nhan\CodeC#\Telnet_OMC_v2\Telnet OMC\obj\Debug\Telnet_OMC.Properties.Resources.resources
+D:\Ca nhan\CodeC#\Telnet_OMC_v2\Telnet OMC\obj\Debug\Telnet_OMC.ucGponZTE_KetNoi.resources
+D:\Ca nhan\CodeC#\Telnet_OMC_v2\Telnet OMC\obj\Debug\Telnet OMC.csproj.GenerateResource.Cache
+D:\Ca nhan\CodeC#\Telnet_OMC_v2\Telnet OMC\obj\Debug\Telnet OMC.exe.licenses
+D:\Ca nhan\CodeC#\Telnet_OMC_v2\Telnet OMC\obj\Debug\Telnet_OMC.ucGponALU_KetNoi.resources
+D:\Ca nhan\CodeC#\Telnet_OMC_v2\Telnet OMC\bin\Debug\ucGponALU_KetNoi.resx
+D:\Ca nhan\CodeC#\Telnet_OMC_v2\Telnet OMC\bin\Debug\ucGponALU_KetNoi.cs
+D:\Ca nhan\CodeC#\Telnet_OMC_v2\Telnet OMC\bin\Debug\ucGponALU_KetNoi.Designer.cs
+D:\Ca nhan\CodeC#\Telnet_OMC_v2\Telnet OMC\bin\Debug\DevExpress.Data.v14.2.dll
+D:\Ca nhan\CodeC#\Telnet_OMC_v2\Telnet OMC\bin\Debug\DevExpress.Printing.v14.2.Core.dll
+D:\Ca nhan\CodeC#\Telnet_OMC_v2\Telnet OMC\bin\Debug\DevExpress.Utils.v14.2.dll
+D:\Ca nhan\CodeC#\Telnet_OMC_v2\Telnet OMC\bin\Debug\DevExpress.XtraBars.v14.2.dll
+D:\Ca nhan\CodeC#\Telnet_OMC_v2\Telnet OMC\bin\Debug\DevExpress.XtraEditors.v14.2.dll
+D:\Ca nhan\CodeC#\Telnet_OMC_v2\Telnet OMC\bin\Debug\DevExpress.XtraLayout.v14.2.dll
+D:\Ca nhan\CodeC#\Telnet_OMC_v2\Telnet OMC\bin\Debug\DevExpress.XtraPrinting.v14.2.dll
+D:\Ca nhan\CodeC#\Telnet_OMC_v2\Telnet OMC\bin\Debug\Microsoft.CSharp.dll
+D:\Ca nhan\CodeC#\Telnet_OMC_v2\Telnet OMC\bin\Debug\System.Data.DataSetExtensions.dll
+D:\Ca nhan\CodeC#\Telnet_OMC_v2\Telnet OMC\bin\Debug\System.Data.dll
+D:\Ca nhan\CodeC#\Telnet_OMC_v2\Telnet OMC\bin\Debug\System.Deployment.dll
+D:\Ca nhan\CodeC#\Telnet_OMC_v2\Telnet OMC\bin\Debug\System.dll
+D:\Ca nhan\CodeC#\Telnet_OMC_v2\Telnet OMC\bin\Debug\System.Drawing.dll
+D:\Ca nhan\CodeC#\Telnet_OMC_v2\Telnet OMC\bin\Debug\System.Windows.Forms.dll
+D:\Ca nhan\CodeC#\Telnet_OMC_v2\Telnet OMC\bin\Debug\System.Xml.dll
+D:\Ca nhan\CodeC#\Telnet_OMC_v2\Telnet OMC\bin\Debug\System.Xml.Linq.dll
+D:\Ca nhan\CodeC#\Telnet_OMC_v2\Telnet OMC\bin\Debug\DevExpress.Data.v14.2.xml
+D:\Ca nhan\CodeC#\Telnet_OMC_v2\Telnet OMC\bin\Debug\DevExpress.Printing.v14.2.Core.xml
+D:\Ca nhan\CodeC#\Telnet_OMC_v2\Telnet OMC\bin\Debug\DevExpress.Utils.v14.2.xml
+D:\Ca nhan\CodeC#\Telnet_OMC_v2\Telnet OMC\bin\Debug\DevExpress.XtraBars.v14.2.xml
+D:\Ca nhan\CodeC#\Telnet_OMC_v2\Telnet OMC\bin\Debug\DevExpress.XtraEditors.v14.2.xml
+D:\Ca nhan\CodeC#\Telnet_OMC_v2\Telnet OMC\bin\Debug\DevExpress.XtraLayout.v14.2.xml
+D:\Ca nhan\CodeC#\Telnet_OMC_v2\Telnet OMC\bin\Debug\DevExpress.XtraPrinting.v14.2.xml
+D:\Ca nhan\CodeC#\Telnet_OMC_v2\Telnet OMC\bin\Debug\de\DevExpress.Data.v14.2.resources.dll
+D:\Ca nhan\CodeC#\Telnet_OMC_v2\Telnet OMC\bin\Debug\es\DevExpress.Data.v14.2.resources.dll
+D:\Ca nhan\CodeC#\Telnet_OMC_v2\Telnet OMC\bin\Debug\ja\DevExpress.Data.v14.2.resources.dll
+D:\Ca nhan\CodeC#\Telnet_OMC_v2\Telnet OMC\bin\Debug\ru\DevExpress.Data.v14.2.resources.dll
+D:\Ca nhan\CodeC#\Telnet_OMC_v2\Telnet OMC\bin\Debug\de\DevExpress.Printing.v14.2.Core.resources.dll
+D:\Ca nhan\CodeC#\Telnet_OMC_v2\Telnet OMC\bin\Debug\es\DevExpress.Printing.v14.2.Core.resources.dll
+D:\Ca nhan\CodeC#\Telnet_OMC_v2\Telnet OMC\bin\Debug\ja\DevExpress.Printing.v14.2.Core.resources.dll
+D:\Ca nhan\CodeC#\Telnet_OMC_v2\Telnet OMC\bin\Debug\ru\DevExpress.Printing.v14.2.Core.resources.dll
+D:\Ca nhan\CodeC#\Telnet_OMC_v2\Telnet OMC\bin\Debug\de\DevExpress.Utils.v14.2.resources.dll
+D:\Ca nhan\CodeC#\Telnet_OMC_v2\Telnet OMC\bin\Debug\es\DevExpress.Utils.v14.2.resources.dll
+D:\Ca nhan\CodeC#\Telnet_OMC_v2\Telnet OMC\bin\Debug\ja\DevExpress.Utils.v14.2.resources.dll
+D:\Ca nhan\CodeC#\Telnet_OMC_v2\Telnet OMC\bin\Debug\ru\DevExpress.Utils.v14.2.resources.dll
+D:\Ca nhan\CodeC#\Telnet_OMC_v2\Telnet OMC\bin\Debug\de\DevExpress.XtraBars.v14.2.resources.dll
+D:\Ca nhan\CodeC#\Telnet_OMC_v2\Telnet OMC\bin\Debug\es\DevExpress.XtraBars.v14.2.resources.dll
+D:\Ca nhan\CodeC#\Telnet_OMC_v2\Telnet OMC\bin\Debug\ja\DevExpress.XtraBars.v14.2.resources.dll
+D:\Ca nhan\CodeC#\Telnet_OMC_v2\Telnet OMC\bin\Debug\ru\DevExpress.XtraBars.v14.2.resources.dll
+D:\Ca nhan\CodeC#\Telnet_OMC_v2\Telnet OMC\bin\Debug\de\DevExpress.XtraEditors.v14.2.resources.dll
+D:\Ca nhan\CodeC#\Telnet_OMC_v2\Telnet OMC\bin\Debug\es\DevExpress.XtraEditors.v14.2.resources.dll
+D:\Ca nhan\CodeC#\Telnet_OMC_v2\Telnet OMC\bin\Debug\ja\DevExpress.XtraEditors.v14.2.resources.dll
+D:\Ca nhan\CodeC#\Telnet_OMC_v2\Telnet OMC\bin\Debug\ru\DevExpress.XtraEditors.v14.2.resources.dll
+D:\Ca nhan\CodeC#\Telnet_OMC_v2\Telnet OMC\bin\Debug\de\DevExpress.XtraLayout.v14.2.resources.dll
+D:\Ca nhan\CodeC#\Telnet_OMC_v2\Telnet OMC\bin\Debug\es\DevExpress.XtraLayout.v14.2.resources.dll
+D:\Ca nhan\CodeC#\Telnet_OMC_v2\Telnet OMC\bin\Debug\ja\DevExpress.XtraLayout.v14.2.resources.dll
+D:\Ca nhan\CodeC#\Telnet_OMC_v2\Telnet OMC\bin\Debug\ru\DevExpress.XtraLayout.v14.2.resources.dll
+D:\Ca nhan\CodeC#\Telnet_OMC_v2\Telnet OMC\bin\Debug\de\DevExpress.XtraPrinting.v14.2.resources.dll
+D:\Ca nhan\CodeC#\Telnet_OMC_v2\Telnet OMC\bin\Debug\es\DevExpress.XtraPrinting.v14.2.resources.dll
+D:\Ca nhan\CodeC#\Telnet_OMC_v2\Telnet OMC\bin\Debug\ja\DevExpress.XtraPrinting.v14.2.resources.dll
+D:\Ca nhan\CodeC#\Telnet_OMC_v2\Telnet OMC\bin\Debug\ru\DevExpress.XtraPrinting.v14.2.resources.dll
+D:\Ca nhan\CodeC#\Telnet_OMC_v2\Telnet OMC\bin\Debug\ucGponZTE_KetNoi.resx
+D:\Ca nhan\CodeC#\Telnet_OMC_v2\Telnet OMC\bin\Debug\ucGponZTE_KetNoi.cs
+D:\Ca nhan\CodeC#\Telnet_OMC_v2\Telnet OMC\bin\Debug\ucGponZTE_KetNoi.Designer.cs
+D:\Ca nhan\CodeC#\Telnet_OMC_v2\Telnet OMC\obj\Debug\Telnet OMC.csprojResolveAssemblyReference.cache

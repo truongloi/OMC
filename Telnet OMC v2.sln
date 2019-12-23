@@ -1,0 +1,26 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.21005.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Telnet OMC v2", "Telnet OMC\Telnet OMC v2.csproj", "{9456E7A9-0AF4-4F55-917A-954599350D7B}"
+EndProject
+Project("{54435603-DBB4-11D2-8724-00A0C9A8B90C}") = "Telnet OMC v2", "Setup Telnet OMC v2.0\Setup Telnet OMC v2.0.vdproj", "{750C50B3-176B-4830-B1B7-F4DDA76A621F}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{9456E7A9-0AF4-4F55-917A-954599350D7B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9456E7A9-0AF4-4F55-917A-954599350D7B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9456E7A9-0AF4-4F55-917A-954599350D7B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9456E7A9-0AF4-4F55-917A-954599350D7B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{750C50B3-176B-4830-B1B7-F4DDA76A621F}.Debug|Any CPU.ActiveCfg = Debug
+		{750C50B3-176B-4830-B1B7-F4DDA76A621F}.Release|Any CPU.ActiveCfg = Release
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

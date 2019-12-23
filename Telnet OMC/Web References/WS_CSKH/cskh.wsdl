@@ -1,0 +1,538 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wsdl:definitions xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/" xmlns:tm="http://microsoft.com/wsdl/mime/textMatching/" xmlns:mime="http://schemas.xmlsoap.org/wsdl/mime/" xmlns:tns="http://tempuri.org/" xmlns:http="http://schemas.xmlsoap.org/wsdl/http/" xmlns:s="http://www.w3.org/2001/XMLSchema" xmlns:soap12="http://schemas.xmlsoap.org/wsdl/soap12/" targetNamespace="http://tempuri.org/" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">
+  <wsdl:types>
+    <s:schema elementFormDefault="qualified" targetNamespace="http://tempuri.org/">
+      <s:element name="SendSMS1_VNPT">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="receive" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="content" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="key" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="SendSMS1_VNPTResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="SendSMS1_VNPTResult" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="SendSMS2_800126">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="receive" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="content" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="key" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="SendSMS2_800126Response">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="SendSMS2_800126Result" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="SendSMS3_VNPT">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="_input" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="SendSMS3_VNPTResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="SendSMS3_VNPTResult" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="SendSMS4_800126">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="_input" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="SendSMS4_800126Response">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="SendSMS4_800126Result" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="SendSMS5_VNPT">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="_input" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="SendSMS5_VNPTResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="SendSMS5_VNPTResult" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="SendSMS6_VNPT">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="receive" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="content" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="key" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="SendSMS6_VNPTResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="SendSMS6_VNPTResult" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="string" nillable="true" type="s:string" />
+    </s:schema>
+  </wsdl:types>
+  <wsdl:message name="SendSMS1_VNPTSoapIn">
+    <wsdl:part name="parameters" element="tns:SendSMS1_VNPT" />
+  </wsdl:message>
+  <wsdl:message name="SendSMS1_VNPTSoapOut">
+    <wsdl:part name="parameters" element="tns:SendSMS1_VNPTResponse" />
+  </wsdl:message>
+  <wsdl:message name="SendSMS2_800126SoapIn">
+    <wsdl:part name="parameters" element="tns:SendSMS2_800126" />
+  </wsdl:message>
+  <wsdl:message name="SendSMS2_800126SoapOut">
+    <wsdl:part name="parameters" element="tns:SendSMS2_800126Response" />
+  </wsdl:message>
+  <wsdl:message name="SendSMS3_VNPTSoapIn">
+    <wsdl:part name="parameters" element="tns:SendSMS3_VNPT" />
+  </wsdl:message>
+  <wsdl:message name="SendSMS3_VNPTSoapOut">
+    <wsdl:part name="parameters" element="tns:SendSMS3_VNPTResponse" />
+  </wsdl:message>
+  <wsdl:message name="SendSMS4_800126SoapIn">
+    <wsdl:part name="parameters" element="tns:SendSMS4_800126" />
+  </wsdl:message>
+  <wsdl:message name="SendSMS4_800126SoapOut">
+    <wsdl:part name="parameters" element="tns:SendSMS4_800126Response" />
+  </wsdl:message>
+  <wsdl:message name="SendSMS5_VNPTSoapIn">
+    <wsdl:part name="parameters" element="tns:SendSMS5_VNPT" />
+  </wsdl:message>
+  <wsdl:message name="SendSMS5_VNPTSoapOut">
+    <wsdl:part name="parameters" element="tns:SendSMS5_VNPTResponse" />
+  </wsdl:message>
+  <wsdl:message name="SendSMS6_VNPTSoapIn">
+    <wsdl:part name="parameters" element="tns:SendSMS6_VNPT" />
+  </wsdl:message>
+  <wsdl:message name="SendSMS6_VNPTSoapOut">
+    <wsdl:part name="parameters" element="tns:SendSMS6_VNPTResponse" />
+  </wsdl:message>
+  <wsdl:message name="SendSMS1_VNPTHttpGetIn">
+    <wsdl:part name="receive" type="s:string" />
+    <wsdl:part name="content" type="s:string" />
+    <wsdl:part name="key" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="SendSMS1_VNPTHttpGetOut">
+    <wsdl:part name="Body" element="tns:string" />
+  </wsdl:message>
+  <wsdl:message name="SendSMS2_800126HttpGetIn">
+    <wsdl:part name="receive" type="s:string" />
+    <wsdl:part name="content" type="s:string" />
+    <wsdl:part name="key" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="SendSMS2_800126HttpGetOut">
+    <wsdl:part name="Body" element="tns:string" />
+  </wsdl:message>
+  <wsdl:message name="SendSMS3_VNPTHttpGetIn">
+    <wsdl:part name="_input" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="SendSMS3_VNPTHttpGetOut">
+    <wsdl:part name="Body" element="tns:string" />
+  </wsdl:message>
+  <wsdl:message name="SendSMS4_800126HttpGetIn">
+    <wsdl:part name="_input" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="SendSMS4_800126HttpGetOut">
+    <wsdl:part name="Body" element="tns:string" />
+  </wsdl:message>
+  <wsdl:message name="SendSMS5_VNPTHttpGetIn">
+    <wsdl:part name="_input" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="SendSMS5_VNPTHttpGetOut">
+    <wsdl:part name="Body" element="tns:string" />
+  </wsdl:message>
+  <wsdl:message name="SendSMS6_VNPTHttpGetIn">
+    <wsdl:part name="receive" type="s:string" />
+    <wsdl:part name="content" type="s:string" />
+    <wsdl:part name="key" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="SendSMS6_VNPTHttpGetOut">
+    <wsdl:part name="Body" element="tns:string" />
+  </wsdl:message>
+  <wsdl:message name="SendSMS1_VNPTHttpPostIn">
+    <wsdl:part name="receive" type="s:string" />
+    <wsdl:part name="content" type="s:string" />
+    <wsdl:part name="key" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="SendSMS1_VNPTHttpPostOut">
+    <wsdl:part name="Body" element="tns:string" />
+  </wsdl:message>
+  <wsdl:message name="SendSMS2_800126HttpPostIn">
+    <wsdl:part name="receive" type="s:string" />
+    <wsdl:part name="content" type="s:string" />
+    <wsdl:part name="key" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="SendSMS2_800126HttpPostOut">
+    <wsdl:part name="Body" element="tns:string" />
+  </wsdl:message>
+  <wsdl:message name="SendSMS3_VNPTHttpPostIn">
+    <wsdl:part name="_input" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="SendSMS3_VNPTHttpPostOut">
+    <wsdl:part name="Body" element="tns:string" />
+  </wsdl:message>
+  <wsdl:message name="SendSMS4_800126HttpPostIn">
+    <wsdl:part name="_input" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="SendSMS4_800126HttpPostOut">
+    <wsdl:part name="Body" element="tns:string" />
+  </wsdl:message>
+  <wsdl:message name="SendSMS5_VNPTHttpPostIn">
+    <wsdl:part name="_input" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="SendSMS5_VNPTHttpPostOut">
+    <wsdl:part name="Body" element="tns:string" />
+  </wsdl:message>
+  <wsdl:message name="SendSMS6_VNPTHttpPostIn">
+    <wsdl:part name="receive" type="s:string" />
+    <wsdl:part name="content" type="s:string" />
+    <wsdl:part name="key" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="SendSMS6_VNPTHttpPostOut">
+    <wsdl:part name="Body" element="tns:string" />
+  </wsdl:message>
+  <wsdl:portType name="cskhSoap">
+    <wsdl:operation name="SendSMS1_VNPT">
+      <wsdl:input message="tns:SendSMS1_VNPTSoapIn" />
+      <wsdl:output message="tns:SendSMS1_VNPTSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="SendSMS2_800126">
+      <wsdl:input message="tns:SendSMS2_800126SoapIn" />
+      <wsdl:output message="tns:SendSMS2_800126SoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="SendSMS3_VNPT">
+      <wsdl:input message="tns:SendSMS3_VNPTSoapIn" />
+      <wsdl:output message="tns:SendSMS3_VNPTSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="SendSMS4_800126">
+      <wsdl:input message="tns:SendSMS4_800126SoapIn" />
+      <wsdl:output message="tns:SendSMS4_800126SoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="SendSMS5_VNPT">
+      <wsdl:input message="tns:SendSMS5_VNPTSoapIn" />
+      <wsdl:output message="tns:SendSMS5_VNPTSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="SendSMS6_VNPT">
+      <wsdl:input message="tns:SendSMS6_VNPTSoapIn" />
+      <wsdl:output message="tns:SendSMS6_VNPTSoapOut" />
+    </wsdl:operation>
+  </wsdl:portType>
+  <wsdl:portType name="cskhHttpGet">
+    <wsdl:operation name="SendSMS1_VNPT">
+      <wsdl:input message="tns:SendSMS1_VNPTHttpGetIn" />
+      <wsdl:output message="tns:SendSMS1_VNPTHttpGetOut" />
+    </wsdl:operation>
+    <wsdl:operation name="SendSMS2_800126">
+      <wsdl:input message="tns:SendSMS2_800126HttpGetIn" />
+      <wsdl:output message="tns:SendSMS2_800126HttpGetOut" />
+    </wsdl:operation>
+    <wsdl:operation name="SendSMS3_VNPT">
+      <wsdl:input message="tns:SendSMS3_VNPTHttpGetIn" />
+      <wsdl:output message="tns:SendSMS3_VNPTHttpGetOut" />
+    </wsdl:operation>
+    <wsdl:operation name="SendSMS4_800126">
+      <wsdl:input message="tns:SendSMS4_800126HttpGetIn" />
+      <wsdl:output message="tns:SendSMS4_800126HttpGetOut" />
+    </wsdl:operation>
+    <wsdl:operation name="SendSMS5_VNPT">
+      <wsdl:input message="tns:SendSMS5_VNPTHttpGetIn" />
+      <wsdl:output message="tns:SendSMS5_VNPTHttpGetOut" />
+    </wsdl:operation>
+    <wsdl:operation name="SendSMS6_VNPT">
+      <wsdl:input message="tns:SendSMS6_VNPTHttpGetIn" />
+      <wsdl:output message="tns:SendSMS6_VNPTHttpGetOut" />
+    </wsdl:operation>
+  </wsdl:portType>
+  <wsdl:portType name="cskhHttpPost">
+    <wsdl:operation name="SendSMS1_VNPT">
+      <wsdl:input message="tns:SendSMS1_VNPTHttpPostIn" />
+      <wsdl:output message="tns:SendSMS1_VNPTHttpPostOut" />
+    </wsdl:operation>
+    <wsdl:operation name="SendSMS2_800126">
+      <wsdl:input message="tns:SendSMS2_800126HttpPostIn" />
+      <wsdl:output message="tns:SendSMS2_800126HttpPostOut" />
+    </wsdl:operation>
+    <wsdl:operation name="SendSMS3_VNPT">
+      <wsdl:input message="tns:SendSMS3_VNPTHttpPostIn" />
+      <wsdl:output message="tns:SendSMS3_VNPTHttpPostOut" />
+    </wsdl:operation>
+    <wsdl:operation name="SendSMS4_800126">
+      <wsdl:input message="tns:SendSMS4_800126HttpPostIn" />
+      <wsdl:output message="tns:SendSMS4_800126HttpPostOut" />
+    </wsdl:operation>
+    <wsdl:operation name="SendSMS5_VNPT">
+      <wsdl:input message="tns:SendSMS5_VNPTHttpPostIn" />
+      <wsdl:output message="tns:SendSMS5_VNPTHttpPostOut" />
+    </wsdl:operation>
+    <wsdl:operation name="SendSMS6_VNPT">
+      <wsdl:input message="tns:SendSMS6_VNPTHttpPostIn" />
+      <wsdl:output message="tns:SendSMS6_VNPTHttpPostOut" />
+    </wsdl:operation>
+  </wsdl:portType>
+  <wsdl:binding name="cskhSoap" type="tns:cskhSoap">
+    <soap:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="SendSMS1_VNPT">
+      <soap:operation soapAction="http://tempuri.org/SendSMS1_VNPT" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="SendSMS2_800126">
+      <soap:operation soapAction="http://tempuri.org/SendSMS2_800126" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="SendSMS3_VNPT">
+      <soap:operation soapAction="http://tempuri.org/SendSMS3_VNPT" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="SendSMS4_800126">
+      <soap:operation soapAction="http://tempuri.org/SendSMS4_800126" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="SendSMS5_VNPT">
+      <soap:operation soapAction="http://tempuri.org/SendSMS5_VNPT" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="SendSMS6_VNPT">
+      <soap:operation soapAction="http://tempuri.org/SendSMS6_VNPT" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:binding name="cskhSoap12" type="tns:cskhSoap">
+    <soap12:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="SendSMS1_VNPT">
+      <soap12:operation soapAction="http://tempuri.org/SendSMS1_VNPT" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="SendSMS2_800126">
+      <soap12:operation soapAction="http://tempuri.org/SendSMS2_800126" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="SendSMS3_VNPT">
+      <soap12:operation soapAction="http://tempuri.org/SendSMS3_VNPT" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="SendSMS4_800126">
+      <soap12:operation soapAction="http://tempuri.org/SendSMS4_800126" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="SendSMS5_VNPT">
+      <soap12:operation soapAction="http://tempuri.org/SendSMS5_VNPT" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="SendSMS6_VNPT">
+      <soap12:operation soapAction="http://tempuri.org/SendSMS6_VNPT" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:binding name="cskhHttpGet" type="tns:cskhHttpGet">
+    <http:binding verb="GET" />
+    <wsdl:operation name="SendSMS1_VNPT">
+      <http:operation location="/SendSMS1_VNPT" />
+      <wsdl:input>
+        <http:urlEncoded />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="SendSMS2_800126">
+      <http:operation location="/SendSMS2_800126" />
+      <wsdl:input>
+        <http:urlEncoded />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="SendSMS3_VNPT">
+      <http:operation location="/SendSMS3_VNPT" />
+      <wsdl:input>
+        <http:urlEncoded />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="SendSMS4_800126">
+      <http:operation location="/SendSMS4_800126" />
+      <wsdl:input>
+        <http:urlEncoded />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="SendSMS5_VNPT">
+      <http:operation location="/SendSMS5_VNPT" />
+      <wsdl:input>
+        <http:urlEncoded />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="SendSMS6_VNPT">
+      <http:operation location="/SendSMS6_VNPT" />
+      <wsdl:input>
+        <http:urlEncoded />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:binding name="cskhHttpPost" type="tns:cskhHttpPost">
+    <http:binding verb="POST" />
+    <wsdl:operation name="SendSMS1_VNPT">
+      <http:operation location="/SendSMS1_VNPT" />
+      <wsdl:input>
+        <mime:content type="application/x-www-form-urlencoded" />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="SendSMS2_800126">
+      <http:operation location="/SendSMS2_800126" />
+      <wsdl:input>
+        <mime:content type="application/x-www-form-urlencoded" />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="SendSMS3_VNPT">
+      <http:operation location="/SendSMS3_VNPT" />
+      <wsdl:input>
+        <mime:content type="application/x-www-form-urlencoded" />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="SendSMS4_800126">
+      <http:operation location="/SendSMS4_800126" />
+      <wsdl:input>
+        <mime:content type="application/x-www-form-urlencoded" />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="SendSMS5_VNPT">
+      <http:operation location="/SendSMS5_VNPT" />
+      <wsdl:input>
+        <mime:content type="application/x-www-form-urlencoded" />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="SendSMS6_VNPT">
+      <http:operation location="/SendSMS6_VNPT" />
+      <wsdl:input>
+        <mime:content type="application/x-www-form-urlencoded" />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:service name="cskh">
+    <wsdl:port name="cskhSoap" binding="tns:cskhSoap">
+      <soap:address location="http://10.70.122.49:298/cskh.asmx" />
+    </wsdl:port>
+    <wsdl:port name="cskhSoap12" binding="tns:cskhSoap12">
+      <soap12:address location="http://10.70.122.49:298/cskh.asmx" />
+    </wsdl:port>
+    <wsdl:port name="cskhHttpGet" binding="tns:cskhHttpGet">
+      <http:address location="http://10.70.122.49:298/cskh.asmx" />
+    </wsdl:port>
+    <wsdl:port name="cskhHttpPost" binding="tns:cskhHttpPost">
+      <http:address location="http://10.70.122.49:298/cskh.asmx" />
+    </wsdl:port>
+  </wsdl:service>
+</wsdl:definitions>
