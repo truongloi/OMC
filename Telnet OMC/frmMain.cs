@@ -32,6 +32,7 @@ namespace Telnet_OMC
             // Đóng các dock
             dockPanel_CAM_TAMBINH_Dsach.Close();
             dockPanel_CAM_BINHMINH_Dsach.Close();
+            dockPanel_CAM_VUNGLIEM_Dsach.Close();
             //dockPanelLOG.Close();
 
             // Ket noi file ini
@@ -43,12 +44,17 @@ namespace Telnet_OMC
                 if (m == "BM")
                 {
                     ribbonPageGroupBinhMinh.Visible = true;
-                    barButtonItemCAMBINHMINH_ItemClick(null, null);
+                    //barButtonItemCAMBINHMINH_ItemClick(null, null);
                 }
                 if (m == "TB")
                 {
                     ribbonPageGroupTamBinh.Visible = true;
-                    barButtonItemCAMTAMBINH_ItemClick(null, null);
+                    //barButtonItemCAMTAMBINH_ItemClick(null, null);
+                }
+                if (m == "VL")
+                {
+                    ribbonPageGroupVungLiem.Visible = true;
+                    //barButtonItemCAMVUNGLIEM_ItemClick(null, null);
                 }
             }
 
@@ -96,18 +102,18 @@ namespace Telnet_OMC
         private void barButtonItemCAMVUNGLIEM_ItemClick(object sender, ItemClickEventArgs e)
         {
             splashScreenManager1.ShowWaitForm();
-            // BINH 
+            // VUNG LIEM
             // Ket noi file ini
             INIFile inif_bm = new INIFile(Application.StartupPath + @"\ConfigFile\Conf_CAM_VUNGLIEM.ini");
             Debug.WriteLine("LOAD DANH SÁCH VŨNG LIÊM");
             //txtLOG.Text += "LOAD DANH SÁCH VŨNG LIÊM" + "\r\n";
             // Load thông tin kết nối từ file
-            loadCam(treeView_CAM_BINHMINH_Dsach, inif_bm);
+            loadCam(treeView_CAM_VUNGLIEM_Dsach, inif_bm);
             // Set thời gian timeout
             timer2.Interval = int.Parse(inif_bm.Read("CONFIG", "TIMEOUT"));
             // Mở dock
-            dockPanel_CAM_BINHMINH_Dsach.Close();
-            dockPanel_CAM_BINHMINH_Dsach.Show();
+            dockPanel_CAM_VUNGLIEM_Dsach.Close();
+            dockPanel_CAM_VUNGLIEM_Dsach.Show();
             TreeNode tnParent = new TreeNode();
             splashScreenManager1.CloseWaitForm();
         }
@@ -217,6 +223,32 @@ namespace Telnet_OMC
                 logFile(now.ToString(), "TẮT CHECK TỰ ĐỘNG BÌNH MINH");
                 // Tắt check tự động
                 timer2.Enabled = false;
+            }
+        }
+        // Checkbox tự động
+        private void checkEditAuto_VUNGLIEM_CheckStateChanged(object sender, EventArgs e)
+        {
+            // Ket noi file ini
+            INIFile inif = new INIFile(Application.StartupPath + @"\ConfigFile\Conf_CAM_VUNGLIEM.ini");
+            DateTime now = DateTime.Now;
+
+            if (checkEditAuto_VUNGLIEM.CheckState == CheckState.Checked)
+            {
+                Debug.WriteLine("-- " + now.ToString() + ":   CHECK TỰ ĐỘNG VŨNG LIÊM");
+                txtLOG.Text += "-- " + now.ToString() + ":   CHECK TỰ ĐỘNG VŨNG LIÊM: " + (int.Parse(inif.Read("CONFIG", "TIMEOUT")) / 60000).ToString() + " phút \r\n";
+                logFile(now.ToString(), "CHECK TỰ ĐỘNG VŨNG LIÊM: " + (int.Parse(inif.Read("CONFIG", "TIMEOUT")) / 60000).ToString() + " phút");
+                //checkAuto(treeView_CAM_VUNGLIEM_Dsach, inif);
+                //thongKe(treeView_CAM_VUNGLIEM_Dsach, inif);
+                // Bật check tự động
+                timer3.Enabled = true;
+            }
+            else
+            {
+                Debug.WriteLine("-- " + now.ToString() + ":   TẮT CHECK TỰ ĐỘNG VŨNG LIÊM");
+                txtLOG.Text += "-- " + now.ToString() + ":   TẮT CHECK TỰ ĐỘNG VŨNG LIÊM \r\n";
+                logFile(now.ToString(), "TẮT CHECK TỰ ĐỘNG VŨNG LIÊM");
+                // Tắt check tự động
+                timer3.Enabled = false;
             }
         }
         // Hiện thị tất cả
@@ -527,7 +559,7 @@ namespace Telnet_OMC
         private string [] tachChuoi(string sdt)
         {
             char[] spearator = { ',', ' ' };
-            Int32 count = 2;
+            Int32 count = 3;
             return sdt.Split(spearator, count);
         }
         // Gửi tin nhắn từ file
@@ -653,6 +685,23 @@ namespace Telnet_OMC
                 splashScreenManager1.CloseWaitForm();
             }
         }
+        // Check tự động
+        private void timer3_Tick(object sender, EventArgs e)
+        {
+            if (timer3.Enabled == true)
+            {
+                splashScreenManager1.ShowWaitForm();
+                //VUNG LIEM
+                // Ket noi file ini
+                INIFile inif = new INIFile(Application.StartupPath + @"\ConfigFile\Conf_CAM_VUNGLIEM.ini");
+
+                Debug.WriteLine("VŨNG LIÊM");
+                txtLOG.Text += "VŨNG LIÊM" + "\r\n";
+                checkAuto(treeView_CAM_VUNGLIEM_Dsach, inif);
+                thongKe(treeView_CAM_VUNGLIEM_Dsach, inif);
+                splashScreenManager1.CloseWaitForm();
+            }
+        }
         private void hyperlinkLabelSellectAll_TamBinh_Click(object sender, EventArgs e)
         {
             CheckAllNodes(treeView_CAM_TAMBINH_Dsach.Nodes);
@@ -672,6 +721,14 @@ namespace Telnet_OMC
         private void hyperlinkLabelUnsellectAll_BinhMinh_Click(object sender, EventArgs e)
         {
             UncheckAllNodes(treeView_CAM_BINHMINH_Dsach.Nodes);
+        }
+        private void hyperlinkLabelSellectAll_VungLiem_Click(object sender, EventArgs e)
+        {
+            CheckAllNodes(treeView_CAM_VUNGLIEM_Dsach.Nodes);
+        }
+        private void hyperlinkLabelUnsellectAll_VungLiem_Click(object sender, EventArgs e)
+        {
+            UncheckAllNodes(treeView_CAM_VUNGLIEM_Dsach.Nodes);
         }
         // Check 1 node
         private void treeView_CAM_TAMBINH_Dsach_NodeMouseDoubleClick(object sender, TreeNodeMouseClickEventArgs e)
@@ -697,6 +754,18 @@ namespace Telnet_OMC
             checkManual(treeView_CAM_BINHMINH_Dsach, bientoancuc.TenTram, inif);
             thongKe(treeView_CAM_BINHMINH_Dsach, inif);
         }
+        // Check 1 node
+        private void treeView_CAM_VUNGLIEM_Dsach_NodeMouseDoubleClick(object sender, TreeNodeMouseClickEventArgs e)
+        {
+            bientoancuc.TenTram = e.Node.Name; //lay bien de tìm trong file ini
+            // Ket noi file ini
+            INIFile inif = new INIFile(Application.StartupPath + @"\ConfigFile\Conf_CAM_VUNGLIEM.ini");
+
+            Debug.WriteLine("VŨNG LIÊM");
+            txtLOG.Text += "VŨNG LIÊM" + "\r\n";
+            checkManual(treeView_CAM_VUNGLIEM_Dsach, bientoancuc.TenTram, inif);
+            thongKe(treeView_CAM_VUNGLIEM_Dsach, inif);
+        }
         // Check all node
         private void btnCheckAllTB_Click(object sender, EventArgs e)
         {
@@ -715,7 +784,7 @@ namespace Telnet_OMC
         private void btnCheckAllBM_Click(object sender, EventArgs e)
         {
             splashScreenManager1.ShowWaitForm();
-            //BINH MINH
+            // BINH MINH
             // Ket noi file ini
             INIFile inif = new INIFile(Application.StartupPath + @"\ConfigFile\Conf_CAM_BINHMINH.ini");
 
@@ -723,6 +792,20 @@ namespace Telnet_OMC
             txtLOG.Text += "BÌNH MINH" + "\r\n";
             checkAuto(treeView_CAM_BINHMINH_Dsach, inif);
             thongKe(treeView_CAM_BINHMINH_Dsach, inif);
+            splashScreenManager1.CloseWaitForm();
+        }
+        // Check all node
+        private void btnCheckAllVL_Click(object sender, EventArgs e)
+        {
+            splashScreenManager1.ShowWaitForm();
+            // VUNG LIEM
+            // Ket noi file ini
+            INIFile inif = new INIFile(Application.StartupPath + @"\ConfigFile\Conf_CAM_VUNGLIEM.ini");
+
+            Debug.WriteLine("VŨNG LIÊM");
+            txtLOG.Text += "VŨNG LIÊM" + "\r\n";
+            checkAuto(treeView_CAM_VUNGLIEM_Dsach, inif);
+            thongKe(treeView_CAM_VUNGLIEM_Dsach, inif);
             splashScreenManager1.CloseWaitForm();
         }
         // Set thống kê
@@ -763,6 +846,10 @@ namespace Telnet_OMC
             {
                 lblTKBM.Text = "Tổng: " + tong.ToString() + "; TC: " + tc.ToString() + "; TB: " + tb.ToString();
             }
+            else if (node == treeView_CAM_VUNGLIEM_Dsach)
+            {
+                lblTKVL.Text = "Tổng: " + tong.ToString() + "; TC: " + tc.ToString() + "; TB: " + tb.ToString();
+            }
         }
         // Nhắn tin
         private void btnNhanTinTB_Click(object sender, EventArgs e)
@@ -788,6 +875,18 @@ namespace Telnet_OMC
             sendMessageFromFile(treeView_CAM_BINHMINH_Dsach, inif);
             splashScreenManager1.CloseWaitForm();
         }
+        // Nhắn tin
+        private void btnNhanTinVL_Click(object sender, EventArgs e)
+        {
+            splashScreenManager1.ShowWaitForm();
+            // VUNG LIEM
+            // Ket noi file ini
+            INIFile inif = new INIFile(Application.StartupPath + @"\ConfigFile\Conf_CAM_VUNGLIEM.ini");
+            Debug.WriteLine("NHẮN TIN VŨNG LIÊM");
+            txtLOG.Text += "NHẮN TIN VŨNG LIÊM" + "\r\n";
+            sendMessageFromFile(treeView_CAM_VUNGLIEM_Dsach, inif);
+            splashScreenManager1.CloseWaitForm();
+        }
         // Show ip
         private void treeView_CAM_TAMBINH_Dsach_NodeMouseClick(object sender, TreeNodeMouseClickEventArgs e)
         {
@@ -806,7 +905,15 @@ namespace Telnet_OMC
             string ip = inif.Read(bientoancuc.TenTram, "IP");
             toolTip1.SetToolTip(lblIPBM, ip);
         }
-
+        // Show ip
+        private void treeView_CAM_VUNGLIEM_Dsach_NodeMouseClick(object sender, TreeNodeMouseClickEventArgs e)
+        {
+            bientoancuc.TenTram = e.Node.Name; //lay bien de tìm trong file ini
+            // Ket noi file ini
+            INIFile inif = new INIFile(Application.StartupPath + @"\ConfigFile\Conf_CAM_VUNGLIEM.ini");
+            string ip = inif.Read(bientoancuc.TenTram, "IP");
+            toolTip1.SetToolTip(lblIPVL, ip);
+        }
         private void frmMain_FormClosed(object sender, FormClosedEventArgs e)
         {
             Application.Exit();
@@ -835,7 +942,16 @@ namespace Telnet_OMC
             e.Cancel = _preventExpand;
             _preventExpand = false;
         }
-
+        private void treeView_CAM_VUNGLIEM_Dsach_BeforeExpand(object sender, TreeViewCancelEventArgs e)
+        {
+            e.Cancel = _preventExpand;
+            _preventExpand = false;
+        }
+        private void treeView_CAM_VUNGLIEM_Dsach_BeforeCollapse(object sender, TreeViewCancelEventArgs e)
+        {
+            e.Cancel = _preventExpand;
+            _preventExpand = false;
+        }
         private void treeView_CAM_TAMBINH_Dsach_MouseDown(object sender, MouseEventArgs e)
         {
             int delta = (int)DateTime.Now.Subtract(_lastMouseDown).TotalMilliseconds;
@@ -849,7 +965,12 @@ namespace Telnet_OMC
             _preventExpand = (delta < SystemInformation.DoubleClickTime);
             _lastMouseDown = DateTime.Now;
         }
-
+        private void treeView_CAM_VUNGLIEM_Dsach_MouseDown(object sender, MouseEventArgs e)
+        {
+            int delta = (int)DateTime.Now.Subtract(_lastMouseDown).TotalMilliseconds;
+            _preventExpand = (delta < SystemInformation.DoubleClickTime);
+            _lastMouseDown = DateTime.Now;
+        }
         private void barButtonItemLogout_ItemClick(object sender, ItemClickEventArgs e)
         {
             _frm.Show();
@@ -857,8 +978,6 @@ namespace Telnet_OMC
             DateTime now = DateTime.Now;
             logFile(now.ToString(), "Dang xuat");
         }
-
-        
     }
 
     public class bientoancuc
