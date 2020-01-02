@@ -30,699 +30,699 @@
         {
             this.components = new System.ComponentModel.Container();
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(frmMain));
-            System.Windows.Forms.TreeNode treeNode536 = new System.Windows.Forms.TreeNode("Đầu ghi 1");
-            System.Windows.Forms.TreeNode treeNode537 = new System.Windows.Forms.TreeNode("Đầu ghi 2");
-            System.Windows.Forms.TreeNode treeNode538 = new System.Windows.Forms.TreeNode("Đầu ghi 3");
-            System.Windows.Forms.TreeNode treeNode539 = new System.Windows.Forms.TreeNode("Đầu ghi tại CA_Bình Minh", new System.Windows.Forms.TreeNode[] {
-            treeNode536,
-            treeNode537,
-            treeNode538});
-            System.Windows.Forms.TreeNode treeNode540 = new System.Windows.Forms.TreeNode("CAM_1");
-            System.Windows.Forms.TreeNode treeNode541 = new System.Windows.Forms.TreeNode("CAM_2");
-            System.Windows.Forms.TreeNode treeNode542 = new System.Windows.Forms.TreeNode("CAM_3");
-            System.Windows.Forms.TreeNode treeNode543 = new System.Windows.Forms.TreeNode("CAM_4");
-            System.Windows.Forms.TreeNode treeNode544 = new System.Windows.Forms.TreeNode("Ngã tư (Phan Văn Quân - Nguyễn Văn Thảnh - P.V.Năm)", new System.Windows.Forms.TreeNode[] {
-            treeNode540,
-            treeNode541,
-            treeNode542,
-            treeNode543});
-            System.Windows.Forms.TreeNode treeNode545 = new System.Windows.Forms.TreeNode("CAM_5");
-            System.Windows.Forms.TreeNode treeNode546 = new System.Windows.Forms.TreeNode("CAM_6");
-            System.Windows.Forms.TreeNode treeNode547 = new System.Windows.Forms.TreeNode("CAM_7");
-            System.Windows.Forms.TreeNode treeNode548 = new System.Windows.Forms.TreeNode("Ngã 3 (gần trạm cân cũ, hướng đi Bình Tân hoặc xuống bến đò)", new System.Windows.Forms.TreeNode[] {
-            treeNode545,
-            treeNode546,
-            treeNode547});
-            System.Windows.Forms.TreeNode treeNode549 = new System.Windows.Forms.TreeNode("CAM_8");
-            System.Windows.Forms.TreeNode treeNode550 = new System.Windows.Forms.TreeNode("Đầu đường xuống bến đò khóm 3 (đi Trần Phú - Cần Thơ)", new System.Windows.Forms.TreeNode[] {
-            treeNode549});
-            System.Windows.Forms.TreeNode treeNode551 = new System.Windows.Forms.TreeNode("CAM_9");
-            System.Windows.Forms.TreeNode treeNode552 = new System.Windows.Forms.TreeNode("CAM_10");
-            System.Windows.Forms.TreeNode treeNode553 = new System.Windows.Forms.TreeNode("CAM_11");
-            System.Windows.Forms.TreeNode treeNode554 = new System.Windows.Forms.TreeNode("Đầu đường vào cổng trường THPT Bình Minh", new System.Windows.Forms.TreeNode[] {
-            treeNode551,
-            treeNode552,
-            treeNode553});
-            System.Windows.Forms.TreeNode treeNode555 = new System.Windows.Forms.TreeNode("CAM_12");
-            System.Windows.Forms.TreeNode treeNode556 = new System.Windows.Forms.TreeNode("CAM_13");
-            System.Windows.Forms.TreeNode treeNode557 = new System.Windows.Forms.TreeNode("CAM_14");
-            System.Windows.Forms.TreeNode treeNode558 = new System.Windows.Forms.TreeNode("Đầu đường vào cổng trường THPT Hoàng Thái Hiếu", new System.Windows.Forms.TreeNode[] {
-            treeNode555,
-            treeNode556,
-            treeNode557});
-            System.Windows.Forms.TreeNode treeNode559 = new System.Windows.Forms.TreeNode("CAM_15");
-            System.Windows.Forms.TreeNode treeNode560 = new System.Windows.Forms.TreeNode("CAM_16");
-            System.Windows.Forms.TreeNode treeNode561 = new System.Windows.Forms.TreeNode("Chân Cầu Thành Lợi", new System.Windows.Forms.TreeNode[] {
-            treeNode559,
-            treeNode560});
-            System.Windows.Forms.TreeNode treeNode562 = new System.Windows.Forms.TreeNode("CAM_17");
-            System.Windows.Forms.TreeNode treeNode563 = new System.Windows.Forms.TreeNode("CAM_18");
-            System.Windows.Forms.TreeNode treeNode564 = new System.Windows.Forms.TreeNode("Ngã 4 (giao: Phan Văn Quân - Huỳnh Văn Đạt)", new System.Windows.Forms.TreeNode[] {
-            treeNode562,
-            treeNode563});
-            System.Windows.Forms.TreeNode treeNode565 = new System.Windows.Forms.TreeNode("CAM_19");
-            System.Windows.Forms.TreeNode treeNode566 = new System.Windows.Forms.TreeNode("CAM_20");
-            System.Windows.Forms.TreeNode treeNode567 = new System.Windows.Forms.TreeNode("Ngã 3 (giao: Huỳnh Văn Đạt - Hai Bà Trưng)", new System.Windows.Forms.TreeNode[] {
-            treeNode565,
-            treeNode566});
-            System.Windows.Forms.TreeNode treeNode568 = new System.Windows.Forms.TreeNode("CAM_21");
-            System.Windows.Forms.TreeNode treeNode569 = new System.Windows.Forms.TreeNode("CAM_22");
-            System.Windows.Forms.TreeNode treeNode570 = new System.Windows.Forms.TreeNode("Ngã 3 (sau Trung Tâm hành chính TX)", new System.Windows.Forms.TreeNode[] {
-            treeNode568,
-            treeNode569});
-            System.Windows.Forms.TreeNode treeNode571 = new System.Windows.Forms.TreeNode("CAM_23");
-            System.Windows.Forms.TreeNode treeNode572 = new System.Windows.Forms.TreeNode("CAM_24");
-            System.Windows.Forms.TreeNode treeNode573 = new System.Windows.Forms.TreeNode("CAM_25");
-            System.Windows.Forms.TreeNode treeNode574 = new System.Windows.Forms.TreeNode("CAM_26");
-            System.Windows.Forms.TreeNode treeNode575 = new System.Windows.Forms.TreeNode("Ngã 3 (trước cửa Trung tâm hành chính TX)", new System.Windows.Forms.TreeNode[] {
-            treeNode571,
-            treeNode572,
-            treeNode573,
-            treeNode574});
-            System.Windows.Forms.TreeNode treeNode576 = new System.Windows.Forms.TreeNode("CAM_27");
-            System.Windows.Forms.TreeNode treeNode577 = new System.Windows.Forms.TreeNode("CAM_28");
-            System.Windows.Forms.TreeNode treeNode578 = new System.Windows.Forms.TreeNode("CAM_29");
-            System.Windows.Forms.TreeNode treeNode579 = new System.Windows.Forms.TreeNode("CAM_30");
-            System.Windows.Forms.TreeNode treeNode580 = new System.Windows.Forms.TreeNode("Ngã 4 (giao: đường 3/2 - Phan Văn Năm)", new System.Windows.Forms.TreeNode[] {
-            treeNode576,
-            treeNode577,
-            treeNode578,
-            treeNode579});
-            System.Windows.Forms.TreeNode treeNode581 = new System.Windows.Forms.TreeNode("CAM_31");
-            System.Windows.Forms.TreeNode treeNode582 = new System.Windows.Forms.TreeNode("CAM_32");
-            System.Windows.Forms.TreeNode treeNode583 = new System.Windows.Forms.TreeNode("Ngã 4 (giao: Lê Văn Dị - Phan Văn Năm)", new System.Windows.Forms.TreeNode[] {
-            treeNode581,
-            treeNode582});
-            System.Windows.Forms.TreeNode treeNode584 = new System.Windows.Forms.TreeNode("CAM_33");
-            System.Windows.Forms.TreeNode treeNode585 = new System.Windows.Forms.TreeNode("CAM_34");
-            System.Windows.Forms.TreeNode treeNode586 = new System.Windows.Forms.TreeNode("CAM_35");
-            System.Windows.Forms.TreeNode treeNode587 = new System.Windows.Forms.TreeNode("CAM_36");
-            System.Windows.Forms.TreeNode treeNode588 = new System.Windows.Forms.TreeNode("Ngã 4 (giao: Phan Văn Năm - Ngô Quyền)", new System.Windows.Forms.TreeNode[] {
-            treeNode584,
-            treeNode585,
-            treeNode586,
-            treeNode587});
-            System.Windows.Forms.TreeNode treeNode589 = new System.Windows.Forms.TreeNode("CAM_37");
-            System.Windows.Forms.TreeNode treeNode590 = new System.Windows.Forms.TreeNode("CAM_38");
-            System.Windows.Forms.TreeNode treeNode591 = new System.Windows.Forms.TreeNode("CAM_39");
-            System.Windows.Forms.TreeNode treeNode592 = new System.Windows.Forms.TreeNode("CAM_40");
-            System.Windows.Forms.TreeNode treeNode593 = new System.Windows.Forms.TreeNode("Ngã 4 (giao: Ngô Quyền - Nguyễn Văn Thảnh)", new System.Windows.Forms.TreeNode[] {
-            treeNode589,
-            treeNode590,
-            treeNode591,
-            treeNode592});
-            System.Windows.Forms.TreeNode treeNode594 = new System.Windows.Forms.TreeNode("CAM_41");
-            System.Windows.Forms.TreeNode treeNode595 = new System.Windows.Forms.TreeNode("CAM_42");
-            System.Windows.Forms.TreeNode treeNode596 = new System.Windows.Forms.TreeNode("Ngã 4 Cua 3 Lời", new System.Windows.Forms.TreeNode[] {
-            treeNode594,
-            treeNode595});
-            System.Windows.Forms.TreeNode treeNode597 = new System.Windows.Forms.TreeNode("CAM_43");
-            System.Windows.Forms.TreeNode treeNode598 = new System.Windows.Forms.TreeNode("CAM_44");
-            System.Windows.Forms.TreeNode treeNode599 = new System.Windows.Forms.TreeNode("Ngã 3 Rạch Xẻo Nga (trước cửa Vật liệu XD Thành Tất)", new System.Windows.Forms.TreeNode[] {
-            treeNode597,
-            treeNode598});
-            System.Windows.Forms.TreeNode treeNode600 = new System.Windows.Forms.TreeNode("CAM_45");
-            System.Windows.Forms.TreeNode treeNode601 = new System.Windows.Forms.TreeNode("CAM_46");
-            System.Windows.Forms.TreeNode treeNode602 = new System.Windows.Forms.TreeNode("CAM_47");
-            System.Windows.Forms.TreeNode treeNode603 = new System.Windows.Forms.TreeNode("CAM_48");
-            System.Windows.Forms.TreeNode treeNode604 = new System.Windows.Forms.TreeNode("CAM_49");
-            System.Windows.Forms.TreeNode treeNode605 = new System.Windows.Forms.TreeNode("Ngã 3 (Nguyễn Văn Thảnh - Lưu Nhơn Sâm)", new System.Windows.Forms.TreeNode[] {
-            treeNode600,
-            treeNode601,
-            treeNode602,
-            treeNode603,
-            treeNode604});
-            System.Windows.Forms.TreeNode treeNode606 = new System.Windows.Forms.TreeNode("CAM_50");
-            System.Windows.Forms.TreeNode treeNode607 = new System.Windows.Forms.TreeNode("CAM_51");
-            System.Windows.Forms.TreeNode treeNode608 = new System.Windows.Forms.TreeNode("Ngã 3 trước Trường Thoại Ngọc Hầu", new System.Windows.Forms.TreeNode[] {
-            treeNode606,
-            treeNode607});
-            System.Windows.Forms.TreeNode treeNode609 = new System.Windows.Forms.TreeNode("CAM_52");
-            System.Windows.Forms.TreeNode treeNode610 = new System.Windows.Forms.TreeNode("Điểm quay đầu xe khu vực Bến xe Phương Trang 1", new System.Windows.Forms.TreeNode[] {
-            treeNode609});
-            System.Windows.Forms.TreeNode treeNode611 = new System.Windows.Forms.TreeNode("CAM_53");
-            System.Windows.Forms.TreeNode treeNode612 = new System.Windows.Forms.TreeNode("Điểm quay đầu xe khu vực Bến xe Phương Trang 2", new System.Windows.Forms.TreeNode[] {
-            treeNode611});
-            System.Windows.Forms.TreeNode treeNode613 = new System.Windows.Forms.TreeNode("CAM_54");
-            System.Windows.Forms.TreeNode treeNode614 = new System.Windows.Forms.TreeNode("Điểm quay đầu gần Bến đò Giáo Mẹo 1", new System.Windows.Forms.TreeNode[] {
-            treeNode613});
-            System.Windows.Forms.TreeNode treeNode615 = new System.Windows.Forms.TreeNode("CAM_55");
-            System.Windows.Forms.TreeNode treeNode616 = new System.Windows.Forms.TreeNode("Điểm quay đầu gần Bến đò Giáo Mẹo 2", new System.Windows.Forms.TreeNode[] {
-            treeNode615});
-            System.Windows.Forms.TreeNode treeNode617 = new System.Windows.Forms.TreeNode("CAM_56");
-            System.Windows.Forms.TreeNode treeNode618 = new System.Windows.Forms.TreeNode("CAM_57");
-            System.Windows.Forms.TreeNode treeNode619 = new System.Windows.Forms.TreeNode("Ngã 3 Đầu đường vào Thuận An - Rạch Sậy", new System.Windows.Forms.TreeNode[] {
-            treeNode617,
-            treeNode618});
-            System.Windows.Forms.TreeNode treeNode620 = new System.Windows.Forms.TreeNode("CAM_58");
-            System.Windows.Forms.TreeNode treeNode621 = new System.Windows.Forms.TreeNode("CAM_59");
-            System.Windows.Forms.TreeNode treeNode622 = new System.Windows.Forms.TreeNode("Chân cầu Khoán Tiết", new System.Windows.Forms.TreeNode[] {
-            treeNode620,
-            treeNode621});
-            System.Windows.Forms.TreeNode treeNode623 = new System.Windows.Forms.TreeNode("CAM_60");
-            System.Windows.Forms.TreeNode treeNode624 = new System.Windows.Forms.TreeNode("CAM_61");
-            System.Windows.Forms.TreeNode treeNode625 = new System.Windows.Forms.TreeNode("CAM_62");
-            System.Windows.Forms.TreeNode treeNode626 = new System.Windows.Forms.TreeNode("CAM_63");
-            System.Windows.Forms.TreeNode treeNode627 = new System.Windows.Forms.TreeNode("Chân cầu vượt QL54 (phía đi Trà Ôn)", new System.Windows.Forms.TreeNode[] {
-            treeNode623,
-            treeNode624,
-            treeNode625,
-            treeNode626});
-            System.Windows.Forms.TreeNode treeNode628 = new System.Windows.Forms.TreeNode("CAM_64");
-            System.Windows.Forms.TreeNode treeNode629 = new System.Windows.Forms.TreeNode("CAM_65");
-            System.Windows.Forms.TreeNode treeNode630 = new System.Windows.Forms.TreeNode("CAM_66");
-            System.Windows.Forms.TreeNode treeNode631 = new System.Windows.Forms.TreeNode("CAM_67");
-            System.Windows.Forms.TreeNode treeNode632 = new System.Windows.Forms.TreeNode("Chân cầu vượt QL54 (phía đi Bình Minh)", new System.Windows.Forms.TreeNode[] {
-            treeNode628,
-            treeNode629,
-            treeNode630,
-            treeNode631});
-            System.Windows.Forms.TreeNode treeNode633 = new System.Windows.Forms.TreeNode("CAM_68");
-            System.Windows.Forms.TreeNode treeNode634 = new System.Windows.Forms.TreeNode("Ngã 3 Đầu đường vào Đông Thạnh (trước cửa cây xăng Cường Phát)", new System.Windows.Forms.TreeNode[] {
-            treeNode633});
-            System.Windows.Forms.TreeNode treeNode635 = new System.Windows.Forms.TreeNode("CAM_69");
-            System.Windows.Forms.TreeNode treeNode636 = new System.Windows.Forms.TreeNode("CAM_70");
-            System.Windows.Forms.TreeNode treeNode637 = new System.Windows.Forms.TreeNode("CAM_71");
-            System.Windows.Forms.TreeNode treeNode638 = new System.Windows.Forms.TreeNode("Đầu đường vào Cầu Mỹ Hoà Tây", new System.Windows.Forms.TreeNode[] {
-            treeNode635,
-            treeNode636,
-            treeNode637});
-            System.Windows.Forms.TreeNode treeNode639 = new System.Windows.Forms.TreeNode("CAM_72");
-            System.Windows.Forms.TreeNode treeNode640 = new System.Windows.Forms.TreeNode("CAM_73");
-            System.Windows.Forms.TreeNode treeNode641 = new System.Windows.Forms.TreeNode("Cầu Dừa (cầu Bến xe) Đông Thành", new System.Windows.Forms.TreeNode[] {
-            treeNode639,
-            treeNode640});
-            System.Windows.Forms.TreeNode treeNode642 = new System.Windows.Forms.TreeNode("CAM_74");
-            System.Windows.Forms.TreeNode treeNode643 = new System.Windows.Forms.TreeNode("CAM_75");
-            System.Windows.Forms.TreeNode treeNode644 = new System.Windows.Forms.TreeNode("Chợ Hoá Thành", new System.Windows.Forms.TreeNode[] {
-            treeNode642,
-            treeNode643});
-            System.Windows.Forms.TreeNode treeNode645 = new System.Windows.Forms.TreeNode("CAM_76");
-            System.Windows.Forms.TreeNode treeNode646 = new System.Windows.Forms.TreeNode("CAM_77");
-            System.Windows.Forms.TreeNode treeNode647 = new System.Windows.Forms.TreeNode("Đầu đường 26/3", new System.Windows.Forms.TreeNode[] {
-            treeNode645,
-            treeNode646});
-            System.Windows.Forms.TreeNode treeNode648 = new System.Windows.Forms.TreeNode("CAM_78");
-            System.Windows.Forms.TreeNode treeNode649 = new System.Windows.Forms.TreeNode("CAM_79");
-            System.Windows.Forms.TreeNode treeNode650 = new System.Windows.Forms.TreeNode("Ngã 3 (QL54 - Đường qua cầu Mỹ Hoà)", new System.Windows.Forms.TreeNode[] {
-            treeNode648,
-            treeNode649});
-            System.Windows.Forms.TreeNode treeNode651 = new System.Windows.Forms.TreeNode("CAM_80");
-            System.Windows.Forms.TreeNode treeNode652 = new System.Windows.Forms.TreeNode("CAM_81");
-            System.Windows.Forms.TreeNode treeNode653 = new System.Windows.Forms.TreeNode("Ngã ba Tắt Ông Phò", new System.Windows.Forms.TreeNode[] {
-            treeNode651,
-            treeNode652});
-            System.Windows.Forms.TreeNode treeNode654 = new System.Windows.Forms.TreeNode("CAM_82");
-            System.Windows.Forms.TreeNode treeNode655 = new System.Windows.Forms.TreeNode("CAM_83");
-            System.Windows.Forms.TreeNode treeNode656 = new System.Windows.Forms.TreeNode("Đầu đường vào công ty 620", new System.Windows.Forms.TreeNode[] {
-            treeNode654,
-            treeNode655});
-            System.Windows.Forms.TreeNode treeNode657 = new System.Windows.Forms.TreeNode("CAM_84");
-            System.Windows.Forms.TreeNode treeNode658 = new System.Windows.Forms.TreeNode("CAM_85");
-            System.Windows.Forms.TreeNode treeNode659 = new System.Windows.Forms.TreeNode("Dạ Cầu Cần Thơ (tại nhịp sập)", new System.Windows.Forms.TreeNode[] {
-            treeNode657,
-            treeNode658});
-            System.Windows.Forms.TreeNode treeNode660 = new System.Windows.Forms.TreeNode("CAM_86");
-            System.Windows.Forms.TreeNode treeNode661 = new System.Windows.Forms.TreeNode("CAM_87");
-            System.Windows.Forms.TreeNode treeNode662 = new System.Windows.Forms.TreeNode("Trước cổng KCN Bình Minh", new System.Windows.Forms.TreeNode[] {
-            treeNode660,
-            treeNode661});
-            System.Windows.Forms.TreeNode treeNode663 = new System.Windows.Forms.TreeNode("CAM_88");
-            System.Windows.Forms.TreeNode treeNode664 = new System.Windows.Forms.TreeNode("CAM_89");
-            System.Windows.Forms.TreeNode treeNode665 = new System.Windows.Forms.TreeNode("Trước UBND Cái Vồn", new System.Windows.Forms.TreeNode[] {
-            treeNode663,
-            treeNode664});
-            System.Windows.Forms.TreeNode treeNode406 = new System.Windows.Forms.TreeNode("Đầu ghi 1");
-            System.Windows.Forms.TreeNode treeNode407 = new System.Windows.Forms.TreeNode("Đầu ghi 2");
-            System.Windows.Forms.TreeNode treeNode408 = new System.Windows.Forms.TreeNode("Đầu ghi 3");
-            System.Windows.Forms.TreeNode treeNode409 = new System.Windows.Forms.TreeNode("Đầu ghi tại CA_Bình Minh", new System.Windows.Forms.TreeNode[] {
-            treeNode406,
-            treeNode407,
-            treeNode408});
-            System.Windows.Forms.TreeNode treeNode410 = new System.Windows.Forms.TreeNode("CAM_1");
-            System.Windows.Forms.TreeNode treeNode411 = new System.Windows.Forms.TreeNode("CAM_2");
-            System.Windows.Forms.TreeNode treeNode412 = new System.Windows.Forms.TreeNode("CAM_3");
-            System.Windows.Forms.TreeNode treeNode413 = new System.Windows.Forms.TreeNode("CAM_4");
-            System.Windows.Forms.TreeNode treeNode414 = new System.Windows.Forms.TreeNode("Ngã tư (Phan Văn Quân - Nguyễn Văn Thảnh - P.V.Năm)", new System.Windows.Forms.TreeNode[] {
-            treeNode410,
-            treeNode411,
-            treeNode412,
-            treeNode413});
-            System.Windows.Forms.TreeNode treeNode415 = new System.Windows.Forms.TreeNode("CAM_5");
-            System.Windows.Forms.TreeNode treeNode416 = new System.Windows.Forms.TreeNode("CAM_6");
-            System.Windows.Forms.TreeNode treeNode417 = new System.Windows.Forms.TreeNode("CAM_7");
-            System.Windows.Forms.TreeNode treeNode418 = new System.Windows.Forms.TreeNode("Ngã 3 (gần trạm cân cũ, hướng đi Bình Tân hoặc xuống bến đò)", new System.Windows.Forms.TreeNode[] {
-            treeNode415,
-            treeNode416,
-            treeNode417});
-            System.Windows.Forms.TreeNode treeNode419 = new System.Windows.Forms.TreeNode("CAM_8");
-            System.Windows.Forms.TreeNode treeNode420 = new System.Windows.Forms.TreeNode("Đầu đường xuống bến đò khóm 3 (đi Trần Phú - Cần Thơ)", new System.Windows.Forms.TreeNode[] {
-            treeNode419});
-            System.Windows.Forms.TreeNode treeNode421 = new System.Windows.Forms.TreeNode("CAM_9");
-            System.Windows.Forms.TreeNode treeNode422 = new System.Windows.Forms.TreeNode("CAM_10");
-            System.Windows.Forms.TreeNode treeNode423 = new System.Windows.Forms.TreeNode("CAM_11");
-            System.Windows.Forms.TreeNode treeNode424 = new System.Windows.Forms.TreeNode("Đầu đường vào cổng trường THPT Bình Minh", new System.Windows.Forms.TreeNode[] {
-            treeNode421,
-            treeNode422,
-            treeNode423});
-            System.Windows.Forms.TreeNode treeNode425 = new System.Windows.Forms.TreeNode("CAM_12");
-            System.Windows.Forms.TreeNode treeNode426 = new System.Windows.Forms.TreeNode("CAM_13");
-            System.Windows.Forms.TreeNode treeNode427 = new System.Windows.Forms.TreeNode("CAM_14");
-            System.Windows.Forms.TreeNode treeNode428 = new System.Windows.Forms.TreeNode("Đầu đường vào cổng trường THPT Hoàng Thái Hiếu", new System.Windows.Forms.TreeNode[] {
-            treeNode425,
-            treeNode426,
-            treeNode427});
-            System.Windows.Forms.TreeNode treeNode429 = new System.Windows.Forms.TreeNode("CAM_15");
-            System.Windows.Forms.TreeNode treeNode430 = new System.Windows.Forms.TreeNode("CAM_16");
-            System.Windows.Forms.TreeNode treeNode431 = new System.Windows.Forms.TreeNode("Chân Cầu Thành Lợi", new System.Windows.Forms.TreeNode[] {
-            treeNode429,
-            treeNode430});
-            System.Windows.Forms.TreeNode treeNode432 = new System.Windows.Forms.TreeNode("CAM_17");
-            System.Windows.Forms.TreeNode treeNode433 = new System.Windows.Forms.TreeNode("CAM_18");
-            System.Windows.Forms.TreeNode treeNode434 = new System.Windows.Forms.TreeNode("Ngã 4 (giao: Phan Văn Quân - Huỳnh Văn Đạt)", new System.Windows.Forms.TreeNode[] {
-            treeNode432,
-            treeNode433});
-            System.Windows.Forms.TreeNode treeNode435 = new System.Windows.Forms.TreeNode("CAM_19");
-            System.Windows.Forms.TreeNode treeNode436 = new System.Windows.Forms.TreeNode("CAM_20");
-            System.Windows.Forms.TreeNode treeNode437 = new System.Windows.Forms.TreeNode("Ngã 3 (giao: Huỳnh Văn Đạt - Hai Bà Trưng)", new System.Windows.Forms.TreeNode[] {
-            treeNode435,
-            treeNode436});
-            System.Windows.Forms.TreeNode treeNode438 = new System.Windows.Forms.TreeNode("CAM_21");
-            System.Windows.Forms.TreeNode treeNode439 = new System.Windows.Forms.TreeNode("CAM_22");
-            System.Windows.Forms.TreeNode treeNode440 = new System.Windows.Forms.TreeNode("Ngã 3 (sau Trung Tâm hành chính TX)", new System.Windows.Forms.TreeNode[] {
-            treeNode438,
-            treeNode439});
-            System.Windows.Forms.TreeNode treeNode441 = new System.Windows.Forms.TreeNode("CAM_23");
-            System.Windows.Forms.TreeNode treeNode442 = new System.Windows.Forms.TreeNode("CAM_24");
-            System.Windows.Forms.TreeNode treeNode443 = new System.Windows.Forms.TreeNode("CAM_25");
-            System.Windows.Forms.TreeNode treeNode444 = new System.Windows.Forms.TreeNode("CAM_26");
-            System.Windows.Forms.TreeNode treeNode445 = new System.Windows.Forms.TreeNode("Ngã 3 (trước cửa Trung tâm hành chính TX)", new System.Windows.Forms.TreeNode[] {
-            treeNode441,
-            treeNode442,
-            treeNode443,
-            treeNode444});
-            System.Windows.Forms.TreeNode treeNode446 = new System.Windows.Forms.TreeNode("CAM_27");
-            System.Windows.Forms.TreeNode treeNode447 = new System.Windows.Forms.TreeNode("CAM_28");
-            System.Windows.Forms.TreeNode treeNode448 = new System.Windows.Forms.TreeNode("CAM_29");
-            System.Windows.Forms.TreeNode treeNode449 = new System.Windows.Forms.TreeNode("CAM_30");
-            System.Windows.Forms.TreeNode treeNode450 = new System.Windows.Forms.TreeNode("Ngã 4 (giao: đường 3/2 - Phan Văn Năm)", new System.Windows.Forms.TreeNode[] {
-            treeNode446,
-            treeNode447,
-            treeNode448,
-            treeNode449});
-            System.Windows.Forms.TreeNode treeNode451 = new System.Windows.Forms.TreeNode("CAM_31");
-            System.Windows.Forms.TreeNode treeNode452 = new System.Windows.Forms.TreeNode("CAM_32");
-            System.Windows.Forms.TreeNode treeNode453 = new System.Windows.Forms.TreeNode("Ngã 4 (giao: Lê Văn Dị - Phan Văn Năm)", new System.Windows.Forms.TreeNode[] {
-            treeNode451,
-            treeNode452});
-            System.Windows.Forms.TreeNode treeNode454 = new System.Windows.Forms.TreeNode("CAM_33");
-            System.Windows.Forms.TreeNode treeNode455 = new System.Windows.Forms.TreeNode("CAM_34");
-            System.Windows.Forms.TreeNode treeNode456 = new System.Windows.Forms.TreeNode("CAM_35");
-            System.Windows.Forms.TreeNode treeNode457 = new System.Windows.Forms.TreeNode("CAM_36");
-            System.Windows.Forms.TreeNode treeNode458 = new System.Windows.Forms.TreeNode("Ngã 4 (giao: Phan Văn Năm - Ngô Quyền)", new System.Windows.Forms.TreeNode[] {
-            treeNode454,
-            treeNode455,
-            treeNode456,
-            treeNode457});
-            System.Windows.Forms.TreeNode treeNode459 = new System.Windows.Forms.TreeNode("CAM_37");
-            System.Windows.Forms.TreeNode treeNode460 = new System.Windows.Forms.TreeNode("CAM_38");
-            System.Windows.Forms.TreeNode treeNode461 = new System.Windows.Forms.TreeNode("CAM_39");
-            System.Windows.Forms.TreeNode treeNode462 = new System.Windows.Forms.TreeNode("CAM_40");
-            System.Windows.Forms.TreeNode treeNode463 = new System.Windows.Forms.TreeNode("Ngã 4 (giao: Ngô Quyền - Nguyễn Văn Thảnh)", new System.Windows.Forms.TreeNode[] {
-            treeNode459,
-            treeNode460,
-            treeNode461,
-            treeNode462});
-            System.Windows.Forms.TreeNode treeNode464 = new System.Windows.Forms.TreeNode("CAM_41");
-            System.Windows.Forms.TreeNode treeNode465 = new System.Windows.Forms.TreeNode("CAM_42");
-            System.Windows.Forms.TreeNode treeNode466 = new System.Windows.Forms.TreeNode("Ngã 4 Cua 3 Lời", new System.Windows.Forms.TreeNode[] {
-            treeNode464,
-            treeNode465});
-            System.Windows.Forms.TreeNode treeNode467 = new System.Windows.Forms.TreeNode("CAM_43");
-            System.Windows.Forms.TreeNode treeNode468 = new System.Windows.Forms.TreeNode("CAM_44");
-            System.Windows.Forms.TreeNode treeNode469 = new System.Windows.Forms.TreeNode("Ngã 3 Rạch Xẻo Nga (trước cửa Vật liệu XD Thành Tất)", new System.Windows.Forms.TreeNode[] {
-            treeNode467,
-            treeNode468});
-            System.Windows.Forms.TreeNode treeNode470 = new System.Windows.Forms.TreeNode("CAM_45");
-            System.Windows.Forms.TreeNode treeNode471 = new System.Windows.Forms.TreeNode("CAM_46");
-            System.Windows.Forms.TreeNode treeNode472 = new System.Windows.Forms.TreeNode("CAM_47");
-            System.Windows.Forms.TreeNode treeNode473 = new System.Windows.Forms.TreeNode("CAM_48");
-            System.Windows.Forms.TreeNode treeNode474 = new System.Windows.Forms.TreeNode("CAM_49");
-            System.Windows.Forms.TreeNode treeNode475 = new System.Windows.Forms.TreeNode("Ngã 3 (Nguyễn Văn Thảnh - Lưu Nhơn Sâm)", new System.Windows.Forms.TreeNode[] {
-            treeNode470,
-            treeNode471,
-            treeNode472,
-            treeNode473,
-            treeNode474});
-            System.Windows.Forms.TreeNode treeNode476 = new System.Windows.Forms.TreeNode("CAM_50");
-            System.Windows.Forms.TreeNode treeNode477 = new System.Windows.Forms.TreeNode("CAM_51");
-            System.Windows.Forms.TreeNode treeNode478 = new System.Windows.Forms.TreeNode("Ngã 3 trước Trường Thoại Ngọc Hầu", new System.Windows.Forms.TreeNode[] {
-            treeNode476,
-            treeNode477});
-            System.Windows.Forms.TreeNode treeNode479 = new System.Windows.Forms.TreeNode("CAM_52");
-            System.Windows.Forms.TreeNode treeNode480 = new System.Windows.Forms.TreeNode("Điểm quay đầu xe khu vực Bến xe Phương Trang 1", new System.Windows.Forms.TreeNode[] {
-            treeNode479});
-            System.Windows.Forms.TreeNode treeNode481 = new System.Windows.Forms.TreeNode("CAM_53");
-            System.Windows.Forms.TreeNode treeNode482 = new System.Windows.Forms.TreeNode("Điểm quay đầu xe khu vực Bến xe Phương Trang 2", new System.Windows.Forms.TreeNode[] {
-            treeNode481});
-            System.Windows.Forms.TreeNode treeNode483 = new System.Windows.Forms.TreeNode("CAM_54");
-            System.Windows.Forms.TreeNode treeNode484 = new System.Windows.Forms.TreeNode("Điểm quay đầu gần Bến đò Giáo Mẹo 1", new System.Windows.Forms.TreeNode[] {
-            treeNode483});
-            System.Windows.Forms.TreeNode treeNode485 = new System.Windows.Forms.TreeNode("CAM_55");
-            System.Windows.Forms.TreeNode treeNode486 = new System.Windows.Forms.TreeNode("Điểm quay đầu gần Bến đò Giáo Mẹo 2", new System.Windows.Forms.TreeNode[] {
-            treeNode485});
-            System.Windows.Forms.TreeNode treeNode487 = new System.Windows.Forms.TreeNode("CAM_56");
-            System.Windows.Forms.TreeNode treeNode488 = new System.Windows.Forms.TreeNode("CAM_57");
-            System.Windows.Forms.TreeNode treeNode489 = new System.Windows.Forms.TreeNode("Ngã 3 Đầu đường vào Thuận An - Rạch Sậy", new System.Windows.Forms.TreeNode[] {
-            treeNode487,
-            treeNode488});
-            System.Windows.Forms.TreeNode treeNode490 = new System.Windows.Forms.TreeNode("CAM_58");
-            System.Windows.Forms.TreeNode treeNode491 = new System.Windows.Forms.TreeNode("CAM_59");
-            System.Windows.Forms.TreeNode treeNode492 = new System.Windows.Forms.TreeNode("Chân cầu Khoán Tiết", new System.Windows.Forms.TreeNode[] {
-            treeNode490,
-            treeNode491});
-            System.Windows.Forms.TreeNode treeNode493 = new System.Windows.Forms.TreeNode("CAM_60");
-            System.Windows.Forms.TreeNode treeNode494 = new System.Windows.Forms.TreeNode("CAM_61");
-            System.Windows.Forms.TreeNode treeNode495 = new System.Windows.Forms.TreeNode("CAM_62");
-            System.Windows.Forms.TreeNode treeNode496 = new System.Windows.Forms.TreeNode("CAM_63");
-            System.Windows.Forms.TreeNode treeNode497 = new System.Windows.Forms.TreeNode("Chân cầu vượt QL54 (phía đi Trà Ôn)", new System.Windows.Forms.TreeNode[] {
-            treeNode493,
-            treeNode494,
-            treeNode495,
-            treeNode496});
-            System.Windows.Forms.TreeNode treeNode498 = new System.Windows.Forms.TreeNode("CAM_64");
-            System.Windows.Forms.TreeNode treeNode499 = new System.Windows.Forms.TreeNode("CAM_65");
-            System.Windows.Forms.TreeNode treeNode500 = new System.Windows.Forms.TreeNode("CAM_66");
-            System.Windows.Forms.TreeNode treeNode501 = new System.Windows.Forms.TreeNode("CAM_67");
-            System.Windows.Forms.TreeNode treeNode502 = new System.Windows.Forms.TreeNode("Chân cầu vượt QL54 (phía đi Bình Minh)", new System.Windows.Forms.TreeNode[] {
-            treeNode498,
-            treeNode499,
-            treeNode500,
-            treeNode501});
-            System.Windows.Forms.TreeNode treeNode503 = new System.Windows.Forms.TreeNode("CAM_68");
-            System.Windows.Forms.TreeNode treeNode504 = new System.Windows.Forms.TreeNode("Ngã 3 Đầu đường vào Đông Thạnh (trước cửa cây xăng Cường Phát)", new System.Windows.Forms.TreeNode[] {
-            treeNode503});
-            System.Windows.Forms.TreeNode treeNode505 = new System.Windows.Forms.TreeNode("CAM_69");
-            System.Windows.Forms.TreeNode treeNode506 = new System.Windows.Forms.TreeNode("CAM_70");
-            System.Windows.Forms.TreeNode treeNode507 = new System.Windows.Forms.TreeNode("CAM_71");
-            System.Windows.Forms.TreeNode treeNode508 = new System.Windows.Forms.TreeNode("Đầu đường vào Cầu Mỹ Hoà Tây", new System.Windows.Forms.TreeNode[] {
-            treeNode505,
-            treeNode506,
-            treeNode507});
-            System.Windows.Forms.TreeNode treeNode509 = new System.Windows.Forms.TreeNode("CAM_72");
-            System.Windows.Forms.TreeNode treeNode510 = new System.Windows.Forms.TreeNode("CAM_73");
-            System.Windows.Forms.TreeNode treeNode511 = new System.Windows.Forms.TreeNode("Cầu Dừa (cầu Bến xe) Đông Thành", new System.Windows.Forms.TreeNode[] {
-            treeNode509,
-            treeNode510});
-            System.Windows.Forms.TreeNode treeNode512 = new System.Windows.Forms.TreeNode("CAM_74");
-            System.Windows.Forms.TreeNode treeNode513 = new System.Windows.Forms.TreeNode("CAM_75");
-            System.Windows.Forms.TreeNode treeNode514 = new System.Windows.Forms.TreeNode("Chợ Hoá Thành", new System.Windows.Forms.TreeNode[] {
-            treeNode512,
-            treeNode513});
-            System.Windows.Forms.TreeNode treeNode515 = new System.Windows.Forms.TreeNode("CAM_76");
-            System.Windows.Forms.TreeNode treeNode516 = new System.Windows.Forms.TreeNode("CAM_77");
-            System.Windows.Forms.TreeNode treeNode517 = new System.Windows.Forms.TreeNode("Đầu đường 26/3", new System.Windows.Forms.TreeNode[] {
-            treeNode515,
-            treeNode516});
-            System.Windows.Forms.TreeNode treeNode518 = new System.Windows.Forms.TreeNode("CAM_78");
-            System.Windows.Forms.TreeNode treeNode519 = new System.Windows.Forms.TreeNode("CAM_79");
-            System.Windows.Forms.TreeNode treeNode520 = new System.Windows.Forms.TreeNode("Ngã 3 (QL54 - Đường qua cầu Mỹ Hoà)", new System.Windows.Forms.TreeNode[] {
-            treeNode518,
-            treeNode519});
-            System.Windows.Forms.TreeNode treeNode521 = new System.Windows.Forms.TreeNode("CAM_80");
-            System.Windows.Forms.TreeNode treeNode522 = new System.Windows.Forms.TreeNode("CAM_81");
-            System.Windows.Forms.TreeNode treeNode523 = new System.Windows.Forms.TreeNode("Ngã ba Tắt Ông Phò", new System.Windows.Forms.TreeNode[] {
-            treeNode521,
-            treeNode522});
-            System.Windows.Forms.TreeNode treeNode524 = new System.Windows.Forms.TreeNode("CAM_82");
-            System.Windows.Forms.TreeNode treeNode525 = new System.Windows.Forms.TreeNode("CAM_83");
-            System.Windows.Forms.TreeNode treeNode526 = new System.Windows.Forms.TreeNode("Đầu đường vào công ty 620", new System.Windows.Forms.TreeNode[] {
-            treeNode524,
-            treeNode525});
-            System.Windows.Forms.TreeNode treeNode527 = new System.Windows.Forms.TreeNode("CAM_84");
-            System.Windows.Forms.TreeNode treeNode528 = new System.Windows.Forms.TreeNode("CAM_85");
-            System.Windows.Forms.TreeNode treeNode529 = new System.Windows.Forms.TreeNode("Dạ Cầu Cần Thơ (tại nhịp sập)", new System.Windows.Forms.TreeNode[] {
-            treeNode527,
-            treeNode528});
-            System.Windows.Forms.TreeNode treeNode530 = new System.Windows.Forms.TreeNode("CAM_86");
-            System.Windows.Forms.TreeNode treeNode531 = new System.Windows.Forms.TreeNode("CAM_87");
-            System.Windows.Forms.TreeNode treeNode532 = new System.Windows.Forms.TreeNode("Trước cổng KCN Bình Minh", new System.Windows.Forms.TreeNode[] {
-            treeNode530,
-            treeNode531});
-            System.Windows.Forms.TreeNode treeNode533 = new System.Windows.Forms.TreeNode("CAM_88");
-            System.Windows.Forms.TreeNode treeNode534 = new System.Windows.Forms.TreeNode("CAM_89");
-            System.Windows.Forms.TreeNode treeNode535 = new System.Windows.Forms.TreeNode("Trước UBND Cái Vồn", new System.Windows.Forms.TreeNode[] {
-            treeNode533,
-            treeNode534});
-            System.Windows.Forms.TreeNode treeNode666 = new System.Windows.Forms.TreeNode("Đầu ghi 1");
-            System.Windows.Forms.TreeNode treeNode667 = new System.Windows.Forms.TreeNode("Đầu ghi 2");
-            System.Windows.Forms.TreeNode treeNode668 = new System.Windows.Forms.TreeNode("Đầu ghi 3");
-            System.Windows.Forms.TreeNode treeNode669 = new System.Windows.Forms.TreeNode("CA Huyện Tam Bình", new System.Windows.Forms.TreeNode[] {
-            treeNode666,
-            treeNode667,
-            treeNode668});
-            System.Windows.Forms.TreeNode treeNode670 = new System.Windows.Forms.TreeNode("CAM_1");
-            System.Windows.Forms.TreeNode treeNode671 = new System.Windows.Forms.TreeNode("CAM_2");
-            System.Windows.Forms.TreeNode treeNode672 = new System.Windows.Forms.TreeNode("Trước CA huyện Tam Bình", new System.Windows.Forms.TreeNode[] {
-            treeNode670,
-            treeNode671});
-            System.Windows.Forms.TreeNode treeNode673 = new System.Windows.Forms.TreeNode("CAM_3");
-            System.Windows.Forms.TreeNode treeNode674 = new System.Windows.Forms.TreeNode("CAM_4");
-            System.Windows.Forms.TreeNode treeNode675 = new System.Windows.Forms.TreeNode("CAM_5");
-            System.Windows.Forms.TreeNode treeNode676 = new System.Windows.Forms.TreeNode("Ngã ba bệnh viện", new System.Windows.Forms.TreeNode[] {
-            treeNode673,
-            treeNode674,
-            treeNode675});
-            System.Windows.Forms.TreeNode treeNode677 = new System.Windows.Forms.TreeNode("CAM_6");
-            System.Windows.Forms.TreeNode treeNode678 = new System.Windows.Forms.TreeNode("CAM_7");
-            System.Windows.Forms.TreeNode treeNode679 = new System.Windows.Forms.TreeNode("Ngã ba đường liên Khóm 2/3", new System.Windows.Forms.TreeNode[] {
-            treeNode677,
-            treeNode678});
-            System.Windows.Forms.TreeNode treeNode680 = new System.Windows.Forms.TreeNode("CAM_8");
-            System.Windows.Forms.TreeNode treeNode681 = new System.Windows.Forms.TreeNode("CAM_9");
-            System.Windows.Forms.TreeNode treeNode682 = new System.Windows.Forms.TreeNode("Cầu Bình Phú/đường 909", new System.Windows.Forms.TreeNode[] {
-            treeNode680,
-            treeNode681});
-            System.Windows.Forms.TreeNode treeNode683 = new System.Windows.Forms.TreeNode("CAM_10");
-            System.Windows.Forms.TreeNode treeNode684 = new System.Windows.Forms.TreeNode("CAM_11");
-            System.Windows.Forms.TreeNode treeNode685 = new System.Windows.Forms.TreeNode("CAM_12");
-            System.Windows.Forms.TreeNode treeNode686 = new System.Windows.Forms.TreeNode("Ngã 4 xã Loan Mỹ", new System.Windows.Forms.TreeNode[] {
-            treeNode683,
-            treeNode684,
-            treeNode685});
-            System.Windows.Forms.TreeNode treeNode687 = new System.Windows.Forms.TreeNode("CAM_13");
-            System.Windows.Forms.TreeNode treeNode688 = new System.Windows.Forms.TreeNode("CAM_14");
-            System.Windows.Forms.TreeNode treeNode689 = new System.Windows.Forms.TreeNode("Cầu Kênh Xáng", new System.Windows.Forms.TreeNode[] {
-            treeNode687,
-            treeNode688});
-            System.Windows.Forms.TreeNode treeNode690 = new System.Windows.Forms.TreeNode("CAM_15");
-            System.Windows.Forms.TreeNode treeNode691 = new System.Windows.Forms.TreeNode("CAM_16");
-            System.Windows.Forms.TreeNode treeNode692 = new System.Windows.Forms.TreeNode("CAM_17");
-            System.Windows.Forms.TreeNode treeNode693 = new System.Windows.Forms.TreeNode("Ngã 3 xã mới/Mỹ Thạnh Trung", new System.Windows.Forms.TreeNode[] {
-            treeNode690,
-            treeNode691,
-            treeNode692});
-            System.Windows.Forms.TreeNode treeNode694 = new System.Windows.Forms.TreeNode("CAM_18");
-            System.Windows.Forms.TreeNode treeNode695 = new System.Windows.Forms.TreeNode("CAM_19");
-            System.Windows.Forms.TreeNode treeNode696 = new System.Windows.Forms.TreeNode("CAM_20");
-            System.Windows.Forms.TreeNode treeNode697 = new System.Windows.Forms.TreeNode("CAM_21");
-            System.Windows.Forms.TreeNode treeNode698 = new System.Windows.Forms.TreeNode("Vòng Xoay chợ Song Phú", new System.Windows.Forms.TreeNode[] {
-            treeNode694,
-            treeNode695,
-            treeNode696,
-            treeNode697});
-            System.Windows.Forms.TreeNode treeNode699 = new System.Windows.Forms.TreeNode("CAM_22");
-            System.Windows.Forms.TreeNode treeNode700 = new System.Windows.Forms.TreeNode("CAM_23");
-            System.Windows.Forms.TreeNode treeNode701 = new System.Windows.Forms.TreeNode("CAM_24");
-            System.Windows.Forms.TreeNode treeNode702 = new System.Windows.Forms.TreeNode("Khu dân cư Phú Ninh", new System.Windows.Forms.TreeNode[] {
-            treeNode699,
-            treeNode700,
-            treeNode701});
-            System.Windows.Forms.TreeNode treeNode703 = new System.Windows.Forms.TreeNode("CAM_25");
-            System.Windows.Forms.TreeNode treeNode704 = new System.Windows.Forms.TreeNode("CAM_26");
-            System.Windows.Forms.TreeNode treeNode705 = new System.Windows.Forms.TreeNode("CAM_27");
-            System.Windows.Forms.TreeNode treeNode706 = new System.Windows.Forms.TreeNode("Đầu lộ khu đô thị Song Phú/Đối diện Phương Trang", new System.Windows.Forms.TreeNode[] {
-            treeNode703,
-            treeNode704,
-            treeNode705});
-            System.Windows.Forms.TreeNode treeNode707 = new System.Windows.Forms.TreeNode("CAM_28");
-            System.Windows.Forms.TreeNode treeNode708 = new System.Windows.Forms.TreeNode("CAM_29");
-            System.Windows.Forms.TreeNode treeNode709 = new System.Windows.Forms.TreeNode("Ngã ba đầu đường Phú Thịnh", new System.Windows.Forms.TreeNode[] {
-            treeNode707,
-            treeNode708});
-            System.Windows.Forms.TreeNode treeNode710 = new System.Windows.Forms.TreeNode("CAM_30");
-            System.Windows.Forms.TreeNode treeNode711 = new System.Windows.Forms.TreeNode("CAM_31");
-            System.Windows.Forms.TreeNode treeNode712 = new System.Windows.Forms.TreeNode("Uỷ Ban Xã Phú Thịnh", new System.Windows.Forms.TreeNode[] {
-            treeNode710,
-            treeNode711});
-            System.Windows.Forms.TreeNode treeNode713 = new System.Windows.Forms.TreeNode("CAM_32");
-            System.Windows.Forms.TreeNode treeNode714 = new System.Windows.Forms.TreeNode("CAM_33");
-            System.Windows.Forms.TreeNode treeNode715 = new System.Windows.Forms.TreeNode("Ngã 3 đầu đường 908", new System.Windows.Forms.TreeNode[] {
-            treeNode713,
-            treeNode714});
-            System.Windows.Forms.TreeNode treeNode716 = new System.Windows.Forms.TreeNode("CAM_34");
-            System.Windows.Forms.TreeNode treeNode717 = new System.Windows.Forms.TreeNode("CAM_35");
-            System.Windows.Forms.TreeNode treeNode718 = new System.Windows.Forms.TreeNode("CAM_36");
-            System.Windows.Forms.TreeNode treeNode719 = new System.Windows.Forms.TreeNode("Ấp 11 ngã 3 Cả Bần", new System.Windows.Forms.TreeNode[] {
-            treeNode716,
-            treeNode717,
-            treeNode718});
-            System.Windows.Forms.TreeNode treeNode720 = new System.Windows.Forms.TreeNode("CAM_37");
-            System.Windows.Forms.TreeNode treeNode721 = new System.Windows.Forms.TreeNode("CAM_38");
-            System.Windows.Forms.TreeNode treeNode722 = new System.Windows.Forms.TreeNode("Cầu Bản Đồng", new System.Windows.Forms.TreeNode[] {
-            treeNode720,
-            treeNode721});
-            System.Windows.Forms.TreeNode treeNode723 = new System.Windows.Forms.TreeNode("CAM_39");
-            System.Windows.Forms.TreeNode treeNode724 = new System.Windows.Forms.TreeNode("CAM_40");
-            System.Windows.Forms.TreeNode treeNode725 = new System.Windows.Forms.TreeNode("Cầu Cả Lá", new System.Windows.Forms.TreeNode[] {
-            treeNode723,
-            treeNode724});
-            System.Windows.Forms.TreeNode treeNode726 = new System.Windows.Forms.TreeNode("CAM_41");
-            System.Windows.Forms.TreeNode treeNode727 = new System.Windows.Forms.TreeNode("CAM_42");
-            System.Windows.Forms.TreeNode treeNode728 = new System.Windows.Forms.TreeNode("CAM_43");
-            System.Windows.Forms.TreeNode treeNode729 = new System.Windows.Forms.TreeNode("Ngã 3 Phú Lộc", new System.Windows.Forms.TreeNode[] {
-            treeNode726,
-            treeNode727,
-            treeNode728});
-            System.Windows.Forms.TreeNode treeNode730 = new System.Windows.Forms.TreeNode("CAM_44");
-            System.Windows.Forms.TreeNode treeNode731 = new System.Windows.Forms.TreeNode("CAM_45");
-            System.Windows.Forms.TreeNode treeNode732 = new System.Windows.Forms.TreeNode("Nhà Thờ Ngã Cậy", new System.Windows.Forms.TreeNode[] {
-            treeNode730,
-            treeNode731});
-            System.Windows.Forms.TreeNode treeNode733 = new System.Windows.Forms.TreeNode("CAM_46");
-            System.Windows.Forms.TreeNode treeNode734 = new System.Windows.Forms.TreeNode("CAM_47");
-            System.Windows.Forms.TreeNode treeNode735 = new System.Windows.Forms.TreeNode("Cua 6 Hoà", new System.Windows.Forms.TreeNode[] {
-            treeNode733,
-            treeNode734});
-            System.Windows.Forms.TreeNode treeNode736 = new System.Windows.Forms.TreeNode("CAM_48");
-            System.Windows.Forms.TreeNode treeNode737 = new System.Windows.Forms.TreeNode("CAM_49");
-            System.Windows.Forms.TreeNode treeNode738 = new System.Windows.Forms.TreeNode("CAM_50");
-            System.Windows.Forms.TreeNode treeNode739 = new System.Windows.Forms.TreeNode("Cổng chào Phú Lộc", new System.Windows.Forms.TreeNode[] {
-            treeNode736,
-            treeNode737,
-            treeNode738});
-            System.Windows.Forms.TreeNode treeNode740 = new System.Windows.Forms.TreeNode("CAM_51");
-            System.Windows.Forms.TreeNode treeNode741 = new System.Windows.Forms.TreeNode("CAM_52");
-            System.Windows.Forms.TreeNode treeNode742 = new System.Windows.Forms.TreeNode("Cầu số 3 lô 6", new System.Windows.Forms.TreeNode[] {
-            treeNode740,
-            treeNode741});
-            System.Windows.Forms.TreeNode treeNode743 = new System.Windows.Forms.TreeNode("CAM_53");
-            System.Windows.Forms.TreeNode treeNode744 = new System.Windows.Forms.TreeNode("CAM_54");
-            System.Windows.Forms.TreeNode treeNode745 = new System.Windows.Forms.TreeNode("Cầu lô 1 A", new System.Windows.Forms.TreeNode[] {
-            treeNode743,
-            treeNode744});
-            System.Windows.Forms.TreeNode treeNode746 = new System.Windows.Forms.TreeNode("CAM_55");
-            System.Windows.Forms.TreeNode treeNode747 = new System.Windows.Forms.TreeNode("CAM_56");
-            System.Windows.Forms.TreeNode treeNode748 = new System.Windows.Forms.TreeNode("CAM_57");
-            System.Windows.Forms.TreeNode treeNode749 = new System.Windows.Forms.TreeNode("Ấp An Hoà Bình Ninh", new System.Windows.Forms.TreeNode[] {
-            treeNode746,
-            treeNode747,
-            treeNode748});
-            System.Windows.Forms.TreeNode treeNode750 = new System.Windows.Forms.TreeNode("CAM_58");
-            System.Windows.Forms.TreeNode treeNode751 = new System.Windows.Forms.TreeNode("CAM_59");
-            System.Windows.Forms.TreeNode treeNode752 = new System.Windows.Forms.TreeNode("CAM_60");
-            System.Windows.Forms.TreeNode treeNode753 = new System.Windows.Forms.TreeNode("Cầu Rạch Lá", new System.Windows.Forms.TreeNode[] {
-            treeNode750,
-            treeNode751,
-            treeNode752});
-            System.Windows.Forms.TreeNode treeNode754 = new System.Windows.Forms.TreeNode("CAM_61");
-            System.Windows.Forms.TreeNode treeNode755 = new System.Windows.Forms.TreeNode("CAM_62");
-            System.Windows.Forms.TreeNode treeNode756 = new System.Windows.Forms.TreeNode("Cổng ấp Phú Nghĩa/cây xăng Tân Phú", new System.Windows.Forms.TreeNode[] {
-            treeNode754,
-            treeNode755});
-            System.Windows.Forms.TreeNode treeNode757 = new System.Windows.Forms.TreeNode("CAM_63");
-            System.Windows.Forms.TreeNode treeNode758 = new System.Windows.Forms.TreeNode("CAM_64");
-            System.Windows.Forms.TreeNode treeNode759 = new System.Windows.Forms.TreeNode("Điểm tiếp giáp Đông Thạnh", new System.Windows.Forms.TreeNode[] {
-            treeNode757,
-            treeNode758});
-            System.Windows.Forms.TreeNode treeNode760 = new System.Windows.Forms.TreeNode("CAM_65");
-            System.Windows.Forms.TreeNode treeNode761 = new System.Windows.Forms.TreeNode("CAM_66");
-            System.Windows.Forms.TreeNode treeNode762 = new System.Windows.Forms.TreeNode("CAM_67");
-            System.Windows.Forms.TreeNode treeNode763 = new System.Windows.Forms.TreeNode("CAM_68");
-            System.Windows.Forms.TreeNode treeNode764 = new System.Windows.Forms.TreeNode("Ngã 4 Bình Quí", new System.Windows.Forms.TreeNode[] {
-            treeNode760,
-            treeNode761,
-            treeNode762,
-            treeNode763});
-            System.Windows.Forms.TreeNode treeNode765 = new System.Windows.Forms.TreeNode("CAM_69");
-            System.Windows.Forms.TreeNode treeNode766 = new System.Windows.Forms.TreeNode("CAM_70");
-            System.Windows.Forms.TreeNode treeNode767 = new System.Windows.Forms.TreeNode("CAM_71");
-            System.Windows.Forms.TreeNode treeNode768 = new System.Windows.Forms.TreeNode("CAM_72");
-            System.Windows.Forms.TreeNode treeNode769 = new System.Windows.Forms.TreeNode("Cầu Ngã Tắc", new System.Windows.Forms.TreeNode[] {
-            treeNode765,
-            treeNode766,
-            treeNode767,
-            treeNode768});
-            System.Windows.Forms.TreeNode treeNode770 = new System.Windows.Forms.TreeNode("CAM_73");
-            System.Windows.Forms.TreeNode treeNode771 = new System.Windows.Forms.TreeNode("CAM_74");
-            System.Windows.Forms.TreeNode treeNode772 = new System.Windows.Forms.TreeNode("Cửa hàng xăng dầu số 5", new System.Windows.Forms.TreeNode[] {
-            treeNode770,
-            treeNode771});
-            System.Windows.Forms.TreeNode treeNode773 = new System.Windows.Forms.TreeNode("CAM_75");
-            System.Windows.Forms.TreeNode treeNode774 = new System.Windows.Forms.TreeNode("CAM_76");
-            System.Windows.Forms.TreeNode treeNode775 = new System.Windows.Forms.TreeNode("CAM_77");
-            System.Windows.Forms.TreeNode treeNode776 = new System.Windows.Forms.TreeNode("Ngã ba cầu Tường Lộc", new System.Windows.Forms.TreeNode[] {
-            treeNode773,
-            treeNode774,
-            treeNode775});
-            System.Windows.Forms.TreeNode treeNode777 = new System.Windows.Forms.TreeNode("CAM_78");
-            System.Windows.Forms.TreeNode treeNode778 = new System.Windows.Forms.TreeNode("CAM_79");
-            System.Windows.Forms.TreeNode treeNode779 = new System.Windows.Forms.TreeNode("Trước trường THCS Nhơn Bình", new System.Windows.Forms.TreeNode[] {
-            treeNode777,
-            treeNode778});
-            System.Windows.Forms.TreeNode treeNode780 = new System.Windows.Forms.TreeNode("CAM_80");
-            System.Windows.Forms.TreeNode treeNode781 = new System.Windows.Forms.TreeNode("CAM_81");
-            System.Windows.Forms.TreeNode treeNode782 = new System.Windows.Forms.TreeNode("Cống Phó Mùi", new System.Windows.Forms.TreeNode[] {
-            treeNode780,
-            treeNode781});
-            System.Windows.Forms.TreeNode treeNode783 = new System.Windows.Forms.TreeNode("CAM_82");
-            System.Windows.Forms.TreeNode treeNode784 = new System.Windows.Forms.TreeNode("CAM_83");
-            System.Windows.Forms.TreeNode treeNode785 = new System.Windows.Forms.TreeNode("CAM_84");
-            System.Windows.Forms.TreeNode treeNode786 = new System.Windows.Forms.TreeNode("Ngã ba ấp Hoà Phong/ấp 4/ấp 9/ấp 6/ấp Hoà Hiệp", new System.Windows.Forms.TreeNode[] {
-            treeNode783,
-            treeNode784,
-            treeNode785});
-            System.Windows.Forms.TreeNode treeNode787 = new System.Windows.Forms.TreeNode("CAM_85");
-            System.Windows.Forms.TreeNode treeNode788 = new System.Windows.Forms.TreeNode("CAM_86");
-            System.Windows.Forms.TreeNode treeNode789 = new System.Windows.Forms.TreeNode("CAM_87");
-            System.Windows.Forms.TreeNode treeNode790 = new System.Windows.Forms.TreeNode("Ngã ba cầu ấp 4/ấp 9", new System.Windows.Forms.TreeNode[] {
-            treeNode787,
-            treeNode788,
-            treeNode789});
-            System.Windows.Forms.TreeNode treeNode791 = new System.Windows.Forms.TreeNode("CAM_88");
-            System.Windows.Forms.TreeNode treeNode792 = new System.Windows.Forms.TreeNode("CAM_89");
-            System.Windows.Forms.TreeNode treeNode793 = new System.Windows.Forms.TreeNode("CAM_90");
-            System.Windows.Forms.TreeNode treeNode794 = new System.Windows.Forms.TreeNode("Ngã ba Hoà Lộc/Hậu Lộc", new System.Windows.Forms.TreeNode[] {
-            treeNode791,
-            treeNode792,
-            treeNode793});
-            System.Windows.Forms.TreeNode treeNode795 = new System.Windows.Forms.TreeNode("CAM_91");
-            System.Windows.Forms.TreeNode treeNode796 = new System.Windows.Forms.TreeNode("CAM_92");
-            System.Windows.Forms.TreeNode treeNode797 = new System.Windows.Forms.TreeNode("Cua tạp hoá Thành Diễm", new System.Windows.Forms.TreeNode[] {
-            treeNode795,
-            treeNode796});
-            System.Windows.Forms.TreeNode treeNode798 = new System.Windows.Forms.TreeNode("CAM_93");
-            System.Windows.Forms.TreeNode treeNode799 = new System.Windows.Forms.TreeNode("CAM_94");
-            System.Windows.Forms.TreeNode treeNode800 = new System.Windows.Forms.TreeNode("Ngã 3 ấp 5 đầu khu dân cư", new System.Windows.Forms.TreeNode[] {
-            treeNode798,
-            treeNode799});
-            System.Windows.Forms.TreeNode treeNode801 = new System.Windows.Forms.TreeNode("CAM_95");
-            System.Windows.Forms.TreeNode treeNode802 = new System.Windows.Forms.TreeNode("CAM_96");
-            System.Windows.Forms.TreeNode treeNode803 = new System.Windows.Forms.TreeNode("CAM_97");
-            System.Windows.Forms.TreeNode treeNode804 = new System.Windows.Forms.TreeNode("Ngã 3 Danh Tấm", new System.Windows.Forms.TreeNode[] {
-            treeNode801,
-            treeNode802,
-            treeNode803});
-            System.Windows.Forms.TreeNode treeNode805 = new System.Windows.Forms.TreeNode("CAM_98");
-            System.Windows.Forms.TreeNode treeNode806 = new System.Windows.Forms.TreeNode("CAM_99");
-            System.Windows.Forms.TreeNode treeNode807 = new System.Windows.Forms.TreeNode("Cua Tân Lộc (Trường tiểu học Tân Lộc A)", new System.Windows.Forms.TreeNode[] {
-            treeNode805,
-            treeNode806});
-            System.Windows.Forms.TreeNode treeNode808 = new System.Windows.Forms.TreeNode("CAM_100");
-            System.Windows.Forms.TreeNode treeNode809 = new System.Windows.Forms.TreeNode("CAM_101");
-            System.Windows.Forms.TreeNode treeNode810 = new System.Windows.Forms.TreeNode("Cầu Quan Vệ", new System.Windows.Forms.TreeNode[] {
-            treeNode808,
-            treeNode809});
+            System.Windows.Forms.TreeNode treeNode1 = new System.Windows.Forms.TreeNode("Đầu ghi 1");
+            System.Windows.Forms.TreeNode treeNode2 = new System.Windows.Forms.TreeNode("Đầu ghi 2");
+            System.Windows.Forms.TreeNode treeNode3 = new System.Windows.Forms.TreeNode("Đầu ghi 3");
+            System.Windows.Forms.TreeNode treeNode4 = new System.Windows.Forms.TreeNode("Đầu ghi tại CA_Bình Minh", new System.Windows.Forms.TreeNode[] {
+            treeNode1,
+            treeNode2,
+            treeNode3});
+            System.Windows.Forms.TreeNode treeNode5 = new System.Windows.Forms.TreeNode("CAM_1");
+            System.Windows.Forms.TreeNode treeNode6 = new System.Windows.Forms.TreeNode("CAM_2");
+            System.Windows.Forms.TreeNode treeNode7 = new System.Windows.Forms.TreeNode("CAM_3");
+            System.Windows.Forms.TreeNode treeNode8 = new System.Windows.Forms.TreeNode("CAM_4");
+            System.Windows.Forms.TreeNode treeNode9 = new System.Windows.Forms.TreeNode("Ngã tư (Phan Văn Quân - Nguyễn Văn Thảnh - P.V.Năm)", new System.Windows.Forms.TreeNode[] {
+            treeNode5,
+            treeNode6,
+            treeNode7,
+            treeNode8});
+            System.Windows.Forms.TreeNode treeNode10 = new System.Windows.Forms.TreeNode("CAM_5");
+            System.Windows.Forms.TreeNode treeNode11 = new System.Windows.Forms.TreeNode("CAM_6");
+            System.Windows.Forms.TreeNode treeNode12 = new System.Windows.Forms.TreeNode("CAM_7");
+            System.Windows.Forms.TreeNode treeNode13 = new System.Windows.Forms.TreeNode("Ngã 3 (gần trạm cân cũ, hướng đi Bình Tân hoặc xuống bến đò)", new System.Windows.Forms.TreeNode[] {
+            treeNode10,
+            treeNode11,
+            treeNode12});
+            System.Windows.Forms.TreeNode treeNode14 = new System.Windows.Forms.TreeNode("CAM_8");
+            System.Windows.Forms.TreeNode treeNode15 = new System.Windows.Forms.TreeNode("Đầu đường xuống bến đò khóm 3 (đi Trần Phú - Cần Thơ)", new System.Windows.Forms.TreeNode[] {
+            treeNode14});
+            System.Windows.Forms.TreeNode treeNode16 = new System.Windows.Forms.TreeNode("CAM_9");
+            System.Windows.Forms.TreeNode treeNode17 = new System.Windows.Forms.TreeNode("CAM_10");
+            System.Windows.Forms.TreeNode treeNode18 = new System.Windows.Forms.TreeNode("CAM_11");
+            System.Windows.Forms.TreeNode treeNode19 = new System.Windows.Forms.TreeNode("Đầu đường vào cổng trường THPT Bình Minh", new System.Windows.Forms.TreeNode[] {
+            treeNode16,
+            treeNode17,
+            treeNode18});
+            System.Windows.Forms.TreeNode treeNode20 = new System.Windows.Forms.TreeNode("CAM_12");
+            System.Windows.Forms.TreeNode treeNode21 = new System.Windows.Forms.TreeNode("CAM_13");
+            System.Windows.Forms.TreeNode treeNode22 = new System.Windows.Forms.TreeNode("CAM_14");
+            System.Windows.Forms.TreeNode treeNode23 = new System.Windows.Forms.TreeNode("Đầu đường vào cổng trường THPT Hoàng Thái Hiếu", new System.Windows.Forms.TreeNode[] {
+            treeNode20,
+            treeNode21,
+            treeNode22});
+            System.Windows.Forms.TreeNode treeNode24 = new System.Windows.Forms.TreeNode("CAM_15");
+            System.Windows.Forms.TreeNode treeNode25 = new System.Windows.Forms.TreeNode("CAM_16");
+            System.Windows.Forms.TreeNode treeNode26 = new System.Windows.Forms.TreeNode("Chân Cầu Thành Lợi", new System.Windows.Forms.TreeNode[] {
+            treeNode24,
+            treeNode25});
+            System.Windows.Forms.TreeNode treeNode27 = new System.Windows.Forms.TreeNode("CAM_17");
+            System.Windows.Forms.TreeNode treeNode28 = new System.Windows.Forms.TreeNode("CAM_18");
+            System.Windows.Forms.TreeNode treeNode29 = new System.Windows.Forms.TreeNode("Ngã 4 (giao: Phan Văn Quân - Huỳnh Văn Đạt)", new System.Windows.Forms.TreeNode[] {
+            treeNode27,
+            treeNode28});
+            System.Windows.Forms.TreeNode treeNode30 = new System.Windows.Forms.TreeNode("CAM_19");
+            System.Windows.Forms.TreeNode treeNode31 = new System.Windows.Forms.TreeNode("CAM_20");
+            System.Windows.Forms.TreeNode treeNode32 = new System.Windows.Forms.TreeNode("Ngã 3 (giao: Huỳnh Văn Đạt - Hai Bà Trưng)", new System.Windows.Forms.TreeNode[] {
+            treeNode30,
+            treeNode31});
+            System.Windows.Forms.TreeNode treeNode33 = new System.Windows.Forms.TreeNode("CAM_21");
+            System.Windows.Forms.TreeNode treeNode34 = new System.Windows.Forms.TreeNode("CAM_22");
+            System.Windows.Forms.TreeNode treeNode35 = new System.Windows.Forms.TreeNode("Ngã 3 (sau Trung Tâm hành chính TX)", new System.Windows.Forms.TreeNode[] {
+            treeNode33,
+            treeNode34});
+            System.Windows.Forms.TreeNode treeNode36 = new System.Windows.Forms.TreeNode("CAM_23");
+            System.Windows.Forms.TreeNode treeNode37 = new System.Windows.Forms.TreeNode("CAM_24");
+            System.Windows.Forms.TreeNode treeNode38 = new System.Windows.Forms.TreeNode("CAM_25");
+            System.Windows.Forms.TreeNode treeNode39 = new System.Windows.Forms.TreeNode("CAM_26");
+            System.Windows.Forms.TreeNode treeNode40 = new System.Windows.Forms.TreeNode("Ngã 3 (trước cửa Trung tâm hành chính TX)", new System.Windows.Forms.TreeNode[] {
+            treeNode36,
+            treeNode37,
+            treeNode38,
+            treeNode39});
+            System.Windows.Forms.TreeNode treeNode41 = new System.Windows.Forms.TreeNode("CAM_27");
+            System.Windows.Forms.TreeNode treeNode42 = new System.Windows.Forms.TreeNode("CAM_28");
+            System.Windows.Forms.TreeNode treeNode43 = new System.Windows.Forms.TreeNode("CAM_29");
+            System.Windows.Forms.TreeNode treeNode44 = new System.Windows.Forms.TreeNode("CAM_30");
+            System.Windows.Forms.TreeNode treeNode45 = new System.Windows.Forms.TreeNode("Ngã 4 (giao: đường 3/2 - Phan Văn Năm)", new System.Windows.Forms.TreeNode[] {
+            treeNode41,
+            treeNode42,
+            treeNode43,
+            treeNode44});
+            System.Windows.Forms.TreeNode treeNode46 = new System.Windows.Forms.TreeNode("CAM_31");
+            System.Windows.Forms.TreeNode treeNode47 = new System.Windows.Forms.TreeNode("CAM_32");
+            System.Windows.Forms.TreeNode treeNode48 = new System.Windows.Forms.TreeNode("Ngã 4 (giao: Lê Văn Dị - Phan Văn Năm)", new System.Windows.Forms.TreeNode[] {
+            treeNode46,
+            treeNode47});
+            System.Windows.Forms.TreeNode treeNode49 = new System.Windows.Forms.TreeNode("CAM_33");
+            System.Windows.Forms.TreeNode treeNode50 = new System.Windows.Forms.TreeNode("CAM_34");
+            System.Windows.Forms.TreeNode treeNode51 = new System.Windows.Forms.TreeNode("CAM_35");
+            System.Windows.Forms.TreeNode treeNode52 = new System.Windows.Forms.TreeNode("CAM_36");
+            System.Windows.Forms.TreeNode treeNode53 = new System.Windows.Forms.TreeNode("Ngã 4 (giao: Phan Văn Năm - Ngô Quyền)", new System.Windows.Forms.TreeNode[] {
+            treeNode49,
+            treeNode50,
+            treeNode51,
+            treeNode52});
+            System.Windows.Forms.TreeNode treeNode54 = new System.Windows.Forms.TreeNode("CAM_37");
+            System.Windows.Forms.TreeNode treeNode55 = new System.Windows.Forms.TreeNode("CAM_38");
+            System.Windows.Forms.TreeNode treeNode56 = new System.Windows.Forms.TreeNode("CAM_39");
+            System.Windows.Forms.TreeNode treeNode57 = new System.Windows.Forms.TreeNode("CAM_40");
+            System.Windows.Forms.TreeNode treeNode58 = new System.Windows.Forms.TreeNode("Ngã 4 (giao: Ngô Quyền - Nguyễn Văn Thảnh)", new System.Windows.Forms.TreeNode[] {
+            treeNode54,
+            treeNode55,
+            treeNode56,
+            treeNode57});
+            System.Windows.Forms.TreeNode treeNode59 = new System.Windows.Forms.TreeNode("CAM_41");
+            System.Windows.Forms.TreeNode treeNode60 = new System.Windows.Forms.TreeNode("CAM_42");
+            System.Windows.Forms.TreeNode treeNode61 = new System.Windows.Forms.TreeNode("Ngã 4 Cua 3 Lời", new System.Windows.Forms.TreeNode[] {
+            treeNode59,
+            treeNode60});
+            System.Windows.Forms.TreeNode treeNode62 = new System.Windows.Forms.TreeNode("CAM_43");
+            System.Windows.Forms.TreeNode treeNode63 = new System.Windows.Forms.TreeNode("CAM_44");
+            System.Windows.Forms.TreeNode treeNode64 = new System.Windows.Forms.TreeNode("Ngã 3 Rạch Xẻo Nga (trước cửa Vật liệu XD Thành Tất)", new System.Windows.Forms.TreeNode[] {
+            treeNode62,
+            treeNode63});
+            System.Windows.Forms.TreeNode treeNode65 = new System.Windows.Forms.TreeNode("CAM_45");
+            System.Windows.Forms.TreeNode treeNode66 = new System.Windows.Forms.TreeNode("CAM_46");
+            System.Windows.Forms.TreeNode treeNode67 = new System.Windows.Forms.TreeNode("CAM_47");
+            System.Windows.Forms.TreeNode treeNode68 = new System.Windows.Forms.TreeNode("CAM_48");
+            System.Windows.Forms.TreeNode treeNode69 = new System.Windows.Forms.TreeNode("CAM_49");
+            System.Windows.Forms.TreeNode treeNode70 = new System.Windows.Forms.TreeNode("Ngã 3 (Nguyễn Văn Thảnh - Lưu Nhơn Sâm)", new System.Windows.Forms.TreeNode[] {
+            treeNode65,
+            treeNode66,
+            treeNode67,
+            treeNode68,
+            treeNode69});
+            System.Windows.Forms.TreeNode treeNode71 = new System.Windows.Forms.TreeNode("CAM_50");
+            System.Windows.Forms.TreeNode treeNode72 = new System.Windows.Forms.TreeNode("CAM_51");
+            System.Windows.Forms.TreeNode treeNode73 = new System.Windows.Forms.TreeNode("Ngã 3 trước Trường Thoại Ngọc Hầu", new System.Windows.Forms.TreeNode[] {
+            treeNode71,
+            treeNode72});
+            System.Windows.Forms.TreeNode treeNode74 = new System.Windows.Forms.TreeNode("CAM_52");
+            System.Windows.Forms.TreeNode treeNode75 = new System.Windows.Forms.TreeNode("Điểm quay đầu xe khu vực Bến xe Phương Trang 1", new System.Windows.Forms.TreeNode[] {
+            treeNode74});
+            System.Windows.Forms.TreeNode treeNode76 = new System.Windows.Forms.TreeNode("CAM_53");
+            System.Windows.Forms.TreeNode treeNode77 = new System.Windows.Forms.TreeNode("Điểm quay đầu xe khu vực Bến xe Phương Trang 2", new System.Windows.Forms.TreeNode[] {
+            treeNode76});
+            System.Windows.Forms.TreeNode treeNode78 = new System.Windows.Forms.TreeNode("CAM_54");
+            System.Windows.Forms.TreeNode treeNode79 = new System.Windows.Forms.TreeNode("Điểm quay đầu gần Bến đò Giáo Mẹo 1", new System.Windows.Forms.TreeNode[] {
+            treeNode78});
+            System.Windows.Forms.TreeNode treeNode80 = new System.Windows.Forms.TreeNode("CAM_55");
+            System.Windows.Forms.TreeNode treeNode81 = new System.Windows.Forms.TreeNode("Điểm quay đầu gần Bến đò Giáo Mẹo 2", new System.Windows.Forms.TreeNode[] {
+            treeNode80});
+            System.Windows.Forms.TreeNode treeNode82 = new System.Windows.Forms.TreeNode("CAM_56");
+            System.Windows.Forms.TreeNode treeNode83 = new System.Windows.Forms.TreeNode("CAM_57");
+            System.Windows.Forms.TreeNode treeNode84 = new System.Windows.Forms.TreeNode("Ngã 3 Đầu đường vào Thuận An - Rạch Sậy", new System.Windows.Forms.TreeNode[] {
+            treeNode82,
+            treeNode83});
+            System.Windows.Forms.TreeNode treeNode85 = new System.Windows.Forms.TreeNode("CAM_58");
+            System.Windows.Forms.TreeNode treeNode86 = new System.Windows.Forms.TreeNode("CAM_59");
+            System.Windows.Forms.TreeNode treeNode87 = new System.Windows.Forms.TreeNode("Chân cầu Khoán Tiết", new System.Windows.Forms.TreeNode[] {
+            treeNode85,
+            treeNode86});
+            System.Windows.Forms.TreeNode treeNode88 = new System.Windows.Forms.TreeNode("CAM_60");
+            System.Windows.Forms.TreeNode treeNode89 = new System.Windows.Forms.TreeNode("CAM_61");
+            System.Windows.Forms.TreeNode treeNode90 = new System.Windows.Forms.TreeNode("CAM_62");
+            System.Windows.Forms.TreeNode treeNode91 = new System.Windows.Forms.TreeNode("CAM_63");
+            System.Windows.Forms.TreeNode treeNode92 = new System.Windows.Forms.TreeNode("Chân cầu vượt QL54 (phía đi Trà Ôn)", new System.Windows.Forms.TreeNode[] {
+            treeNode88,
+            treeNode89,
+            treeNode90,
+            treeNode91});
+            System.Windows.Forms.TreeNode treeNode93 = new System.Windows.Forms.TreeNode("CAM_64");
+            System.Windows.Forms.TreeNode treeNode94 = new System.Windows.Forms.TreeNode("CAM_65");
+            System.Windows.Forms.TreeNode treeNode95 = new System.Windows.Forms.TreeNode("CAM_66");
+            System.Windows.Forms.TreeNode treeNode96 = new System.Windows.Forms.TreeNode("CAM_67");
+            System.Windows.Forms.TreeNode treeNode97 = new System.Windows.Forms.TreeNode("Chân cầu vượt QL54 (phía đi Bình Minh)", new System.Windows.Forms.TreeNode[] {
+            treeNode93,
+            treeNode94,
+            treeNode95,
+            treeNode96});
+            System.Windows.Forms.TreeNode treeNode98 = new System.Windows.Forms.TreeNode("CAM_68");
+            System.Windows.Forms.TreeNode treeNode99 = new System.Windows.Forms.TreeNode("Ngã 3 Đầu đường vào Đông Thạnh (trước cửa cây xăng Cường Phát)", new System.Windows.Forms.TreeNode[] {
+            treeNode98});
+            System.Windows.Forms.TreeNode treeNode100 = new System.Windows.Forms.TreeNode("CAM_69");
+            System.Windows.Forms.TreeNode treeNode101 = new System.Windows.Forms.TreeNode("CAM_70");
+            System.Windows.Forms.TreeNode treeNode102 = new System.Windows.Forms.TreeNode("CAM_71");
+            System.Windows.Forms.TreeNode treeNode103 = new System.Windows.Forms.TreeNode("Đầu đường vào Cầu Mỹ Hoà Tây", new System.Windows.Forms.TreeNode[] {
+            treeNode100,
+            treeNode101,
+            treeNode102});
+            System.Windows.Forms.TreeNode treeNode104 = new System.Windows.Forms.TreeNode("CAM_72");
+            System.Windows.Forms.TreeNode treeNode105 = new System.Windows.Forms.TreeNode("CAM_73");
+            System.Windows.Forms.TreeNode treeNode106 = new System.Windows.Forms.TreeNode("Cầu Dừa (cầu Bến xe) Đông Thành", new System.Windows.Forms.TreeNode[] {
+            treeNode104,
+            treeNode105});
+            System.Windows.Forms.TreeNode treeNode107 = new System.Windows.Forms.TreeNode("CAM_74");
+            System.Windows.Forms.TreeNode treeNode108 = new System.Windows.Forms.TreeNode("CAM_75");
+            System.Windows.Forms.TreeNode treeNode109 = new System.Windows.Forms.TreeNode("Chợ Hoá Thành", new System.Windows.Forms.TreeNode[] {
+            treeNode107,
+            treeNode108});
+            System.Windows.Forms.TreeNode treeNode110 = new System.Windows.Forms.TreeNode("CAM_76");
+            System.Windows.Forms.TreeNode treeNode111 = new System.Windows.Forms.TreeNode("CAM_77");
+            System.Windows.Forms.TreeNode treeNode112 = new System.Windows.Forms.TreeNode("Đầu đường 26/3", new System.Windows.Forms.TreeNode[] {
+            treeNode110,
+            treeNode111});
+            System.Windows.Forms.TreeNode treeNode113 = new System.Windows.Forms.TreeNode("CAM_78");
+            System.Windows.Forms.TreeNode treeNode114 = new System.Windows.Forms.TreeNode("CAM_79");
+            System.Windows.Forms.TreeNode treeNode115 = new System.Windows.Forms.TreeNode("Ngã 3 (QL54 - Đường qua cầu Mỹ Hoà)", new System.Windows.Forms.TreeNode[] {
+            treeNode113,
+            treeNode114});
+            System.Windows.Forms.TreeNode treeNode116 = new System.Windows.Forms.TreeNode("CAM_80");
+            System.Windows.Forms.TreeNode treeNode117 = new System.Windows.Forms.TreeNode("CAM_81");
+            System.Windows.Forms.TreeNode treeNode118 = new System.Windows.Forms.TreeNode("Ngã ba Tắt Ông Phò", new System.Windows.Forms.TreeNode[] {
+            treeNode116,
+            treeNode117});
+            System.Windows.Forms.TreeNode treeNode119 = new System.Windows.Forms.TreeNode("CAM_82");
+            System.Windows.Forms.TreeNode treeNode120 = new System.Windows.Forms.TreeNode("CAM_83");
+            System.Windows.Forms.TreeNode treeNode121 = new System.Windows.Forms.TreeNode("Đầu đường vào công ty 620", new System.Windows.Forms.TreeNode[] {
+            treeNode119,
+            treeNode120});
+            System.Windows.Forms.TreeNode treeNode122 = new System.Windows.Forms.TreeNode("CAM_84");
+            System.Windows.Forms.TreeNode treeNode123 = new System.Windows.Forms.TreeNode("CAM_85");
+            System.Windows.Forms.TreeNode treeNode124 = new System.Windows.Forms.TreeNode("Dạ Cầu Cần Thơ (tại nhịp sập)", new System.Windows.Forms.TreeNode[] {
+            treeNode122,
+            treeNode123});
+            System.Windows.Forms.TreeNode treeNode125 = new System.Windows.Forms.TreeNode("CAM_86");
+            System.Windows.Forms.TreeNode treeNode126 = new System.Windows.Forms.TreeNode("CAM_87");
+            System.Windows.Forms.TreeNode treeNode127 = new System.Windows.Forms.TreeNode("Trước cổng KCN Bình Minh", new System.Windows.Forms.TreeNode[] {
+            treeNode125,
+            treeNode126});
+            System.Windows.Forms.TreeNode treeNode128 = new System.Windows.Forms.TreeNode("CAM_88");
+            System.Windows.Forms.TreeNode treeNode129 = new System.Windows.Forms.TreeNode("CAM_89");
+            System.Windows.Forms.TreeNode treeNode130 = new System.Windows.Forms.TreeNode("Trước UBND Cái Vồn", new System.Windows.Forms.TreeNode[] {
+            treeNode128,
+            treeNode129});
+            System.Windows.Forms.TreeNode treeNode131 = new System.Windows.Forms.TreeNode("Đầu ghi 1");
+            System.Windows.Forms.TreeNode treeNode132 = new System.Windows.Forms.TreeNode("Đầu ghi 2");
+            System.Windows.Forms.TreeNode treeNode133 = new System.Windows.Forms.TreeNode("Đầu ghi 3");
+            System.Windows.Forms.TreeNode treeNode134 = new System.Windows.Forms.TreeNode("Đầu ghi tại CA_Bình Minh", new System.Windows.Forms.TreeNode[] {
+            treeNode131,
+            treeNode132,
+            treeNode133});
+            System.Windows.Forms.TreeNode treeNode135 = new System.Windows.Forms.TreeNode("CAM_1");
+            System.Windows.Forms.TreeNode treeNode136 = new System.Windows.Forms.TreeNode("CAM_2");
+            System.Windows.Forms.TreeNode treeNode137 = new System.Windows.Forms.TreeNode("CAM_3");
+            System.Windows.Forms.TreeNode treeNode138 = new System.Windows.Forms.TreeNode("CAM_4");
+            System.Windows.Forms.TreeNode treeNode139 = new System.Windows.Forms.TreeNode("Ngã tư (Phan Văn Quân - Nguyễn Văn Thảnh - P.V.Năm)", new System.Windows.Forms.TreeNode[] {
+            treeNode135,
+            treeNode136,
+            treeNode137,
+            treeNode138});
+            System.Windows.Forms.TreeNode treeNode140 = new System.Windows.Forms.TreeNode("CAM_5");
+            System.Windows.Forms.TreeNode treeNode141 = new System.Windows.Forms.TreeNode("CAM_6");
+            System.Windows.Forms.TreeNode treeNode142 = new System.Windows.Forms.TreeNode("CAM_7");
+            System.Windows.Forms.TreeNode treeNode143 = new System.Windows.Forms.TreeNode("Ngã 3 (gần trạm cân cũ, hướng đi Bình Tân hoặc xuống bến đò)", new System.Windows.Forms.TreeNode[] {
+            treeNode140,
+            treeNode141,
+            treeNode142});
+            System.Windows.Forms.TreeNode treeNode144 = new System.Windows.Forms.TreeNode("CAM_8");
+            System.Windows.Forms.TreeNode treeNode145 = new System.Windows.Forms.TreeNode("Đầu đường xuống bến đò khóm 3 (đi Trần Phú - Cần Thơ)", new System.Windows.Forms.TreeNode[] {
+            treeNode144});
+            System.Windows.Forms.TreeNode treeNode146 = new System.Windows.Forms.TreeNode("CAM_9");
+            System.Windows.Forms.TreeNode treeNode147 = new System.Windows.Forms.TreeNode("CAM_10");
+            System.Windows.Forms.TreeNode treeNode148 = new System.Windows.Forms.TreeNode("CAM_11");
+            System.Windows.Forms.TreeNode treeNode149 = new System.Windows.Forms.TreeNode("Đầu đường vào cổng trường THPT Bình Minh", new System.Windows.Forms.TreeNode[] {
+            treeNode146,
+            treeNode147,
+            treeNode148});
+            System.Windows.Forms.TreeNode treeNode150 = new System.Windows.Forms.TreeNode("CAM_12");
+            System.Windows.Forms.TreeNode treeNode151 = new System.Windows.Forms.TreeNode("CAM_13");
+            System.Windows.Forms.TreeNode treeNode152 = new System.Windows.Forms.TreeNode("CAM_14");
+            System.Windows.Forms.TreeNode treeNode153 = new System.Windows.Forms.TreeNode("Đầu đường vào cổng trường THPT Hoàng Thái Hiếu", new System.Windows.Forms.TreeNode[] {
+            treeNode150,
+            treeNode151,
+            treeNode152});
+            System.Windows.Forms.TreeNode treeNode154 = new System.Windows.Forms.TreeNode("CAM_15");
+            System.Windows.Forms.TreeNode treeNode155 = new System.Windows.Forms.TreeNode("CAM_16");
+            System.Windows.Forms.TreeNode treeNode156 = new System.Windows.Forms.TreeNode("Chân Cầu Thành Lợi", new System.Windows.Forms.TreeNode[] {
+            treeNode154,
+            treeNode155});
+            System.Windows.Forms.TreeNode treeNode157 = new System.Windows.Forms.TreeNode("CAM_17");
+            System.Windows.Forms.TreeNode treeNode158 = new System.Windows.Forms.TreeNode("CAM_18");
+            System.Windows.Forms.TreeNode treeNode159 = new System.Windows.Forms.TreeNode("Ngã 4 (giao: Phan Văn Quân - Huỳnh Văn Đạt)", new System.Windows.Forms.TreeNode[] {
+            treeNode157,
+            treeNode158});
+            System.Windows.Forms.TreeNode treeNode160 = new System.Windows.Forms.TreeNode("CAM_19");
+            System.Windows.Forms.TreeNode treeNode161 = new System.Windows.Forms.TreeNode("CAM_20");
+            System.Windows.Forms.TreeNode treeNode162 = new System.Windows.Forms.TreeNode("Ngã 3 (giao: Huỳnh Văn Đạt - Hai Bà Trưng)", new System.Windows.Forms.TreeNode[] {
+            treeNode160,
+            treeNode161});
+            System.Windows.Forms.TreeNode treeNode163 = new System.Windows.Forms.TreeNode("CAM_21");
+            System.Windows.Forms.TreeNode treeNode164 = new System.Windows.Forms.TreeNode("CAM_22");
+            System.Windows.Forms.TreeNode treeNode165 = new System.Windows.Forms.TreeNode("Ngã 3 (sau Trung Tâm hành chính TX)", new System.Windows.Forms.TreeNode[] {
+            treeNode163,
+            treeNode164});
+            System.Windows.Forms.TreeNode treeNode166 = new System.Windows.Forms.TreeNode("CAM_23");
+            System.Windows.Forms.TreeNode treeNode167 = new System.Windows.Forms.TreeNode("CAM_24");
+            System.Windows.Forms.TreeNode treeNode168 = new System.Windows.Forms.TreeNode("CAM_25");
+            System.Windows.Forms.TreeNode treeNode169 = new System.Windows.Forms.TreeNode("CAM_26");
+            System.Windows.Forms.TreeNode treeNode170 = new System.Windows.Forms.TreeNode("Ngã 3 (trước cửa Trung tâm hành chính TX)", new System.Windows.Forms.TreeNode[] {
+            treeNode166,
+            treeNode167,
+            treeNode168,
+            treeNode169});
+            System.Windows.Forms.TreeNode treeNode171 = new System.Windows.Forms.TreeNode("CAM_27");
+            System.Windows.Forms.TreeNode treeNode172 = new System.Windows.Forms.TreeNode("CAM_28");
+            System.Windows.Forms.TreeNode treeNode173 = new System.Windows.Forms.TreeNode("CAM_29");
+            System.Windows.Forms.TreeNode treeNode174 = new System.Windows.Forms.TreeNode("CAM_30");
+            System.Windows.Forms.TreeNode treeNode175 = new System.Windows.Forms.TreeNode("Ngã 4 (giao: đường 3/2 - Phan Văn Năm)", new System.Windows.Forms.TreeNode[] {
+            treeNode171,
+            treeNode172,
+            treeNode173,
+            treeNode174});
+            System.Windows.Forms.TreeNode treeNode176 = new System.Windows.Forms.TreeNode("CAM_31");
+            System.Windows.Forms.TreeNode treeNode177 = new System.Windows.Forms.TreeNode("CAM_32");
+            System.Windows.Forms.TreeNode treeNode178 = new System.Windows.Forms.TreeNode("Ngã 4 (giao: Lê Văn Dị - Phan Văn Năm)", new System.Windows.Forms.TreeNode[] {
+            treeNode176,
+            treeNode177});
+            System.Windows.Forms.TreeNode treeNode179 = new System.Windows.Forms.TreeNode("CAM_33");
+            System.Windows.Forms.TreeNode treeNode180 = new System.Windows.Forms.TreeNode("CAM_34");
+            System.Windows.Forms.TreeNode treeNode181 = new System.Windows.Forms.TreeNode("CAM_35");
+            System.Windows.Forms.TreeNode treeNode182 = new System.Windows.Forms.TreeNode("CAM_36");
+            System.Windows.Forms.TreeNode treeNode183 = new System.Windows.Forms.TreeNode("Ngã 4 (giao: Phan Văn Năm - Ngô Quyền)", new System.Windows.Forms.TreeNode[] {
+            treeNode179,
+            treeNode180,
+            treeNode181,
+            treeNode182});
+            System.Windows.Forms.TreeNode treeNode184 = new System.Windows.Forms.TreeNode("CAM_37");
+            System.Windows.Forms.TreeNode treeNode185 = new System.Windows.Forms.TreeNode("CAM_38");
+            System.Windows.Forms.TreeNode treeNode186 = new System.Windows.Forms.TreeNode("CAM_39");
+            System.Windows.Forms.TreeNode treeNode187 = new System.Windows.Forms.TreeNode("CAM_40");
+            System.Windows.Forms.TreeNode treeNode188 = new System.Windows.Forms.TreeNode("Ngã 4 (giao: Ngô Quyền - Nguyễn Văn Thảnh)", new System.Windows.Forms.TreeNode[] {
+            treeNode184,
+            treeNode185,
+            treeNode186,
+            treeNode187});
+            System.Windows.Forms.TreeNode treeNode189 = new System.Windows.Forms.TreeNode("CAM_41");
+            System.Windows.Forms.TreeNode treeNode190 = new System.Windows.Forms.TreeNode("CAM_42");
+            System.Windows.Forms.TreeNode treeNode191 = new System.Windows.Forms.TreeNode("Ngã 4 Cua 3 Lời", new System.Windows.Forms.TreeNode[] {
+            treeNode189,
+            treeNode190});
+            System.Windows.Forms.TreeNode treeNode192 = new System.Windows.Forms.TreeNode("CAM_43");
+            System.Windows.Forms.TreeNode treeNode193 = new System.Windows.Forms.TreeNode("CAM_44");
+            System.Windows.Forms.TreeNode treeNode194 = new System.Windows.Forms.TreeNode("Ngã 3 Rạch Xẻo Nga (trước cửa Vật liệu XD Thành Tất)", new System.Windows.Forms.TreeNode[] {
+            treeNode192,
+            treeNode193});
+            System.Windows.Forms.TreeNode treeNode195 = new System.Windows.Forms.TreeNode("CAM_45");
+            System.Windows.Forms.TreeNode treeNode196 = new System.Windows.Forms.TreeNode("CAM_46");
+            System.Windows.Forms.TreeNode treeNode197 = new System.Windows.Forms.TreeNode("CAM_47");
+            System.Windows.Forms.TreeNode treeNode198 = new System.Windows.Forms.TreeNode("CAM_48");
+            System.Windows.Forms.TreeNode treeNode199 = new System.Windows.Forms.TreeNode("CAM_49");
+            System.Windows.Forms.TreeNode treeNode200 = new System.Windows.Forms.TreeNode("Ngã 3 (Nguyễn Văn Thảnh - Lưu Nhơn Sâm)", new System.Windows.Forms.TreeNode[] {
+            treeNode195,
+            treeNode196,
+            treeNode197,
+            treeNode198,
+            treeNode199});
+            System.Windows.Forms.TreeNode treeNode201 = new System.Windows.Forms.TreeNode("CAM_50");
+            System.Windows.Forms.TreeNode treeNode202 = new System.Windows.Forms.TreeNode("CAM_51");
+            System.Windows.Forms.TreeNode treeNode203 = new System.Windows.Forms.TreeNode("Ngã 3 trước Trường Thoại Ngọc Hầu", new System.Windows.Forms.TreeNode[] {
+            treeNode201,
+            treeNode202});
+            System.Windows.Forms.TreeNode treeNode204 = new System.Windows.Forms.TreeNode("CAM_52");
+            System.Windows.Forms.TreeNode treeNode205 = new System.Windows.Forms.TreeNode("Điểm quay đầu xe khu vực Bến xe Phương Trang 1", new System.Windows.Forms.TreeNode[] {
+            treeNode204});
+            System.Windows.Forms.TreeNode treeNode206 = new System.Windows.Forms.TreeNode("CAM_53");
+            System.Windows.Forms.TreeNode treeNode207 = new System.Windows.Forms.TreeNode("Điểm quay đầu xe khu vực Bến xe Phương Trang 2", new System.Windows.Forms.TreeNode[] {
+            treeNode206});
+            System.Windows.Forms.TreeNode treeNode208 = new System.Windows.Forms.TreeNode("CAM_54");
+            System.Windows.Forms.TreeNode treeNode209 = new System.Windows.Forms.TreeNode("Điểm quay đầu gần Bến đò Giáo Mẹo 1", new System.Windows.Forms.TreeNode[] {
+            treeNode208});
+            System.Windows.Forms.TreeNode treeNode210 = new System.Windows.Forms.TreeNode("CAM_55");
+            System.Windows.Forms.TreeNode treeNode211 = new System.Windows.Forms.TreeNode("Điểm quay đầu gần Bến đò Giáo Mẹo 2", new System.Windows.Forms.TreeNode[] {
+            treeNode210});
+            System.Windows.Forms.TreeNode treeNode212 = new System.Windows.Forms.TreeNode("CAM_56");
+            System.Windows.Forms.TreeNode treeNode213 = new System.Windows.Forms.TreeNode("CAM_57");
+            System.Windows.Forms.TreeNode treeNode214 = new System.Windows.Forms.TreeNode("Ngã 3 Đầu đường vào Thuận An - Rạch Sậy", new System.Windows.Forms.TreeNode[] {
+            treeNode212,
+            treeNode213});
+            System.Windows.Forms.TreeNode treeNode215 = new System.Windows.Forms.TreeNode("CAM_58");
+            System.Windows.Forms.TreeNode treeNode216 = new System.Windows.Forms.TreeNode("CAM_59");
+            System.Windows.Forms.TreeNode treeNode217 = new System.Windows.Forms.TreeNode("Chân cầu Khoán Tiết", new System.Windows.Forms.TreeNode[] {
+            treeNode215,
+            treeNode216});
+            System.Windows.Forms.TreeNode treeNode218 = new System.Windows.Forms.TreeNode("CAM_60");
+            System.Windows.Forms.TreeNode treeNode219 = new System.Windows.Forms.TreeNode("CAM_61");
+            System.Windows.Forms.TreeNode treeNode220 = new System.Windows.Forms.TreeNode("CAM_62");
+            System.Windows.Forms.TreeNode treeNode221 = new System.Windows.Forms.TreeNode("CAM_63");
+            System.Windows.Forms.TreeNode treeNode222 = new System.Windows.Forms.TreeNode("Chân cầu vượt QL54 (phía đi Trà Ôn)", new System.Windows.Forms.TreeNode[] {
+            treeNode218,
+            treeNode219,
+            treeNode220,
+            treeNode221});
+            System.Windows.Forms.TreeNode treeNode223 = new System.Windows.Forms.TreeNode("CAM_64");
+            System.Windows.Forms.TreeNode treeNode224 = new System.Windows.Forms.TreeNode("CAM_65");
+            System.Windows.Forms.TreeNode treeNode225 = new System.Windows.Forms.TreeNode("CAM_66");
+            System.Windows.Forms.TreeNode treeNode226 = new System.Windows.Forms.TreeNode("CAM_67");
+            System.Windows.Forms.TreeNode treeNode227 = new System.Windows.Forms.TreeNode("Chân cầu vượt QL54 (phía đi Bình Minh)", new System.Windows.Forms.TreeNode[] {
+            treeNode223,
+            treeNode224,
+            treeNode225,
+            treeNode226});
+            System.Windows.Forms.TreeNode treeNode228 = new System.Windows.Forms.TreeNode("CAM_68");
+            System.Windows.Forms.TreeNode treeNode229 = new System.Windows.Forms.TreeNode("Ngã 3 Đầu đường vào Đông Thạnh (trước cửa cây xăng Cường Phát)", new System.Windows.Forms.TreeNode[] {
+            treeNode228});
+            System.Windows.Forms.TreeNode treeNode230 = new System.Windows.Forms.TreeNode("CAM_69");
+            System.Windows.Forms.TreeNode treeNode231 = new System.Windows.Forms.TreeNode("CAM_70");
+            System.Windows.Forms.TreeNode treeNode232 = new System.Windows.Forms.TreeNode("CAM_71");
+            System.Windows.Forms.TreeNode treeNode233 = new System.Windows.Forms.TreeNode("Đầu đường vào Cầu Mỹ Hoà Tây", new System.Windows.Forms.TreeNode[] {
+            treeNode230,
+            treeNode231,
+            treeNode232});
+            System.Windows.Forms.TreeNode treeNode234 = new System.Windows.Forms.TreeNode("CAM_72");
+            System.Windows.Forms.TreeNode treeNode235 = new System.Windows.Forms.TreeNode("CAM_73");
+            System.Windows.Forms.TreeNode treeNode236 = new System.Windows.Forms.TreeNode("Cầu Dừa (cầu Bến xe) Đông Thành", new System.Windows.Forms.TreeNode[] {
+            treeNode234,
+            treeNode235});
+            System.Windows.Forms.TreeNode treeNode237 = new System.Windows.Forms.TreeNode("CAM_74");
+            System.Windows.Forms.TreeNode treeNode238 = new System.Windows.Forms.TreeNode("CAM_75");
+            System.Windows.Forms.TreeNode treeNode239 = new System.Windows.Forms.TreeNode("Chợ Hoá Thành", new System.Windows.Forms.TreeNode[] {
+            treeNode237,
+            treeNode238});
+            System.Windows.Forms.TreeNode treeNode240 = new System.Windows.Forms.TreeNode("CAM_76");
+            System.Windows.Forms.TreeNode treeNode241 = new System.Windows.Forms.TreeNode("CAM_77");
+            System.Windows.Forms.TreeNode treeNode242 = new System.Windows.Forms.TreeNode("Đầu đường 26/3", new System.Windows.Forms.TreeNode[] {
+            treeNode240,
+            treeNode241});
+            System.Windows.Forms.TreeNode treeNode243 = new System.Windows.Forms.TreeNode("CAM_78");
+            System.Windows.Forms.TreeNode treeNode244 = new System.Windows.Forms.TreeNode("CAM_79");
+            System.Windows.Forms.TreeNode treeNode245 = new System.Windows.Forms.TreeNode("Ngã 3 (QL54 - Đường qua cầu Mỹ Hoà)", new System.Windows.Forms.TreeNode[] {
+            treeNode243,
+            treeNode244});
+            System.Windows.Forms.TreeNode treeNode246 = new System.Windows.Forms.TreeNode("CAM_80");
+            System.Windows.Forms.TreeNode treeNode247 = new System.Windows.Forms.TreeNode("CAM_81");
+            System.Windows.Forms.TreeNode treeNode248 = new System.Windows.Forms.TreeNode("Ngã ba Tắt Ông Phò", new System.Windows.Forms.TreeNode[] {
+            treeNode246,
+            treeNode247});
+            System.Windows.Forms.TreeNode treeNode249 = new System.Windows.Forms.TreeNode("CAM_82");
+            System.Windows.Forms.TreeNode treeNode250 = new System.Windows.Forms.TreeNode("CAM_83");
+            System.Windows.Forms.TreeNode treeNode251 = new System.Windows.Forms.TreeNode("Đầu đường vào công ty 620", new System.Windows.Forms.TreeNode[] {
+            treeNode249,
+            treeNode250});
+            System.Windows.Forms.TreeNode treeNode252 = new System.Windows.Forms.TreeNode("CAM_84");
+            System.Windows.Forms.TreeNode treeNode253 = new System.Windows.Forms.TreeNode("CAM_85");
+            System.Windows.Forms.TreeNode treeNode254 = new System.Windows.Forms.TreeNode("Dạ Cầu Cần Thơ (tại nhịp sập)", new System.Windows.Forms.TreeNode[] {
+            treeNode252,
+            treeNode253});
+            System.Windows.Forms.TreeNode treeNode255 = new System.Windows.Forms.TreeNode("CAM_86");
+            System.Windows.Forms.TreeNode treeNode256 = new System.Windows.Forms.TreeNode("CAM_87");
+            System.Windows.Forms.TreeNode treeNode257 = new System.Windows.Forms.TreeNode("Trước cổng KCN Bình Minh", new System.Windows.Forms.TreeNode[] {
+            treeNode255,
+            treeNode256});
+            System.Windows.Forms.TreeNode treeNode258 = new System.Windows.Forms.TreeNode("CAM_88");
+            System.Windows.Forms.TreeNode treeNode259 = new System.Windows.Forms.TreeNode("CAM_89");
+            System.Windows.Forms.TreeNode treeNode260 = new System.Windows.Forms.TreeNode("Trước UBND Cái Vồn", new System.Windows.Forms.TreeNode[] {
+            treeNode258,
+            treeNode259});
+            System.Windows.Forms.TreeNode treeNode261 = new System.Windows.Forms.TreeNode("Đầu ghi 1");
+            System.Windows.Forms.TreeNode treeNode262 = new System.Windows.Forms.TreeNode("Đầu ghi 2");
+            System.Windows.Forms.TreeNode treeNode263 = new System.Windows.Forms.TreeNode("Đầu ghi 3");
+            System.Windows.Forms.TreeNode treeNode264 = new System.Windows.Forms.TreeNode("CA Huyện Tam Bình", new System.Windows.Forms.TreeNode[] {
+            treeNode261,
+            treeNode262,
+            treeNode263});
+            System.Windows.Forms.TreeNode treeNode265 = new System.Windows.Forms.TreeNode("CAM_1");
+            System.Windows.Forms.TreeNode treeNode266 = new System.Windows.Forms.TreeNode("CAM_2");
+            System.Windows.Forms.TreeNode treeNode267 = new System.Windows.Forms.TreeNode("Trước CA huyện Tam Bình", new System.Windows.Forms.TreeNode[] {
+            treeNode265,
+            treeNode266});
+            System.Windows.Forms.TreeNode treeNode268 = new System.Windows.Forms.TreeNode("CAM_3");
+            System.Windows.Forms.TreeNode treeNode269 = new System.Windows.Forms.TreeNode("CAM_4");
+            System.Windows.Forms.TreeNode treeNode270 = new System.Windows.Forms.TreeNode("CAM_5");
+            System.Windows.Forms.TreeNode treeNode271 = new System.Windows.Forms.TreeNode("Ngã ba bệnh viện", new System.Windows.Forms.TreeNode[] {
+            treeNode268,
+            treeNode269,
+            treeNode270});
+            System.Windows.Forms.TreeNode treeNode272 = new System.Windows.Forms.TreeNode("CAM_6");
+            System.Windows.Forms.TreeNode treeNode273 = new System.Windows.Forms.TreeNode("CAM_7");
+            System.Windows.Forms.TreeNode treeNode274 = new System.Windows.Forms.TreeNode("Ngã ba đường liên Khóm 2/3", new System.Windows.Forms.TreeNode[] {
+            treeNode272,
+            treeNode273});
+            System.Windows.Forms.TreeNode treeNode275 = new System.Windows.Forms.TreeNode("CAM_8");
+            System.Windows.Forms.TreeNode treeNode276 = new System.Windows.Forms.TreeNode("CAM_9");
+            System.Windows.Forms.TreeNode treeNode277 = new System.Windows.Forms.TreeNode("Cầu Bình Phú/đường 909", new System.Windows.Forms.TreeNode[] {
+            treeNode275,
+            treeNode276});
+            System.Windows.Forms.TreeNode treeNode278 = new System.Windows.Forms.TreeNode("CAM_10");
+            System.Windows.Forms.TreeNode treeNode279 = new System.Windows.Forms.TreeNode("CAM_11");
+            System.Windows.Forms.TreeNode treeNode280 = new System.Windows.Forms.TreeNode("CAM_12");
+            System.Windows.Forms.TreeNode treeNode281 = new System.Windows.Forms.TreeNode("Ngã 4 xã Loan Mỹ", new System.Windows.Forms.TreeNode[] {
+            treeNode278,
+            treeNode279,
+            treeNode280});
+            System.Windows.Forms.TreeNode treeNode282 = new System.Windows.Forms.TreeNode("CAM_13");
+            System.Windows.Forms.TreeNode treeNode283 = new System.Windows.Forms.TreeNode("CAM_14");
+            System.Windows.Forms.TreeNode treeNode284 = new System.Windows.Forms.TreeNode("Cầu Kênh Xáng", new System.Windows.Forms.TreeNode[] {
+            treeNode282,
+            treeNode283});
+            System.Windows.Forms.TreeNode treeNode285 = new System.Windows.Forms.TreeNode("CAM_15");
+            System.Windows.Forms.TreeNode treeNode286 = new System.Windows.Forms.TreeNode("CAM_16");
+            System.Windows.Forms.TreeNode treeNode287 = new System.Windows.Forms.TreeNode("CAM_17");
+            System.Windows.Forms.TreeNode treeNode288 = new System.Windows.Forms.TreeNode("Ngã 3 xã mới/Mỹ Thạnh Trung", new System.Windows.Forms.TreeNode[] {
+            treeNode285,
+            treeNode286,
+            treeNode287});
+            System.Windows.Forms.TreeNode treeNode289 = new System.Windows.Forms.TreeNode("CAM_18");
+            System.Windows.Forms.TreeNode treeNode290 = new System.Windows.Forms.TreeNode("CAM_19");
+            System.Windows.Forms.TreeNode treeNode291 = new System.Windows.Forms.TreeNode("CAM_20");
+            System.Windows.Forms.TreeNode treeNode292 = new System.Windows.Forms.TreeNode("CAM_21");
+            System.Windows.Forms.TreeNode treeNode293 = new System.Windows.Forms.TreeNode("Vòng Xoay chợ Song Phú", new System.Windows.Forms.TreeNode[] {
+            treeNode289,
+            treeNode290,
+            treeNode291,
+            treeNode292});
+            System.Windows.Forms.TreeNode treeNode294 = new System.Windows.Forms.TreeNode("CAM_22");
+            System.Windows.Forms.TreeNode treeNode295 = new System.Windows.Forms.TreeNode("CAM_23");
+            System.Windows.Forms.TreeNode treeNode296 = new System.Windows.Forms.TreeNode("CAM_24");
+            System.Windows.Forms.TreeNode treeNode297 = new System.Windows.Forms.TreeNode("Khu dân cư Phú Ninh", new System.Windows.Forms.TreeNode[] {
+            treeNode294,
+            treeNode295,
+            treeNode296});
+            System.Windows.Forms.TreeNode treeNode298 = new System.Windows.Forms.TreeNode("CAM_25");
+            System.Windows.Forms.TreeNode treeNode299 = new System.Windows.Forms.TreeNode("CAM_26");
+            System.Windows.Forms.TreeNode treeNode300 = new System.Windows.Forms.TreeNode("CAM_27");
+            System.Windows.Forms.TreeNode treeNode301 = new System.Windows.Forms.TreeNode("Đầu lộ khu đô thị Song Phú/Đối diện Phương Trang", new System.Windows.Forms.TreeNode[] {
+            treeNode298,
+            treeNode299,
+            treeNode300});
+            System.Windows.Forms.TreeNode treeNode302 = new System.Windows.Forms.TreeNode("CAM_28");
+            System.Windows.Forms.TreeNode treeNode303 = new System.Windows.Forms.TreeNode("CAM_29");
+            System.Windows.Forms.TreeNode treeNode304 = new System.Windows.Forms.TreeNode("Ngã ba đầu đường Phú Thịnh", new System.Windows.Forms.TreeNode[] {
+            treeNode302,
+            treeNode303});
+            System.Windows.Forms.TreeNode treeNode305 = new System.Windows.Forms.TreeNode("CAM_30");
+            System.Windows.Forms.TreeNode treeNode306 = new System.Windows.Forms.TreeNode("CAM_31");
+            System.Windows.Forms.TreeNode treeNode307 = new System.Windows.Forms.TreeNode("Uỷ Ban Xã Phú Thịnh", new System.Windows.Forms.TreeNode[] {
+            treeNode305,
+            treeNode306});
+            System.Windows.Forms.TreeNode treeNode308 = new System.Windows.Forms.TreeNode("CAM_32");
+            System.Windows.Forms.TreeNode treeNode309 = new System.Windows.Forms.TreeNode("CAM_33");
+            System.Windows.Forms.TreeNode treeNode310 = new System.Windows.Forms.TreeNode("Ngã 3 đầu đường 908", new System.Windows.Forms.TreeNode[] {
+            treeNode308,
+            treeNode309});
+            System.Windows.Forms.TreeNode treeNode311 = new System.Windows.Forms.TreeNode("CAM_34");
+            System.Windows.Forms.TreeNode treeNode312 = new System.Windows.Forms.TreeNode("CAM_35");
+            System.Windows.Forms.TreeNode treeNode313 = new System.Windows.Forms.TreeNode("CAM_36");
+            System.Windows.Forms.TreeNode treeNode314 = new System.Windows.Forms.TreeNode("Ấp 11 ngã 3 Cả Bần", new System.Windows.Forms.TreeNode[] {
+            treeNode311,
+            treeNode312,
+            treeNode313});
+            System.Windows.Forms.TreeNode treeNode315 = new System.Windows.Forms.TreeNode("CAM_37");
+            System.Windows.Forms.TreeNode treeNode316 = new System.Windows.Forms.TreeNode("CAM_38");
+            System.Windows.Forms.TreeNode treeNode317 = new System.Windows.Forms.TreeNode("Cầu Bản Đồng", new System.Windows.Forms.TreeNode[] {
+            treeNode315,
+            treeNode316});
+            System.Windows.Forms.TreeNode treeNode318 = new System.Windows.Forms.TreeNode("CAM_39");
+            System.Windows.Forms.TreeNode treeNode319 = new System.Windows.Forms.TreeNode("CAM_40");
+            System.Windows.Forms.TreeNode treeNode320 = new System.Windows.Forms.TreeNode("Cầu Cả Lá", new System.Windows.Forms.TreeNode[] {
+            treeNode318,
+            treeNode319});
+            System.Windows.Forms.TreeNode treeNode321 = new System.Windows.Forms.TreeNode("CAM_41");
+            System.Windows.Forms.TreeNode treeNode322 = new System.Windows.Forms.TreeNode("CAM_42");
+            System.Windows.Forms.TreeNode treeNode323 = new System.Windows.Forms.TreeNode("CAM_43");
+            System.Windows.Forms.TreeNode treeNode324 = new System.Windows.Forms.TreeNode("Ngã 3 Phú Lộc", new System.Windows.Forms.TreeNode[] {
+            treeNode321,
+            treeNode322,
+            treeNode323});
+            System.Windows.Forms.TreeNode treeNode325 = new System.Windows.Forms.TreeNode("CAM_44");
+            System.Windows.Forms.TreeNode treeNode326 = new System.Windows.Forms.TreeNode("CAM_45");
+            System.Windows.Forms.TreeNode treeNode327 = new System.Windows.Forms.TreeNode("Nhà Thờ Ngã Cậy", new System.Windows.Forms.TreeNode[] {
+            treeNode325,
+            treeNode326});
+            System.Windows.Forms.TreeNode treeNode328 = new System.Windows.Forms.TreeNode("CAM_46");
+            System.Windows.Forms.TreeNode treeNode329 = new System.Windows.Forms.TreeNode("CAM_47");
+            System.Windows.Forms.TreeNode treeNode330 = new System.Windows.Forms.TreeNode("Cua 6 Hoà", new System.Windows.Forms.TreeNode[] {
+            treeNode328,
+            treeNode329});
+            System.Windows.Forms.TreeNode treeNode331 = new System.Windows.Forms.TreeNode("CAM_48");
+            System.Windows.Forms.TreeNode treeNode332 = new System.Windows.Forms.TreeNode("CAM_49");
+            System.Windows.Forms.TreeNode treeNode333 = new System.Windows.Forms.TreeNode("CAM_50");
+            System.Windows.Forms.TreeNode treeNode334 = new System.Windows.Forms.TreeNode("Cổng chào Phú Lộc", new System.Windows.Forms.TreeNode[] {
+            treeNode331,
+            treeNode332,
+            treeNode333});
+            System.Windows.Forms.TreeNode treeNode335 = new System.Windows.Forms.TreeNode("CAM_51");
+            System.Windows.Forms.TreeNode treeNode336 = new System.Windows.Forms.TreeNode("CAM_52");
+            System.Windows.Forms.TreeNode treeNode337 = new System.Windows.Forms.TreeNode("Cầu số 3 lô 6", new System.Windows.Forms.TreeNode[] {
+            treeNode335,
+            treeNode336});
+            System.Windows.Forms.TreeNode treeNode338 = new System.Windows.Forms.TreeNode("CAM_53");
+            System.Windows.Forms.TreeNode treeNode339 = new System.Windows.Forms.TreeNode("CAM_54");
+            System.Windows.Forms.TreeNode treeNode340 = new System.Windows.Forms.TreeNode("Cầu lô 1 A", new System.Windows.Forms.TreeNode[] {
+            treeNode338,
+            treeNode339});
+            System.Windows.Forms.TreeNode treeNode341 = new System.Windows.Forms.TreeNode("CAM_55");
+            System.Windows.Forms.TreeNode treeNode342 = new System.Windows.Forms.TreeNode("CAM_56");
+            System.Windows.Forms.TreeNode treeNode343 = new System.Windows.Forms.TreeNode("CAM_57");
+            System.Windows.Forms.TreeNode treeNode344 = new System.Windows.Forms.TreeNode("Ấp An Hoà Bình Ninh", new System.Windows.Forms.TreeNode[] {
+            treeNode341,
+            treeNode342,
+            treeNode343});
+            System.Windows.Forms.TreeNode treeNode345 = new System.Windows.Forms.TreeNode("CAM_58");
+            System.Windows.Forms.TreeNode treeNode346 = new System.Windows.Forms.TreeNode("CAM_59");
+            System.Windows.Forms.TreeNode treeNode347 = new System.Windows.Forms.TreeNode("CAM_60");
+            System.Windows.Forms.TreeNode treeNode348 = new System.Windows.Forms.TreeNode("Cầu Rạch Lá", new System.Windows.Forms.TreeNode[] {
+            treeNode345,
+            treeNode346,
+            treeNode347});
+            System.Windows.Forms.TreeNode treeNode349 = new System.Windows.Forms.TreeNode("CAM_61");
+            System.Windows.Forms.TreeNode treeNode350 = new System.Windows.Forms.TreeNode("CAM_62");
+            System.Windows.Forms.TreeNode treeNode351 = new System.Windows.Forms.TreeNode("Cổng ấp Phú Nghĩa/cây xăng Tân Phú", new System.Windows.Forms.TreeNode[] {
+            treeNode349,
+            treeNode350});
+            System.Windows.Forms.TreeNode treeNode352 = new System.Windows.Forms.TreeNode("CAM_63");
+            System.Windows.Forms.TreeNode treeNode353 = new System.Windows.Forms.TreeNode("CAM_64");
+            System.Windows.Forms.TreeNode treeNode354 = new System.Windows.Forms.TreeNode("Điểm tiếp giáp Đông Thạnh", new System.Windows.Forms.TreeNode[] {
+            treeNode352,
+            treeNode353});
+            System.Windows.Forms.TreeNode treeNode355 = new System.Windows.Forms.TreeNode("CAM_65");
+            System.Windows.Forms.TreeNode treeNode356 = new System.Windows.Forms.TreeNode("CAM_66");
+            System.Windows.Forms.TreeNode treeNode357 = new System.Windows.Forms.TreeNode("CAM_67");
+            System.Windows.Forms.TreeNode treeNode358 = new System.Windows.Forms.TreeNode("CAM_68");
+            System.Windows.Forms.TreeNode treeNode359 = new System.Windows.Forms.TreeNode("Ngã 4 Bình Quí", new System.Windows.Forms.TreeNode[] {
+            treeNode355,
+            treeNode356,
+            treeNode357,
+            treeNode358});
+            System.Windows.Forms.TreeNode treeNode360 = new System.Windows.Forms.TreeNode("CAM_69");
+            System.Windows.Forms.TreeNode treeNode361 = new System.Windows.Forms.TreeNode("CAM_70");
+            System.Windows.Forms.TreeNode treeNode362 = new System.Windows.Forms.TreeNode("CAM_71");
+            System.Windows.Forms.TreeNode treeNode363 = new System.Windows.Forms.TreeNode("CAM_72");
+            System.Windows.Forms.TreeNode treeNode364 = new System.Windows.Forms.TreeNode("Cầu Ngã Tắc", new System.Windows.Forms.TreeNode[] {
+            treeNode360,
+            treeNode361,
+            treeNode362,
+            treeNode363});
+            System.Windows.Forms.TreeNode treeNode365 = new System.Windows.Forms.TreeNode("CAM_73");
+            System.Windows.Forms.TreeNode treeNode366 = new System.Windows.Forms.TreeNode("CAM_74");
+            System.Windows.Forms.TreeNode treeNode367 = new System.Windows.Forms.TreeNode("Cửa hàng xăng dầu số 5", new System.Windows.Forms.TreeNode[] {
+            treeNode365,
+            treeNode366});
+            System.Windows.Forms.TreeNode treeNode368 = new System.Windows.Forms.TreeNode("CAM_75");
+            System.Windows.Forms.TreeNode treeNode369 = new System.Windows.Forms.TreeNode("CAM_76");
+            System.Windows.Forms.TreeNode treeNode370 = new System.Windows.Forms.TreeNode("CAM_77");
+            System.Windows.Forms.TreeNode treeNode371 = new System.Windows.Forms.TreeNode("Ngã ba cầu Tường Lộc", new System.Windows.Forms.TreeNode[] {
+            treeNode368,
+            treeNode369,
+            treeNode370});
+            System.Windows.Forms.TreeNode treeNode372 = new System.Windows.Forms.TreeNode("CAM_78");
+            System.Windows.Forms.TreeNode treeNode373 = new System.Windows.Forms.TreeNode("CAM_79");
+            System.Windows.Forms.TreeNode treeNode374 = new System.Windows.Forms.TreeNode("Trước trường THCS Nhơn Bình", new System.Windows.Forms.TreeNode[] {
+            treeNode372,
+            treeNode373});
+            System.Windows.Forms.TreeNode treeNode375 = new System.Windows.Forms.TreeNode("CAM_80");
+            System.Windows.Forms.TreeNode treeNode376 = new System.Windows.Forms.TreeNode("CAM_81");
+            System.Windows.Forms.TreeNode treeNode377 = new System.Windows.Forms.TreeNode("Cống Phó Mùi", new System.Windows.Forms.TreeNode[] {
+            treeNode375,
+            treeNode376});
+            System.Windows.Forms.TreeNode treeNode378 = new System.Windows.Forms.TreeNode("CAM_82");
+            System.Windows.Forms.TreeNode treeNode379 = new System.Windows.Forms.TreeNode("CAM_83");
+            System.Windows.Forms.TreeNode treeNode380 = new System.Windows.Forms.TreeNode("CAM_84");
+            System.Windows.Forms.TreeNode treeNode381 = new System.Windows.Forms.TreeNode("Ngã ba ấp Hoà Phong/ấp 4/ấp 9/ấp 6/ấp Hoà Hiệp", new System.Windows.Forms.TreeNode[] {
+            treeNode378,
+            treeNode379,
+            treeNode380});
+            System.Windows.Forms.TreeNode treeNode382 = new System.Windows.Forms.TreeNode("CAM_85");
+            System.Windows.Forms.TreeNode treeNode383 = new System.Windows.Forms.TreeNode("CAM_86");
+            System.Windows.Forms.TreeNode treeNode384 = new System.Windows.Forms.TreeNode("CAM_87");
+            System.Windows.Forms.TreeNode treeNode385 = new System.Windows.Forms.TreeNode("Ngã ba cầu ấp 4/ấp 9", new System.Windows.Forms.TreeNode[] {
+            treeNode382,
+            treeNode383,
+            treeNode384});
+            System.Windows.Forms.TreeNode treeNode386 = new System.Windows.Forms.TreeNode("CAM_88");
+            System.Windows.Forms.TreeNode treeNode387 = new System.Windows.Forms.TreeNode("CAM_89");
+            System.Windows.Forms.TreeNode treeNode388 = new System.Windows.Forms.TreeNode("CAM_90");
+            System.Windows.Forms.TreeNode treeNode389 = new System.Windows.Forms.TreeNode("Ngã ba Hoà Lộc/Hậu Lộc", new System.Windows.Forms.TreeNode[] {
+            treeNode386,
+            treeNode387,
+            treeNode388});
+            System.Windows.Forms.TreeNode treeNode390 = new System.Windows.Forms.TreeNode("CAM_91");
+            System.Windows.Forms.TreeNode treeNode391 = new System.Windows.Forms.TreeNode("CAM_92");
+            System.Windows.Forms.TreeNode treeNode392 = new System.Windows.Forms.TreeNode("Cua tạp hoá Thành Diễm", new System.Windows.Forms.TreeNode[] {
+            treeNode390,
+            treeNode391});
+            System.Windows.Forms.TreeNode treeNode393 = new System.Windows.Forms.TreeNode("CAM_93");
+            System.Windows.Forms.TreeNode treeNode394 = new System.Windows.Forms.TreeNode("CAM_94");
+            System.Windows.Forms.TreeNode treeNode395 = new System.Windows.Forms.TreeNode("Ngã 3 ấp 5 đầu khu dân cư", new System.Windows.Forms.TreeNode[] {
+            treeNode393,
+            treeNode394});
+            System.Windows.Forms.TreeNode treeNode396 = new System.Windows.Forms.TreeNode("CAM_95");
+            System.Windows.Forms.TreeNode treeNode397 = new System.Windows.Forms.TreeNode("CAM_96");
+            System.Windows.Forms.TreeNode treeNode398 = new System.Windows.Forms.TreeNode("CAM_97");
+            System.Windows.Forms.TreeNode treeNode399 = new System.Windows.Forms.TreeNode("Ngã 3 Danh Tấm", new System.Windows.Forms.TreeNode[] {
+            treeNode396,
+            treeNode397,
+            treeNode398});
+            System.Windows.Forms.TreeNode treeNode400 = new System.Windows.Forms.TreeNode("CAM_98");
+            System.Windows.Forms.TreeNode treeNode401 = new System.Windows.Forms.TreeNode("CAM_99");
+            System.Windows.Forms.TreeNode treeNode402 = new System.Windows.Forms.TreeNode("Cua Tân Lộc (Trường tiểu học Tân Lộc A)", new System.Windows.Forms.TreeNode[] {
+            treeNode400,
+            treeNode401});
+            System.Windows.Forms.TreeNode treeNode403 = new System.Windows.Forms.TreeNode("CAM_100");
+            System.Windows.Forms.TreeNode treeNode404 = new System.Windows.Forms.TreeNode("CAM_101");
+            System.Windows.Forms.TreeNode treeNode405 = new System.Windows.Forms.TreeNode("Cầu Quan Vệ", new System.Windows.Forms.TreeNode[] {
+            treeNode403,
+            treeNode404});
             this.splashScreenManager1 = new DevExpress.XtraSplashScreen.SplashScreenManager(this, typeof(global::Telnet_OMC.WaitForm1), true, true);
             this.ribbon = new DevExpress.XtraBars.Ribbon.RibbonControl();
             this.barButtonItemCAMTAMBINH = new DevExpress.XtraBars.BarButtonItem();
@@ -825,6 +825,9 @@
             this.timer3 = new System.Windows.Forms.Timer(this.components);
             this.layoutControlItem22 = new DevExpress.XtraLayout.LayoutControlItem();
             this.cskh1 = new Telnet_OMC.WS_CSKH.cskh();
+            this.notifyIcon1 = new System.Windows.Forms.NotifyIcon(this.components);
+            this.contextMenuStrip1 = new System.Windows.Forms.ContextMenuStrip(this.components);
+            this.ToolStripMenuItemThoat = new System.Windows.Forms.ToolStripMenuItem();
             ((System.ComponentModel.ISupportInitialize)(this.ribbon)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.dockManager1)).BeginInit();
             this.hideContainerLeft.SuspendLayout();
@@ -878,6 +881,7 @@
             ((System.ComponentModel.ISupportInitialize)(this.tabbedView1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.tabbedView2)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.layoutControlItem22)).BeginInit();
+            this.contextMenuStrip1.SuspendLayout();
             this.SuspendLayout();
             // 
             // splashScreenManager1
@@ -1214,306 +1218,306 @@
             this.treeView_CAM_BINHMINH_Dsach.Location = new System.Drawing.Point(3, 3);
             this.treeView_CAM_BINHMINH_Dsach.Margin = new System.Windows.Forms.Padding(1);
             this.treeView_CAM_BINHMINH_Dsach.Name = "treeView_CAM_BINHMINH_Dsach";
-            treeNode536.Name = "DG_1";
-            treeNode536.Text = "Đầu ghi 1";
-            treeNode537.Name = "DG_2";
-            treeNode537.Text = "Đầu ghi 2";
-            treeNode538.Name = "DG_3";
-            treeNode538.Text = "Đầu ghi 3";
-            treeNode539.BackColor = System.Drawing.Color.White;
-            treeNode539.Name = "GW_38";
-            treeNode539.Text = "Đầu ghi tại CA_Bình Minh";
-            treeNode540.Name = "CAM_1";
-            treeNode540.Text = "CAM_1";
-            treeNode541.Name = "CAM_2";
-            treeNode541.Text = "CAM_2";
-            treeNode542.Name = "CAM_3";
-            treeNode542.Text = "CAM_3";
-            treeNode543.Name = "CAM_4";
-            treeNode543.Text = "CAM_4";
-            treeNode544.Name = "GW_1";
-            treeNode544.Text = "Ngã tư (Phan Văn Quân - Nguyễn Văn Thảnh - P.V.Năm)";
-            treeNode545.Name = "CAM_5";
-            treeNode545.Text = "CAM_5";
-            treeNode546.Name = "CAM_6";
-            treeNode546.Text = "CAM_6";
-            treeNode547.Name = "CAM_7";
-            treeNode547.Text = "CAM_7";
-            treeNode548.Name = "GW_2";
-            treeNode548.Text = "Ngã 3 (gần trạm cân cũ, hướng đi Bình Tân hoặc xuống bến đò)";
-            treeNode549.Name = "CAM_8";
-            treeNode549.Text = "CAM_8";
-            treeNode550.Name = "GW_3";
-            treeNode550.Text = "Đầu đường xuống bến đò khóm 3 (đi Trần Phú - Cần Thơ)";
-            treeNode551.Name = "CAM_9";
-            treeNode551.Text = "CAM_9";
-            treeNode552.Name = "CAM_10";
-            treeNode552.Text = "CAM_10";
-            treeNode553.Name = "CAM_11";
-            treeNode553.Text = "CAM_11";
-            treeNode554.Name = "GW_4";
-            treeNode554.Text = "Đầu đường vào cổng trường THPT Bình Minh";
-            treeNode555.Name = "CAM_12";
-            treeNode555.Text = "CAM_12";
-            treeNode556.Name = "CAM_13";
-            treeNode556.Text = "CAM_13";
-            treeNode557.Name = "CAM_14";
-            treeNode557.Text = "CAM_14";
-            treeNode558.Name = "GW_5";
-            treeNode558.Text = "Đầu đường vào cổng trường THPT Hoàng Thái Hiếu";
-            treeNode559.Name = "CAM_15";
-            treeNode559.Text = "CAM_15";
-            treeNode560.Name = "CAM_16";
-            treeNode560.Text = "CAM_16";
-            treeNode561.Name = "GW_6";
-            treeNode561.Text = "Chân Cầu Thành Lợi";
-            treeNode562.Name = "CAM_17";
-            treeNode562.Text = "CAM_17";
-            treeNode563.Name = "CAM_18";
-            treeNode563.Text = "CAM_18";
-            treeNode564.Name = "GW_7";
-            treeNode564.Text = "Ngã 4 (giao: Phan Văn Quân - Huỳnh Văn Đạt)";
-            treeNode565.Name = "CAM_19";
-            treeNode565.Text = "CAM_19";
-            treeNode566.Name = "CAM_20";
-            treeNode566.Text = "CAM_20";
-            treeNode567.Name = "GW_8";
-            treeNode567.Text = "Ngã 3 (giao: Huỳnh Văn Đạt - Hai Bà Trưng)";
-            treeNode568.Name = "CAM_21";
-            treeNode568.Text = "CAM_21";
-            treeNode569.Name = "CAM_22";
-            treeNode569.Text = "CAM_22";
-            treeNode570.Name = "GW_9";
-            treeNode570.Text = "Ngã 3 (sau Trung Tâm hành chính TX)";
-            treeNode571.Name = "CAM_23";
-            treeNode571.Text = "CAM_23";
-            treeNode572.Name = "CAM_24";
-            treeNode572.Text = "CAM_24";
-            treeNode573.Name = "CAM_25";
-            treeNode573.Text = "CAM_25";
-            treeNode574.Name = "CAM_26";
-            treeNode574.Text = "CAM_26";
-            treeNode575.Name = "GW_10";
-            treeNode575.Text = "Ngã 3 (trước cửa Trung tâm hành chính TX)";
-            treeNode576.Name = "CAM_27";
-            treeNode576.Text = "CAM_27";
-            treeNode577.Name = "CAM_28";
-            treeNode577.Text = "CAM_28";
-            treeNode578.Name = "CAM_29";
-            treeNode578.Text = "CAM_29";
-            treeNode579.Name = "CAM_30";
-            treeNode579.Text = "CAM_30";
-            treeNode580.Name = "GW_11";
-            treeNode580.Text = "Ngã 4 (giao: đường 3/2 - Phan Văn Năm)";
-            treeNode581.Name = "CAM_31";
-            treeNode581.Text = "CAM_31";
-            treeNode582.Name = "CAM_32";
-            treeNode582.Text = "CAM_32";
-            treeNode583.Name = "GW_12";
-            treeNode583.Text = "Ngã 4 (giao: Lê Văn Dị - Phan Văn Năm)";
-            treeNode584.Name = "CAM_33";
-            treeNode584.Text = "CAM_33";
-            treeNode585.Name = "CAM_34";
-            treeNode585.Text = "CAM_34";
-            treeNode586.Name = "CAM_35";
-            treeNode586.Text = "CAM_35";
-            treeNode587.Name = "CAM_36";
-            treeNode587.Text = "CAM_36";
-            treeNode588.Name = "GW_13";
-            treeNode588.Text = "Ngã 4 (giao: Phan Văn Năm - Ngô Quyền)";
-            treeNode589.Name = "CAM_37";
-            treeNode589.Text = "CAM_37";
-            treeNode590.Name = "CAM_38";
-            treeNode590.Text = "CAM_38";
-            treeNode591.Name = "CAM_39";
-            treeNode591.Text = "CAM_39";
-            treeNode592.Name = "CAM_40";
-            treeNode592.Text = "CAM_40";
-            treeNode593.Name = "GW_14";
-            treeNode593.Text = "Ngã 4 (giao: Ngô Quyền - Nguyễn Văn Thảnh)";
-            treeNode594.Name = "CAM_41";
-            treeNode594.Text = "CAM_41";
-            treeNode595.Name = "CAM_42";
-            treeNode595.Text = "CAM_42";
-            treeNode596.Name = "GW_15";
-            treeNode596.Text = "Ngã 4 Cua 3 Lời";
-            treeNode597.Name = "CAM_43";
-            treeNode597.Text = "CAM_43";
-            treeNode598.Name = "CAM_44";
-            treeNode598.Text = "CAM_44";
-            treeNode599.Name = "GW_16";
-            treeNode599.Text = "Ngã 3 Rạch Xẻo Nga (trước cửa Vật liệu XD Thành Tất)";
-            treeNode600.Name = "CAM_45";
-            treeNode600.Text = "CAM_45";
-            treeNode601.Name = "CAM_46";
-            treeNode601.Text = "CAM_46";
-            treeNode602.Name = "CAM_47";
-            treeNode602.Text = "CAM_47";
-            treeNode603.Name = "CAM_48";
-            treeNode603.Text = "CAM_48";
-            treeNode604.Name = "CAM_49";
-            treeNode604.Text = "CAM_49";
-            treeNode605.Name = "GW_17";
-            treeNode605.Text = "Ngã 3 (Nguyễn Văn Thảnh - Lưu Nhơn Sâm)";
-            treeNode606.Name = "CAM_50";
-            treeNode606.Text = "CAM_50";
-            treeNode607.Name = "CAM_51";
-            treeNode607.Text = "CAM_51";
-            treeNode608.Name = "GW_18";
-            treeNode608.Text = "Ngã 3 trước Trường Thoại Ngọc Hầu";
-            treeNode609.Name = "CAM_52";
-            treeNode609.Text = "CAM_52";
-            treeNode610.Name = "GW_19";
-            treeNode610.Text = "Điểm quay đầu xe khu vực Bến xe Phương Trang 1";
-            treeNode611.Name = "CAM_53";
-            treeNode611.Text = "CAM_53";
-            treeNode612.Name = "GW_20";
-            treeNode612.Text = "Điểm quay đầu xe khu vực Bến xe Phương Trang 2";
-            treeNode613.Name = "CAM_54";
-            treeNode613.Text = "CAM_54";
-            treeNode614.Name = "GW_21";
-            treeNode614.Text = "Điểm quay đầu gần Bến đò Giáo Mẹo 1";
-            treeNode615.Name = "CAM_55";
-            treeNode615.Text = "CAM_55";
-            treeNode616.Name = "GW_22";
-            treeNode616.Text = "Điểm quay đầu gần Bến đò Giáo Mẹo 2";
-            treeNode617.Name = "CAM_56";
-            treeNode617.Text = "CAM_56";
-            treeNode618.Name = "CAM_57";
-            treeNode618.Text = "CAM_57";
-            treeNode619.Name = "GW_23";
-            treeNode619.Text = "Ngã 3 Đầu đường vào Thuận An - Rạch Sậy";
-            treeNode620.Name = "CAM_58";
-            treeNode620.Text = "CAM_58";
-            treeNode621.Name = "CAM_59";
-            treeNode621.Text = "CAM_59";
-            treeNode622.Name = "GW_24";
-            treeNode622.Text = "Chân cầu Khoán Tiết";
-            treeNode623.Name = "CAM_60";
-            treeNode623.Text = "CAM_60";
-            treeNode624.Name = "CAM_61";
-            treeNode624.Text = "CAM_61";
-            treeNode625.Name = "CAM_62";
-            treeNode625.Text = "CAM_62";
-            treeNode626.Name = "CAM_63";
-            treeNode626.Text = "CAM_63";
-            treeNode627.Name = "GW_25";
-            treeNode627.Text = "Chân cầu vượt QL54 (phía đi Trà Ôn)";
-            treeNode628.Name = "CAM_64";
-            treeNode628.Text = "CAM_64";
-            treeNode629.Name = "CAM_65";
-            treeNode629.Text = "CAM_65";
-            treeNode630.Name = "CAM_66";
-            treeNode630.Text = "CAM_66";
-            treeNode631.Name = "CAM_67";
-            treeNode631.Text = "CAM_67";
-            treeNode632.Name = "GW_26";
-            treeNode632.Text = "Chân cầu vượt QL54 (phía đi Bình Minh)";
-            treeNode633.Name = "CAM_68";
-            treeNode633.Text = "CAM_68";
-            treeNode634.Name = "GW_27";
-            treeNode634.Text = "Ngã 3 Đầu đường vào Đông Thạnh (trước cửa cây xăng Cường Phát)";
-            treeNode635.Name = "CAM_69";
-            treeNode635.Text = "CAM_69";
-            treeNode636.Name = "CAM_70";
-            treeNode636.Text = "CAM_70";
-            treeNode637.Name = "CAM_71";
-            treeNode637.Text = "CAM_71";
-            treeNode638.Name = "GW_28";
-            treeNode638.Text = "Đầu đường vào Cầu Mỹ Hoà Tây";
-            treeNode639.Name = "CAM_72";
-            treeNode639.Text = "CAM_72";
-            treeNode640.Name = "CAM_73";
-            treeNode640.Text = "CAM_73";
-            treeNode641.Name = "GW_29";
-            treeNode641.Text = "Cầu Dừa (cầu Bến xe) Đông Thành";
-            treeNode642.Name = "CAM_74";
-            treeNode642.Text = "CAM_74";
-            treeNode643.Name = "CAM_75";
-            treeNode643.Text = "CAM_75";
-            treeNode644.Name = "GW_30";
-            treeNode644.Text = "Chợ Hoá Thành";
-            treeNode645.Name = "CAM_76";
-            treeNode645.Text = "CAM_76";
-            treeNode646.Name = "CAM_77";
-            treeNode646.Text = "CAM_77";
-            treeNode647.Name = "GW_31";
-            treeNode647.Text = "Đầu đường 26/3";
-            treeNode648.Name = "CAM_78";
-            treeNode648.Text = "CAM_78";
-            treeNode649.Name = "CAM_79";
-            treeNode649.Text = "CAM_79";
-            treeNode650.Name = "GW_32";
-            treeNode650.Text = "Ngã 3 (QL54 - Đường qua cầu Mỹ Hoà)";
-            treeNode651.Name = "CAM_80";
-            treeNode651.Text = "CAM_80";
-            treeNode652.Name = "CAM_81";
-            treeNode652.Text = "CAM_81";
-            treeNode653.Name = "GW_33";
-            treeNode653.Text = "Ngã ba Tắt Ông Phò";
-            treeNode654.Name = "CAM_82";
-            treeNode654.Text = "CAM_82";
-            treeNode655.Name = "CAM_83";
-            treeNode655.Text = "CAM_83";
-            treeNode656.Name = "GW_34";
-            treeNode656.Text = "Đầu đường vào công ty 620";
-            treeNode657.Name = "CAM_84";
-            treeNode657.Text = "CAM_84";
-            treeNode658.Name = "CAM_85";
-            treeNode658.Text = "CAM_85";
-            treeNode659.Name = "GW_35";
-            treeNode659.Text = "Dạ Cầu Cần Thơ (tại nhịp sập)";
-            treeNode660.Name = "CAM_86";
-            treeNode660.Text = "CAM_86";
-            treeNode661.Name = "CAM_87";
-            treeNode661.Text = "CAM_87";
-            treeNode662.Name = "GW_36";
-            treeNode662.Text = "Trước cổng KCN Bình Minh";
-            treeNode663.Name = "CAM_88";
-            treeNode663.Text = "CAM_88";
-            treeNode664.Name = "CAM_89";
-            treeNode664.Text = "CAM_89";
-            treeNode665.Name = "GW_37";
-            treeNode665.Text = "Trước UBND Cái Vồn";
+            treeNode1.Name = "DG_1";
+            treeNode1.Text = "Đầu ghi 1";
+            treeNode2.Name = "DG_2";
+            treeNode2.Text = "Đầu ghi 2";
+            treeNode3.Name = "DG_3";
+            treeNode3.Text = "Đầu ghi 3";
+            treeNode4.BackColor = System.Drawing.Color.White;
+            treeNode4.Name = "GW_38";
+            treeNode4.Text = "Đầu ghi tại CA_Bình Minh";
+            treeNode5.Name = "CAM_1";
+            treeNode5.Text = "CAM_1";
+            treeNode6.Name = "CAM_2";
+            treeNode6.Text = "CAM_2";
+            treeNode7.Name = "CAM_3";
+            treeNode7.Text = "CAM_3";
+            treeNode8.Name = "CAM_4";
+            treeNode8.Text = "CAM_4";
+            treeNode9.Name = "GW_1";
+            treeNode9.Text = "Ngã tư (Phan Văn Quân - Nguyễn Văn Thảnh - P.V.Năm)";
+            treeNode10.Name = "CAM_5";
+            treeNode10.Text = "CAM_5";
+            treeNode11.Name = "CAM_6";
+            treeNode11.Text = "CAM_6";
+            treeNode12.Name = "CAM_7";
+            treeNode12.Text = "CAM_7";
+            treeNode13.Name = "GW_2";
+            treeNode13.Text = "Ngã 3 (gần trạm cân cũ, hướng đi Bình Tân hoặc xuống bến đò)";
+            treeNode14.Name = "CAM_8";
+            treeNode14.Text = "CAM_8";
+            treeNode15.Name = "GW_3";
+            treeNode15.Text = "Đầu đường xuống bến đò khóm 3 (đi Trần Phú - Cần Thơ)";
+            treeNode16.Name = "CAM_9";
+            treeNode16.Text = "CAM_9";
+            treeNode17.Name = "CAM_10";
+            treeNode17.Text = "CAM_10";
+            treeNode18.Name = "CAM_11";
+            treeNode18.Text = "CAM_11";
+            treeNode19.Name = "GW_4";
+            treeNode19.Text = "Đầu đường vào cổng trường THPT Bình Minh";
+            treeNode20.Name = "CAM_12";
+            treeNode20.Text = "CAM_12";
+            treeNode21.Name = "CAM_13";
+            treeNode21.Text = "CAM_13";
+            treeNode22.Name = "CAM_14";
+            treeNode22.Text = "CAM_14";
+            treeNode23.Name = "GW_5";
+            treeNode23.Text = "Đầu đường vào cổng trường THPT Hoàng Thái Hiếu";
+            treeNode24.Name = "CAM_15";
+            treeNode24.Text = "CAM_15";
+            treeNode25.Name = "CAM_16";
+            treeNode25.Text = "CAM_16";
+            treeNode26.Name = "GW_6";
+            treeNode26.Text = "Chân Cầu Thành Lợi";
+            treeNode27.Name = "CAM_17";
+            treeNode27.Text = "CAM_17";
+            treeNode28.Name = "CAM_18";
+            treeNode28.Text = "CAM_18";
+            treeNode29.Name = "GW_7";
+            treeNode29.Text = "Ngã 4 (giao: Phan Văn Quân - Huỳnh Văn Đạt)";
+            treeNode30.Name = "CAM_19";
+            treeNode30.Text = "CAM_19";
+            treeNode31.Name = "CAM_20";
+            treeNode31.Text = "CAM_20";
+            treeNode32.Name = "GW_8";
+            treeNode32.Text = "Ngã 3 (giao: Huỳnh Văn Đạt - Hai Bà Trưng)";
+            treeNode33.Name = "CAM_21";
+            treeNode33.Text = "CAM_21";
+            treeNode34.Name = "CAM_22";
+            treeNode34.Text = "CAM_22";
+            treeNode35.Name = "GW_9";
+            treeNode35.Text = "Ngã 3 (sau Trung Tâm hành chính TX)";
+            treeNode36.Name = "CAM_23";
+            treeNode36.Text = "CAM_23";
+            treeNode37.Name = "CAM_24";
+            treeNode37.Text = "CAM_24";
+            treeNode38.Name = "CAM_25";
+            treeNode38.Text = "CAM_25";
+            treeNode39.Name = "CAM_26";
+            treeNode39.Text = "CAM_26";
+            treeNode40.Name = "GW_10";
+            treeNode40.Text = "Ngã 3 (trước cửa Trung tâm hành chính TX)";
+            treeNode41.Name = "CAM_27";
+            treeNode41.Text = "CAM_27";
+            treeNode42.Name = "CAM_28";
+            treeNode42.Text = "CAM_28";
+            treeNode43.Name = "CAM_29";
+            treeNode43.Text = "CAM_29";
+            treeNode44.Name = "CAM_30";
+            treeNode44.Text = "CAM_30";
+            treeNode45.Name = "GW_11";
+            treeNode45.Text = "Ngã 4 (giao: đường 3/2 - Phan Văn Năm)";
+            treeNode46.Name = "CAM_31";
+            treeNode46.Text = "CAM_31";
+            treeNode47.Name = "CAM_32";
+            treeNode47.Text = "CAM_32";
+            treeNode48.Name = "GW_12";
+            treeNode48.Text = "Ngã 4 (giao: Lê Văn Dị - Phan Văn Năm)";
+            treeNode49.Name = "CAM_33";
+            treeNode49.Text = "CAM_33";
+            treeNode50.Name = "CAM_34";
+            treeNode50.Text = "CAM_34";
+            treeNode51.Name = "CAM_35";
+            treeNode51.Text = "CAM_35";
+            treeNode52.Name = "CAM_36";
+            treeNode52.Text = "CAM_36";
+            treeNode53.Name = "GW_13";
+            treeNode53.Text = "Ngã 4 (giao: Phan Văn Năm - Ngô Quyền)";
+            treeNode54.Name = "CAM_37";
+            treeNode54.Text = "CAM_37";
+            treeNode55.Name = "CAM_38";
+            treeNode55.Text = "CAM_38";
+            treeNode56.Name = "CAM_39";
+            treeNode56.Text = "CAM_39";
+            treeNode57.Name = "CAM_40";
+            treeNode57.Text = "CAM_40";
+            treeNode58.Name = "GW_14";
+            treeNode58.Text = "Ngã 4 (giao: Ngô Quyền - Nguyễn Văn Thảnh)";
+            treeNode59.Name = "CAM_41";
+            treeNode59.Text = "CAM_41";
+            treeNode60.Name = "CAM_42";
+            treeNode60.Text = "CAM_42";
+            treeNode61.Name = "GW_15";
+            treeNode61.Text = "Ngã 4 Cua 3 Lời";
+            treeNode62.Name = "CAM_43";
+            treeNode62.Text = "CAM_43";
+            treeNode63.Name = "CAM_44";
+            treeNode63.Text = "CAM_44";
+            treeNode64.Name = "GW_16";
+            treeNode64.Text = "Ngã 3 Rạch Xẻo Nga (trước cửa Vật liệu XD Thành Tất)";
+            treeNode65.Name = "CAM_45";
+            treeNode65.Text = "CAM_45";
+            treeNode66.Name = "CAM_46";
+            treeNode66.Text = "CAM_46";
+            treeNode67.Name = "CAM_47";
+            treeNode67.Text = "CAM_47";
+            treeNode68.Name = "CAM_48";
+            treeNode68.Text = "CAM_48";
+            treeNode69.Name = "CAM_49";
+            treeNode69.Text = "CAM_49";
+            treeNode70.Name = "GW_17";
+            treeNode70.Text = "Ngã 3 (Nguyễn Văn Thảnh - Lưu Nhơn Sâm)";
+            treeNode71.Name = "CAM_50";
+            treeNode71.Text = "CAM_50";
+            treeNode72.Name = "CAM_51";
+            treeNode72.Text = "CAM_51";
+            treeNode73.Name = "GW_18";
+            treeNode73.Text = "Ngã 3 trước Trường Thoại Ngọc Hầu";
+            treeNode74.Name = "CAM_52";
+            treeNode74.Text = "CAM_52";
+            treeNode75.Name = "GW_19";
+            treeNode75.Text = "Điểm quay đầu xe khu vực Bến xe Phương Trang 1";
+            treeNode76.Name = "CAM_53";
+            treeNode76.Text = "CAM_53";
+            treeNode77.Name = "GW_20";
+            treeNode77.Text = "Điểm quay đầu xe khu vực Bến xe Phương Trang 2";
+            treeNode78.Name = "CAM_54";
+            treeNode78.Text = "CAM_54";
+            treeNode79.Name = "GW_21";
+            treeNode79.Text = "Điểm quay đầu gần Bến đò Giáo Mẹo 1";
+            treeNode80.Name = "CAM_55";
+            treeNode80.Text = "CAM_55";
+            treeNode81.Name = "GW_22";
+            treeNode81.Text = "Điểm quay đầu gần Bến đò Giáo Mẹo 2";
+            treeNode82.Name = "CAM_56";
+            treeNode82.Text = "CAM_56";
+            treeNode83.Name = "CAM_57";
+            treeNode83.Text = "CAM_57";
+            treeNode84.Name = "GW_23";
+            treeNode84.Text = "Ngã 3 Đầu đường vào Thuận An - Rạch Sậy";
+            treeNode85.Name = "CAM_58";
+            treeNode85.Text = "CAM_58";
+            treeNode86.Name = "CAM_59";
+            treeNode86.Text = "CAM_59";
+            treeNode87.Name = "GW_24";
+            treeNode87.Text = "Chân cầu Khoán Tiết";
+            treeNode88.Name = "CAM_60";
+            treeNode88.Text = "CAM_60";
+            treeNode89.Name = "CAM_61";
+            treeNode89.Text = "CAM_61";
+            treeNode90.Name = "CAM_62";
+            treeNode90.Text = "CAM_62";
+            treeNode91.Name = "CAM_63";
+            treeNode91.Text = "CAM_63";
+            treeNode92.Name = "GW_25";
+            treeNode92.Text = "Chân cầu vượt QL54 (phía đi Trà Ôn)";
+            treeNode93.Name = "CAM_64";
+            treeNode93.Text = "CAM_64";
+            treeNode94.Name = "CAM_65";
+            treeNode94.Text = "CAM_65";
+            treeNode95.Name = "CAM_66";
+            treeNode95.Text = "CAM_66";
+            treeNode96.Name = "CAM_67";
+            treeNode96.Text = "CAM_67";
+            treeNode97.Name = "GW_26";
+            treeNode97.Text = "Chân cầu vượt QL54 (phía đi Bình Minh)";
+            treeNode98.Name = "CAM_68";
+            treeNode98.Text = "CAM_68";
+            treeNode99.Name = "GW_27";
+            treeNode99.Text = "Ngã 3 Đầu đường vào Đông Thạnh (trước cửa cây xăng Cường Phát)";
+            treeNode100.Name = "CAM_69";
+            treeNode100.Text = "CAM_69";
+            treeNode101.Name = "CAM_70";
+            treeNode101.Text = "CAM_70";
+            treeNode102.Name = "CAM_71";
+            treeNode102.Text = "CAM_71";
+            treeNode103.Name = "GW_28";
+            treeNode103.Text = "Đầu đường vào Cầu Mỹ Hoà Tây";
+            treeNode104.Name = "CAM_72";
+            treeNode104.Text = "CAM_72";
+            treeNode105.Name = "CAM_73";
+            treeNode105.Text = "CAM_73";
+            treeNode106.Name = "GW_29";
+            treeNode106.Text = "Cầu Dừa (cầu Bến xe) Đông Thành";
+            treeNode107.Name = "CAM_74";
+            treeNode107.Text = "CAM_74";
+            treeNode108.Name = "CAM_75";
+            treeNode108.Text = "CAM_75";
+            treeNode109.Name = "GW_30";
+            treeNode109.Text = "Chợ Hoá Thành";
+            treeNode110.Name = "CAM_76";
+            treeNode110.Text = "CAM_76";
+            treeNode111.Name = "CAM_77";
+            treeNode111.Text = "CAM_77";
+            treeNode112.Name = "GW_31";
+            treeNode112.Text = "Đầu đường 26/3";
+            treeNode113.Name = "CAM_78";
+            treeNode113.Text = "CAM_78";
+            treeNode114.Name = "CAM_79";
+            treeNode114.Text = "CAM_79";
+            treeNode115.Name = "GW_32";
+            treeNode115.Text = "Ngã 3 (QL54 - Đường qua cầu Mỹ Hoà)";
+            treeNode116.Name = "CAM_80";
+            treeNode116.Text = "CAM_80";
+            treeNode117.Name = "CAM_81";
+            treeNode117.Text = "CAM_81";
+            treeNode118.Name = "GW_33";
+            treeNode118.Text = "Ngã ba Tắt Ông Phò";
+            treeNode119.Name = "CAM_82";
+            treeNode119.Text = "CAM_82";
+            treeNode120.Name = "CAM_83";
+            treeNode120.Text = "CAM_83";
+            treeNode121.Name = "GW_34";
+            treeNode121.Text = "Đầu đường vào công ty 620";
+            treeNode122.Name = "CAM_84";
+            treeNode122.Text = "CAM_84";
+            treeNode123.Name = "CAM_85";
+            treeNode123.Text = "CAM_85";
+            treeNode124.Name = "GW_35";
+            treeNode124.Text = "Dạ Cầu Cần Thơ (tại nhịp sập)";
+            treeNode125.Name = "CAM_86";
+            treeNode125.Text = "CAM_86";
+            treeNode126.Name = "CAM_87";
+            treeNode126.Text = "CAM_87";
+            treeNode127.Name = "GW_36";
+            treeNode127.Text = "Trước cổng KCN Bình Minh";
+            treeNode128.Name = "CAM_88";
+            treeNode128.Text = "CAM_88";
+            treeNode129.Name = "CAM_89";
+            treeNode129.Text = "CAM_89";
+            treeNode130.Name = "GW_37";
+            treeNode130.Text = "Trước UBND Cái Vồn";
             this.treeView_CAM_BINHMINH_Dsach.Nodes.AddRange(new System.Windows.Forms.TreeNode[] {
-            treeNode539,
-            treeNode544,
-            treeNode548,
-            treeNode550,
-            treeNode554,
-            treeNode558,
-            treeNode561,
-            treeNode564,
-            treeNode567,
-            treeNode570,
-            treeNode575,
-            treeNode580,
-            treeNode583,
-            treeNode588,
-            treeNode593,
-            treeNode596,
-            treeNode599,
-            treeNode605,
-            treeNode608,
-            treeNode610,
-            treeNode612,
-            treeNode614,
-            treeNode616,
-            treeNode619,
-            treeNode622,
-            treeNode627,
-            treeNode632,
-            treeNode634,
-            treeNode638,
-            treeNode641,
-            treeNode644,
-            treeNode647,
-            treeNode650,
-            treeNode653,
-            treeNode656,
-            treeNode659,
-            treeNode662,
-            treeNode665});
+            treeNode4,
+            treeNode9,
+            treeNode13,
+            treeNode15,
+            treeNode19,
+            treeNode23,
+            treeNode26,
+            treeNode29,
+            treeNode32,
+            treeNode35,
+            treeNode40,
+            treeNode45,
+            treeNode48,
+            treeNode53,
+            treeNode58,
+            treeNode61,
+            treeNode64,
+            treeNode70,
+            treeNode73,
+            treeNode75,
+            treeNode77,
+            treeNode79,
+            treeNode81,
+            treeNode84,
+            treeNode87,
+            treeNode92,
+            treeNode97,
+            treeNode99,
+            treeNode103,
+            treeNode106,
+            treeNode109,
+            treeNode112,
+            treeNode115,
+            treeNode118,
+            treeNode121,
+            treeNode124,
+            treeNode127,
+            treeNode130});
             this.treeView_CAM_BINHMINH_Dsach.Size = new System.Drawing.Size(584, 700);
             this.treeView_CAM_BINHMINH_Dsach.TabIndex = 4;
             this.treeView_CAM_BINHMINH_Dsach.BeforeCollapse += new System.Windows.Forms.TreeViewCancelEventHandler(this.treeView_CAM_BINHMINH_Dsach_BeforeCollapse);
@@ -1699,306 +1703,306 @@
             this.treeView_CAM_VUNGLIEM_Dsach.Location = new System.Drawing.Point(3, 3);
             this.treeView_CAM_VUNGLIEM_Dsach.Margin = new System.Windows.Forms.Padding(1);
             this.treeView_CAM_VUNGLIEM_Dsach.Name = "treeView_CAM_VUNGLIEM_Dsach";
-            treeNode406.Name = "DG_1";
-            treeNode406.Text = "Đầu ghi 1";
-            treeNode407.Name = "DG_2";
-            treeNode407.Text = "Đầu ghi 2";
-            treeNode408.Name = "DG_3";
-            treeNode408.Text = "Đầu ghi 3";
-            treeNode409.BackColor = System.Drawing.Color.White;
-            treeNode409.Name = "GW_38";
-            treeNode409.Text = "Đầu ghi tại CA_Bình Minh";
-            treeNode410.Name = "CAM_1";
-            treeNode410.Text = "CAM_1";
-            treeNode411.Name = "CAM_2";
-            treeNode411.Text = "CAM_2";
-            treeNode412.Name = "CAM_3";
-            treeNode412.Text = "CAM_3";
-            treeNode413.Name = "CAM_4";
-            treeNode413.Text = "CAM_4";
-            treeNode414.Name = "GW_1";
-            treeNode414.Text = "Ngã tư (Phan Văn Quân - Nguyễn Văn Thảnh - P.V.Năm)";
-            treeNode415.Name = "CAM_5";
-            treeNode415.Text = "CAM_5";
-            treeNode416.Name = "CAM_6";
-            treeNode416.Text = "CAM_6";
-            treeNode417.Name = "CAM_7";
-            treeNode417.Text = "CAM_7";
-            treeNode418.Name = "GW_2";
-            treeNode418.Text = "Ngã 3 (gần trạm cân cũ, hướng đi Bình Tân hoặc xuống bến đò)";
-            treeNode419.Name = "CAM_8";
-            treeNode419.Text = "CAM_8";
-            treeNode420.Name = "GW_3";
-            treeNode420.Text = "Đầu đường xuống bến đò khóm 3 (đi Trần Phú - Cần Thơ)";
-            treeNode421.Name = "CAM_9";
-            treeNode421.Text = "CAM_9";
-            treeNode422.Name = "CAM_10";
-            treeNode422.Text = "CAM_10";
-            treeNode423.Name = "CAM_11";
-            treeNode423.Text = "CAM_11";
-            treeNode424.Name = "GW_4";
-            treeNode424.Text = "Đầu đường vào cổng trường THPT Bình Minh";
-            treeNode425.Name = "CAM_12";
-            treeNode425.Text = "CAM_12";
-            treeNode426.Name = "CAM_13";
-            treeNode426.Text = "CAM_13";
-            treeNode427.Name = "CAM_14";
-            treeNode427.Text = "CAM_14";
-            treeNode428.Name = "GW_5";
-            treeNode428.Text = "Đầu đường vào cổng trường THPT Hoàng Thái Hiếu";
-            treeNode429.Name = "CAM_15";
-            treeNode429.Text = "CAM_15";
-            treeNode430.Name = "CAM_16";
-            treeNode430.Text = "CAM_16";
-            treeNode431.Name = "GW_6";
-            treeNode431.Text = "Chân Cầu Thành Lợi";
-            treeNode432.Name = "CAM_17";
-            treeNode432.Text = "CAM_17";
-            treeNode433.Name = "CAM_18";
-            treeNode433.Text = "CAM_18";
-            treeNode434.Name = "GW_7";
-            treeNode434.Text = "Ngã 4 (giao: Phan Văn Quân - Huỳnh Văn Đạt)";
-            treeNode435.Name = "CAM_19";
-            treeNode435.Text = "CAM_19";
-            treeNode436.Name = "CAM_20";
-            treeNode436.Text = "CAM_20";
-            treeNode437.Name = "GW_8";
-            treeNode437.Text = "Ngã 3 (giao: Huỳnh Văn Đạt - Hai Bà Trưng)";
-            treeNode438.Name = "CAM_21";
-            treeNode438.Text = "CAM_21";
-            treeNode439.Name = "CAM_22";
-            treeNode439.Text = "CAM_22";
-            treeNode440.Name = "GW_9";
-            treeNode440.Text = "Ngã 3 (sau Trung Tâm hành chính TX)";
-            treeNode441.Name = "CAM_23";
-            treeNode441.Text = "CAM_23";
-            treeNode442.Name = "CAM_24";
-            treeNode442.Text = "CAM_24";
-            treeNode443.Name = "CAM_25";
-            treeNode443.Text = "CAM_25";
-            treeNode444.Name = "CAM_26";
-            treeNode444.Text = "CAM_26";
-            treeNode445.Name = "GW_10";
-            treeNode445.Text = "Ngã 3 (trước cửa Trung tâm hành chính TX)";
-            treeNode446.Name = "CAM_27";
-            treeNode446.Text = "CAM_27";
-            treeNode447.Name = "CAM_28";
-            treeNode447.Text = "CAM_28";
-            treeNode448.Name = "CAM_29";
-            treeNode448.Text = "CAM_29";
-            treeNode449.Name = "CAM_30";
-            treeNode449.Text = "CAM_30";
-            treeNode450.Name = "GW_11";
-            treeNode450.Text = "Ngã 4 (giao: đường 3/2 - Phan Văn Năm)";
-            treeNode451.Name = "CAM_31";
-            treeNode451.Text = "CAM_31";
-            treeNode452.Name = "CAM_32";
-            treeNode452.Text = "CAM_32";
-            treeNode453.Name = "GW_12";
-            treeNode453.Text = "Ngã 4 (giao: Lê Văn Dị - Phan Văn Năm)";
-            treeNode454.Name = "CAM_33";
-            treeNode454.Text = "CAM_33";
-            treeNode455.Name = "CAM_34";
-            treeNode455.Text = "CAM_34";
-            treeNode456.Name = "CAM_35";
-            treeNode456.Text = "CAM_35";
-            treeNode457.Name = "CAM_36";
-            treeNode457.Text = "CAM_36";
-            treeNode458.Name = "GW_13";
-            treeNode458.Text = "Ngã 4 (giao: Phan Văn Năm - Ngô Quyền)";
-            treeNode459.Name = "CAM_37";
-            treeNode459.Text = "CAM_37";
-            treeNode460.Name = "CAM_38";
-            treeNode460.Text = "CAM_38";
-            treeNode461.Name = "CAM_39";
-            treeNode461.Text = "CAM_39";
-            treeNode462.Name = "CAM_40";
-            treeNode462.Text = "CAM_40";
-            treeNode463.Name = "GW_14";
-            treeNode463.Text = "Ngã 4 (giao: Ngô Quyền - Nguyễn Văn Thảnh)";
-            treeNode464.Name = "CAM_41";
-            treeNode464.Text = "CAM_41";
-            treeNode465.Name = "CAM_42";
-            treeNode465.Text = "CAM_42";
-            treeNode466.Name = "GW_15";
-            treeNode466.Text = "Ngã 4 Cua 3 Lời";
-            treeNode467.Name = "CAM_43";
-            treeNode467.Text = "CAM_43";
-            treeNode468.Name = "CAM_44";
-            treeNode468.Text = "CAM_44";
-            treeNode469.Name = "GW_16";
-            treeNode469.Text = "Ngã 3 Rạch Xẻo Nga (trước cửa Vật liệu XD Thành Tất)";
-            treeNode470.Name = "CAM_45";
-            treeNode470.Text = "CAM_45";
-            treeNode471.Name = "CAM_46";
-            treeNode471.Text = "CAM_46";
-            treeNode472.Name = "CAM_47";
-            treeNode472.Text = "CAM_47";
-            treeNode473.Name = "CAM_48";
-            treeNode473.Text = "CAM_48";
-            treeNode474.Name = "CAM_49";
-            treeNode474.Text = "CAM_49";
-            treeNode475.Name = "GW_17";
-            treeNode475.Text = "Ngã 3 (Nguyễn Văn Thảnh - Lưu Nhơn Sâm)";
-            treeNode476.Name = "CAM_50";
-            treeNode476.Text = "CAM_50";
-            treeNode477.Name = "CAM_51";
-            treeNode477.Text = "CAM_51";
-            treeNode478.Name = "GW_18";
-            treeNode478.Text = "Ngã 3 trước Trường Thoại Ngọc Hầu";
-            treeNode479.Name = "CAM_52";
-            treeNode479.Text = "CAM_52";
-            treeNode480.Name = "GW_19";
-            treeNode480.Text = "Điểm quay đầu xe khu vực Bến xe Phương Trang 1";
-            treeNode481.Name = "CAM_53";
-            treeNode481.Text = "CAM_53";
-            treeNode482.Name = "GW_20";
-            treeNode482.Text = "Điểm quay đầu xe khu vực Bến xe Phương Trang 2";
-            treeNode483.Name = "CAM_54";
-            treeNode483.Text = "CAM_54";
-            treeNode484.Name = "GW_21";
-            treeNode484.Text = "Điểm quay đầu gần Bến đò Giáo Mẹo 1";
-            treeNode485.Name = "CAM_55";
-            treeNode485.Text = "CAM_55";
-            treeNode486.Name = "GW_22";
-            treeNode486.Text = "Điểm quay đầu gần Bến đò Giáo Mẹo 2";
-            treeNode487.Name = "CAM_56";
-            treeNode487.Text = "CAM_56";
-            treeNode488.Name = "CAM_57";
-            treeNode488.Text = "CAM_57";
-            treeNode489.Name = "GW_23";
-            treeNode489.Text = "Ngã 3 Đầu đường vào Thuận An - Rạch Sậy";
-            treeNode490.Name = "CAM_58";
-            treeNode490.Text = "CAM_58";
-            treeNode491.Name = "CAM_59";
-            treeNode491.Text = "CAM_59";
-            treeNode492.Name = "GW_24";
-            treeNode492.Text = "Chân cầu Khoán Tiết";
-            treeNode493.Name = "CAM_60";
-            treeNode493.Text = "CAM_60";
-            treeNode494.Name = "CAM_61";
-            treeNode494.Text = "CAM_61";
-            treeNode495.Name = "CAM_62";
-            treeNode495.Text = "CAM_62";
-            treeNode496.Name = "CAM_63";
-            treeNode496.Text = "CAM_63";
-            treeNode497.Name = "GW_25";
-            treeNode497.Text = "Chân cầu vượt QL54 (phía đi Trà Ôn)";
-            treeNode498.Name = "CAM_64";
-            treeNode498.Text = "CAM_64";
-            treeNode499.Name = "CAM_65";
-            treeNode499.Text = "CAM_65";
-            treeNode500.Name = "CAM_66";
-            treeNode500.Text = "CAM_66";
-            treeNode501.Name = "CAM_67";
-            treeNode501.Text = "CAM_67";
-            treeNode502.Name = "GW_26";
-            treeNode502.Text = "Chân cầu vượt QL54 (phía đi Bình Minh)";
-            treeNode503.Name = "CAM_68";
-            treeNode503.Text = "CAM_68";
-            treeNode504.Name = "GW_27";
-            treeNode504.Text = "Ngã 3 Đầu đường vào Đông Thạnh (trước cửa cây xăng Cường Phát)";
-            treeNode505.Name = "CAM_69";
-            treeNode505.Text = "CAM_69";
-            treeNode506.Name = "CAM_70";
-            treeNode506.Text = "CAM_70";
-            treeNode507.Name = "CAM_71";
-            treeNode507.Text = "CAM_71";
-            treeNode508.Name = "GW_28";
-            treeNode508.Text = "Đầu đường vào Cầu Mỹ Hoà Tây";
-            treeNode509.Name = "CAM_72";
-            treeNode509.Text = "CAM_72";
-            treeNode510.Name = "CAM_73";
-            treeNode510.Text = "CAM_73";
-            treeNode511.Name = "GW_29";
-            treeNode511.Text = "Cầu Dừa (cầu Bến xe) Đông Thành";
-            treeNode512.Name = "CAM_74";
-            treeNode512.Text = "CAM_74";
-            treeNode513.Name = "CAM_75";
-            treeNode513.Text = "CAM_75";
-            treeNode514.Name = "GW_30";
-            treeNode514.Text = "Chợ Hoá Thành";
-            treeNode515.Name = "CAM_76";
-            treeNode515.Text = "CAM_76";
-            treeNode516.Name = "CAM_77";
-            treeNode516.Text = "CAM_77";
-            treeNode517.Name = "GW_31";
-            treeNode517.Text = "Đầu đường 26/3";
-            treeNode518.Name = "CAM_78";
-            treeNode518.Text = "CAM_78";
-            treeNode519.Name = "CAM_79";
-            treeNode519.Text = "CAM_79";
-            treeNode520.Name = "GW_32";
-            treeNode520.Text = "Ngã 3 (QL54 - Đường qua cầu Mỹ Hoà)";
-            treeNode521.Name = "CAM_80";
-            treeNode521.Text = "CAM_80";
-            treeNode522.Name = "CAM_81";
-            treeNode522.Text = "CAM_81";
-            treeNode523.Name = "GW_33";
-            treeNode523.Text = "Ngã ba Tắt Ông Phò";
-            treeNode524.Name = "CAM_82";
-            treeNode524.Text = "CAM_82";
-            treeNode525.Name = "CAM_83";
-            treeNode525.Text = "CAM_83";
-            treeNode526.Name = "GW_34";
-            treeNode526.Text = "Đầu đường vào công ty 620";
-            treeNode527.Name = "CAM_84";
-            treeNode527.Text = "CAM_84";
-            treeNode528.Name = "CAM_85";
-            treeNode528.Text = "CAM_85";
-            treeNode529.Name = "GW_35";
-            treeNode529.Text = "Dạ Cầu Cần Thơ (tại nhịp sập)";
-            treeNode530.Name = "CAM_86";
-            treeNode530.Text = "CAM_86";
-            treeNode531.Name = "CAM_87";
-            treeNode531.Text = "CAM_87";
-            treeNode532.Name = "GW_36";
-            treeNode532.Text = "Trước cổng KCN Bình Minh";
-            treeNode533.Name = "CAM_88";
-            treeNode533.Text = "CAM_88";
-            treeNode534.Name = "CAM_89";
-            treeNode534.Text = "CAM_89";
-            treeNode535.Name = "GW_37";
-            treeNode535.Text = "Trước UBND Cái Vồn";
+            treeNode131.Name = "DG_1";
+            treeNode131.Text = "Đầu ghi 1";
+            treeNode132.Name = "DG_2";
+            treeNode132.Text = "Đầu ghi 2";
+            treeNode133.Name = "DG_3";
+            treeNode133.Text = "Đầu ghi 3";
+            treeNode134.BackColor = System.Drawing.Color.White;
+            treeNode134.Name = "GW_38";
+            treeNode134.Text = "Đầu ghi tại CA_Bình Minh";
+            treeNode135.Name = "CAM_1";
+            treeNode135.Text = "CAM_1";
+            treeNode136.Name = "CAM_2";
+            treeNode136.Text = "CAM_2";
+            treeNode137.Name = "CAM_3";
+            treeNode137.Text = "CAM_3";
+            treeNode138.Name = "CAM_4";
+            treeNode138.Text = "CAM_4";
+            treeNode139.Name = "GW_1";
+            treeNode139.Text = "Ngã tư (Phan Văn Quân - Nguyễn Văn Thảnh - P.V.Năm)";
+            treeNode140.Name = "CAM_5";
+            treeNode140.Text = "CAM_5";
+            treeNode141.Name = "CAM_6";
+            treeNode141.Text = "CAM_6";
+            treeNode142.Name = "CAM_7";
+            treeNode142.Text = "CAM_7";
+            treeNode143.Name = "GW_2";
+            treeNode143.Text = "Ngã 3 (gần trạm cân cũ, hướng đi Bình Tân hoặc xuống bến đò)";
+            treeNode144.Name = "CAM_8";
+            treeNode144.Text = "CAM_8";
+            treeNode145.Name = "GW_3";
+            treeNode145.Text = "Đầu đường xuống bến đò khóm 3 (đi Trần Phú - Cần Thơ)";
+            treeNode146.Name = "CAM_9";
+            treeNode146.Text = "CAM_9";
+            treeNode147.Name = "CAM_10";
+            treeNode147.Text = "CAM_10";
+            treeNode148.Name = "CAM_11";
+            treeNode148.Text = "CAM_11";
+            treeNode149.Name = "GW_4";
+            treeNode149.Text = "Đầu đường vào cổng trường THPT Bình Minh";
+            treeNode150.Name = "CAM_12";
+            treeNode150.Text = "CAM_12";
+            treeNode151.Name = "CAM_13";
+            treeNode151.Text = "CAM_13";
+            treeNode152.Name = "CAM_14";
+            treeNode152.Text = "CAM_14";
+            treeNode153.Name = "GW_5";
+            treeNode153.Text = "Đầu đường vào cổng trường THPT Hoàng Thái Hiếu";
+            treeNode154.Name = "CAM_15";
+            treeNode154.Text = "CAM_15";
+            treeNode155.Name = "CAM_16";
+            treeNode155.Text = "CAM_16";
+            treeNode156.Name = "GW_6";
+            treeNode156.Text = "Chân Cầu Thành Lợi";
+            treeNode157.Name = "CAM_17";
+            treeNode157.Text = "CAM_17";
+            treeNode158.Name = "CAM_18";
+            treeNode158.Text = "CAM_18";
+            treeNode159.Name = "GW_7";
+            treeNode159.Text = "Ngã 4 (giao: Phan Văn Quân - Huỳnh Văn Đạt)";
+            treeNode160.Name = "CAM_19";
+            treeNode160.Text = "CAM_19";
+            treeNode161.Name = "CAM_20";
+            treeNode161.Text = "CAM_20";
+            treeNode162.Name = "GW_8";
+            treeNode162.Text = "Ngã 3 (giao: Huỳnh Văn Đạt - Hai Bà Trưng)";
+            treeNode163.Name = "CAM_21";
+            treeNode163.Text = "CAM_21";
+            treeNode164.Name = "CAM_22";
+            treeNode164.Text = "CAM_22";
+            treeNode165.Name = "GW_9";
+            treeNode165.Text = "Ngã 3 (sau Trung Tâm hành chính TX)";
+            treeNode166.Name = "CAM_23";
+            treeNode166.Text = "CAM_23";
+            treeNode167.Name = "CAM_24";
+            treeNode167.Text = "CAM_24";
+            treeNode168.Name = "CAM_25";
+            treeNode168.Text = "CAM_25";
+            treeNode169.Name = "CAM_26";
+            treeNode169.Text = "CAM_26";
+            treeNode170.Name = "GW_10";
+            treeNode170.Text = "Ngã 3 (trước cửa Trung tâm hành chính TX)";
+            treeNode171.Name = "CAM_27";
+            treeNode171.Text = "CAM_27";
+            treeNode172.Name = "CAM_28";
+            treeNode172.Text = "CAM_28";
+            treeNode173.Name = "CAM_29";
+            treeNode173.Text = "CAM_29";
+            treeNode174.Name = "CAM_30";
+            treeNode174.Text = "CAM_30";
+            treeNode175.Name = "GW_11";
+            treeNode175.Text = "Ngã 4 (giao: đường 3/2 - Phan Văn Năm)";
+            treeNode176.Name = "CAM_31";
+            treeNode176.Text = "CAM_31";
+            treeNode177.Name = "CAM_32";
+            treeNode177.Text = "CAM_32";
+            treeNode178.Name = "GW_12";
+            treeNode178.Text = "Ngã 4 (giao: Lê Văn Dị - Phan Văn Năm)";
+            treeNode179.Name = "CAM_33";
+            treeNode179.Text = "CAM_33";
+            treeNode180.Name = "CAM_34";
+            treeNode180.Text = "CAM_34";
+            treeNode181.Name = "CAM_35";
+            treeNode181.Text = "CAM_35";
+            treeNode182.Name = "CAM_36";
+            treeNode182.Text = "CAM_36";
+            treeNode183.Name = "GW_13";
+            treeNode183.Text = "Ngã 4 (giao: Phan Văn Năm - Ngô Quyền)";
+            treeNode184.Name = "CAM_37";
+            treeNode184.Text = "CAM_37";
+            treeNode185.Name = "CAM_38";
+            treeNode185.Text = "CAM_38";
+            treeNode186.Name = "CAM_39";
+            treeNode186.Text = "CAM_39";
+            treeNode187.Name = "CAM_40";
+            treeNode187.Text = "CAM_40";
+            treeNode188.Name = "GW_14";
+            treeNode188.Text = "Ngã 4 (giao: Ngô Quyền - Nguyễn Văn Thảnh)";
+            treeNode189.Name = "CAM_41";
+            treeNode189.Text = "CAM_41";
+            treeNode190.Name = "CAM_42";
+            treeNode190.Text = "CAM_42";
+            treeNode191.Name = "GW_15";
+            treeNode191.Text = "Ngã 4 Cua 3 Lời";
+            treeNode192.Name = "CAM_43";
+            treeNode192.Text = "CAM_43";
+            treeNode193.Name = "CAM_44";
+            treeNode193.Text = "CAM_44";
+            treeNode194.Name = "GW_16";
+            treeNode194.Text = "Ngã 3 Rạch Xẻo Nga (trước cửa Vật liệu XD Thành Tất)";
+            treeNode195.Name = "CAM_45";
+            treeNode195.Text = "CAM_45";
+            treeNode196.Name = "CAM_46";
+            treeNode196.Text = "CAM_46";
+            treeNode197.Name = "CAM_47";
+            treeNode197.Text = "CAM_47";
+            treeNode198.Name = "CAM_48";
+            treeNode198.Text = "CAM_48";
+            treeNode199.Name = "CAM_49";
+            treeNode199.Text = "CAM_49";
+            treeNode200.Name = "GW_17";
+            treeNode200.Text = "Ngã 3 (Nguyễn Văn Thảnh - Lưu Nhơn Sâm)";
+            treeNode201.Name = "CAM_50";
+            treeNode201.Text = "CAM_50";
+            treeNode202.Name = "CAM_51";
+            treeNode202.Text = "CAM_51";
+            treeNode203.Name = "GW_18";
+            treeNode203.Text = "Ngã 3 trước Trường Thoại Ngọc Hầu";
+            treeNode204.Name = "CAM_52";
+            treeNode204.Text = "CAM_52";
+            treeNode205.Name = "GW_19";
+            treeNode205.Text = "Điểm quay đầu xe khu vực Bến xe Phương Trang 1";
+            treeNode206.Name = "CAM_53";
+            treeNode206.Text = "CAM_53";
+            treeNode207.Name = "GW_20";
+            treeNode207.Text = "Điểm quay đầu xe khu vực Bến xe Phương Trang 2";
+            treeNode208.Name = "CAM_54";
+            treeNode208.Text = "CAM_54";
+            treeNode209.Name = "GW_21";
+            treeNode209.Text = "Điểm quay đầu gần Bến đò Giáo Mẹo 1";
+            treeNode210.Name = "CAM_55";
+            treeNode210.Text = "CAM_55";
+            treeNode211.Name = "GW_22";
+            treeNode211.Text = "Điểm quay đầu gần Bến đò Giáo Mẹo 2";
+            treeNode212.Name = "CAM_56";
+            treeNode212.Text = "CAM_56";
+            treeNode213.Name = "CAM_57";
+            treeNode213.Text = "CAM_57";
+            treeNode214.Name = "GW_23";
+            treeNode214.Text = "Ngã 3 Đầu đường vào Thuận An - Rạch Sậy";
+            treeNode215.Name = "CAM_58";
+            treeNode215.Text = "CAM_58";
+            treeNode216.Name = "CAM_59";
+            treeNode216.Text = "CAM_59";
+            treeNode217.Name = "GW_24";
+            treeNode217.Text = "Chân cầu Khoán Tiết";
+            treeNode218.Name = "CAM_60";
+            treeNode218.Text = "CAM_60";
+            treeNode219.Name = "CAM_61";
+            treeNode219.Text = "CAM_61";
+            treeNode220.Name = "CAM_62";
+            treeNode220.Text = "CAM_62";
+            treeNode221.Name = "CAM_63";
+            treeNode221.Text = "CAM_63";
+            treeNode222.Name = "GW_25";
+            treeNode222.Text = "Chân cầu vượt QL54 (phía đi Trà Ôn)";
+            treeNode223.Name = "CAM_64";
+            treeNode223.Text = "CAM_64";
+            treeNode224.Name = "CAM_65";
+            treeNode224.Text = "CAM_65";
+            treeNode225.Name = "CAM_66";
+            treeNode225.Text = "CAM_66";
+            treeNode226.Name = "CAM_67";
+            treeNode226.Text = "CAM_67";
+            treeNode227.Name = "GW_26";
+            treeNode227.Text = "Chân cầu vượt QL54 (phía đi Bình Minh)";
+            treeNode228.Name = "CAM_68";
+            treeNode228.Text = "CAM_68";
+            treeNode229.Name = "GW_27";
+            treeNode229.Text = "Ngã 3 Đầu đường vào Đông Thạnh (trước cửa cây xăng Cường Phát)";
+            treeNode230.Name = "CAM_69";
+            treeNode230.Text = "CAM_69";
+            treeNode231.Name = "CAM_70";
+            treeNode231.Text = "CAM_70";
+            treeNode232.Name = "CAM_71";
+            treeNode232.Text = "CAM_71";
+            treeNode233.Name = "GW_28";
+            treeNode233.Text = "Đầu đường vào Cầu Mỹ Hoà Tây";
+            treeNode234.Name = "CAM_72";
+            treeNode234.Text = "CAM_72";
+            treeNode235.Name = "CAM_73";
+            treeNode235.Text = "CAM_73";
+            treeNode236.Name = "GW_29";
+            treeNode236.Text = "Cầu Dừa (cầu Bến xe) Đông Thành";
+            treeNode237.Name = "CAM_74";
+            treeNode237.Text = "CAM_74";
+            treeNode238.Name = "CAM_75";
+            treeNode238.Text = "CAM_75";
+            treeNode239.Name = "GW_30";
+            treeNode239.Text = "Chợ Hoá Thành";
+            treeNode240.Name = "CAM_76";
+            treeNode240.Text = "CAM_76";
+            treeNode241.Name = "CAM_77";
+            treeNode241.Text = "CAM_77";
+            treeNode242.Name = "GW_31";
+            treeNode242.Text = "Đầu đường 26/3";
+            treeNode243.Name = "CAM_78";
+            treeNode243.Text = "CAM_78";
+            treeNode244.Name = "CAM_79";
+            treeNode244.Text = "CAM_79";
+            treeNode245.Name = "GW_32";
+            treeNode245.Text = "Ngã 3 (QL54 - Đường qua cầu Mỹ Hoà)";
+            treeNode246.Name = "CAM_80";
+            treeNode246.Text = "CAM_80";
+            treeNode247.Name = "CAM_81";
+            treeNode247.Text = "CAM_81";
+            treeNode248.Name = "GW_33";
+            treeNode248.Text = "Ngã ba Tắt Ông Phò";
+            treeNode249.Name = "CAM_82";
+            treeNode249.Text = "CAM_82";
+            treeNode250.Name = "CAM_83";
+            treeNode250.Text = "CAM_83";
+            treeNode251.Name = "GW_34";
+            treeNode251.Text = "Đầu đường vào công ty 620";
+            treeNode252.Name = "CAM_84";
+            treeNode252.Text = "CAM_84";
+            treeNode253.Name = "CAM_85";
+            treeNode253.Text = "CAM_85";
+            treeNode254.Name = "GW_35";
+            treeNode254.Text = "Dạ Cầu Cần Thơ (tại nhịp sập)";
+            treeNode255.Name = "CAM_86";
+            treeNode255.Text = "CAM_86";
+            treeNode256.Name = "CAM_87";
+            treeNode256.Text = "CAM_87";
+            treeNode257.Name = "GW_36";
+            treeNode257.Text = "Trước cổng KCN Bình Minh";
+            treeNode258.Name = "CAM_88";
+            treeNode258.Text = "CAM_88";
+            treeNode259.Name = "CAM_89";
+            treeNode259.Text = "CAM_89";
+            treeNode260.Name = "GW_37";
+            treeNode260.Text = "Trước UBND Cái Vồn";
             this.treeView_CAM_VUNGLIEM_Dsach.Nodes.AddRange(new System.Windows.Forms.TreeNode[] {
-            treeNode409,
-            treeNode414,
-            treeNode418,
-            treeNode420,
-            treeNode424,
-            treeNode428,
-            treeNode431,
-            treeNode434,
-            treeNode437,
-            treeNode440,
-            treeNode445,
-            treeNode450,
-            treeNode453,
-            treeNode458,
-            treeNode463,
-            treeNode466,
-            treeNode469,
-            treeNode475,
-            treeNode478,
-            treeNode480,
-            treeNode482,
-            treeNode484,
-            treeNode486,
-            treeNode489,
-            treeNode492,
-            treeNode497,
-            treeNode502,
-            treeNode504,
-            treeNode508,
-            treeNode511,
-            treeNode514,
-            treeNode517,
-            treeNode520,
-            treeNode523,
-            treeNode526,
-            treeNode529,
-            treeNode532,
-            treeNode535});
+            treeNode134,
+            treeNode139,
+            treeNode143,
+            treeNode145,
+            treeNode149,
+            treeNode153,
+            treeNode156,
+            treeNode159,
+            treeNode162,
+            treeNode165,
+            treeNode170,
+            treeNode175,
+            treeNode178,
+            treeNode183,
+            treeNode188,
+            treeNode191,
+            treeNode194,
+            treeNode200,
+            treeNode203,
+            treeNode205,
+            treeNode207,
+            treeNode209,
+            treeNode211,
+            treeNode214,
+            treeNode217,
+            treeNode222,
+            treeNode227,
+            treeNode229,
+            treeNode233,
+            treeNode236,
+            treeNode239,
+            treeNode242,
+            treeNode245,
+            treeNode248,
+            treeNode251,
+            treeNode254,
+            treeNode257,
+            treeNode260});
             this.treeView_CAM_VUNGLIEM_Dsach.Size = new System.Drawing.Size(584, 700);
             this.treeView_CAM_VUNGLIEM_Dsach.TabIndex = 5;
             this.treeView_CAM_VUNGLIEM_Dsach.BeforeCollapse += new System.Windows.Forms.TreeViewCancelEventHandler(this.treeView_CAM_VUNGLIEM_Dsach_BeforeCollapse);
@@ -2257,339 +2261,339 @@
             this.treeView_CAM_TAMBINH_Dsach.Location = new System.Drawing.Point(5, 5);
             this.treeView_CAM_TAMBINH_Dsach.Margin = new System.Windows.Forms.Padding(1);
             this.treeView_CAM_TAMBINH_Dsach.Name = "treeView_CAM_TAMBINH_Dsach";
-            treeNode666.Name = "DG_1";
-            treeNode666.Text = "Đầu ghi 1";
-            treeNode667.Name = "DG_2";
-            treeNode667.Text = "Đầu ghi 2";
-            treeNode668.Name = "DG_3";
-            treeNode668.Text = "Đầu ghi 3";
-            treeNode669.BackColor = System.Drawing.Color.White;
-            treeNode669.Name = "GW_1";
-            treeNode669.Text = "CA Huyện Tam Bình";
-            treeNode670.Name = "CAM_1";
-            treeNode670.Text = "CAM_1";
-            treeNode671.Name = "CAM_2";
-            treeNode671.Text = "CAM_2";
-            treeNode672.Name = "GW_2";
-            treeNode672.Text = "Trước CA huyện Tam Bình";
-            treeNode673.Name = "CAM_3";
-            treeNode673.Text = "CAM_3";
-            treeNode674.Name = "CAM_4";
-            treeNode674.Text = "CAM_4";
-            treeNode675.Name = "CAM_5";
-            treeNode675.Text = "CAM_5";
-            treeNode676.Name = "GW_3";
-            treeNode676.Text = "Ngã ba bệnh viện";
-            treeNode677.Name = "CAM_6";
-            treeNode677.Text = "CAM_6";
-            treeNode678.Name = "CAM_7";
-            treeNode678.Text = "CAM_7";
-            treeNode679.Name = "GW_4";
-            treeNode679.Text = "Ngã ba đường liên Khóm 2/3";
-            treeNode680.Name = "CAM_8";
-            treeNode680.Text = "CAM_8";
-            treeNode681.Name = "CAM_9";
-            treeNode681.Text = "CAM_9";
-            treeNode682.Name = "GW_5";
-            treeNode682.Text = "Cầu Bình Phú/đường 909";
-            treeNode683.Name = "CAM_10";
-            treeNode683.Text = "CAM_10";
-            treeNode684.Name = "CAM_11";
-            treeNode684.Text = "CAM_11";
-            treeNode685.Name = "CAM_12";
-            treeNode685.Text = "CAM_12";
-            treeNode686.Name = "GW_6";
-            treeNode686.Text = "Ngã 4 xã Loan Mỹ";
-            treeNode687.Name = "CAM_13";
-            treeNode687.Text = "CAM_13";
-            treeNode688.Name = "CAM_14";
-            treeNode688.Text = "CAM_14";
-            treeNode689.Name = "GW_7";
-            treeNode689.Text = "Cầu Kênh Xáng";
-            treeNode690.Name = "CAM_15";
-            treeNode690.Text = "CAM_15";
-            treeNode691.Name = "CAM_16";
-            treeNode691.Text = "CAM_16";
-            treeNode692.Name = "CAM_17";
-            treeNode692.Text = "CAM_17";
-            treeNode693.Name = "GW_8";
-            treeNode693.Text = "Ngã 3 xã mới/Mỹ Thạnh Trung";
-            treeNode694.Name = "CAM_18";
-            treeNode694.Text = "CAM_18";
-            treeNode695.Name = "CAM_19";
-            treeNode695.Text = "CAM_19";
-            treeNode696.Name = "CAM_20";
-            treeNode696.Text = "CAM_20";
-            treeNode697.Name = "CAM_21";
-            treeNode697.Text = "CAM_21";
-            treeNode698.Name = "GW_9";
-            treeNode698.Text = "Vòng Xoay chợ Song Phú";
-            treeNode699.Name = "CAM_22";
-            treeNode699.Text = "CAM_22";
-            treeNode700.Name = "CAM_23";
-            treeNode700.Text = "CAM_23";
-            treeNode701.Name = "CAM_24";
-            treeNode701.Text = "CAM_24";
-            treeNode702.Name = "GW_10";
-            treeNode702.Text = "Khu dân cư Phú Ninh";
-            treeNode703.Name = "CAM_25";
-            treeNode703.Text = "CAM_25";
-            treeNode704.Name = "CAM_26";
-            treeNode704.Text = "CAM_26";
-            treeNode705.Name = "CAM_27";
-            treeNode705.Text = "CAM_27";
-            treeNode706.Name = "GW_11";
-            treeNode706.Text = "Đầu lộ khu đô thị Song Phú/Đối diện Phương Trang";
-            treeNode707.Name = "CAM_28";
-            treeNode707.Text = "CAM_28";
-            treeNode708.Name = "CAM_29";
-            treeNode708.Text = "CAM_29";
-            treeNode709.Name = "GW_12";
-            treeNode709.Text = "Ngã ba đầu đường Phú Thịnh";
-            treeNode710.Name = "CAM_30";
-            treeNode710.Text = "CAM_30";
-            treeNode711.Name = "CAM_31";
-            treeNode711.Text = "CAM_31";
-            treeNode712.Name = "GW_13";
-            treeNode712.Text = "Uỷ Ban Xã Phú Thịnh";
-            treeNode713.Name = "CAM_32";
-            treeNode713.Text = "CAM_32";
-            treeNode714.Name = "CAM_33";
-            treeNode714.Text = "CAM_33";
-            treeNode715.Name = "GW_14";
-            treeNode715.Text = "Ngã 3 đầu đường 908";
-            treeNode716.Name = "CAM_34";
-            treeNode716.Text = "CAM_34";
-            treeNode717.Name = "CAM_35";
-            treeNode717.Text = "CAM_35";
-            treeNode718.Name = "CAM_36";
-            treeNode718.Text = "CAM_36";
-            treeNode719.Name = "GW_15";
-            treeNode719.Text = "Ấp 11 ngã 3 Cả Bần";
-            treeNode720.Name = "CAM_37";
-            treeNode720.Text = "CAM_37";
-            treeNode721.Name = "CAM_38";
-            treeNode721.Text = "CAM_38";
-            treeNode722.Name = "GW_16";
-            treeNode722.Text = "Cầu Bản Đồng";
-            treeNode723.Name = "CAM_39";
-            treeNode723.Text = "CAM_39";
-            treeNode724.Name = "CAM_40";
-            treeNode724.Text = "CAM_40";
-            treeNode725.Name = "GW_17";
-            treeNode725.Text = "Cầu Cả Lá";
-            treeNode726.Name = "CAM_41";
-            treeNode726.Text = "CAM_41";
-            treeNode727.Name = "CAM_42";
-            treeNode727.Text = "CAM_42";
-            treeNode728.Name = "CAM_43";
-            treeNode728.Text = "CAM_43";
-            treeNode729.Name = "GW_18";
-            treeNode729.Text = "Ngã 3 Phú Lộc";
-            treeNode730.Name = "CAM_44";
-            treeNode730.Text = "CAM_44";
-            treeNode731.Name = "CAM_45";
-            treeNode731.Text = "CAM_45";
-            treeNode732.Name = "GW_19";
-            treeNode732.Text = "Nhà Thờ Ngã Cậy";
-            treeNode733.Name = "CAM_46";
-            treeNode733.Text = "CAM_46";
-            treeNode734.Name = "CAM_47";
-            treeNode734.Text = "CAM_47";
-            treeNode735.Name = "GW_20";
-            treeNode735.Text = "Cua 6 Hoà";
-            treeNode736.Name = "CAM_48";
-            treeNode736.Text = "CAM_48";
-            treeNode737.Name = "CAM_49";
-            treeNode737.Text = "CAM_49";
-            treeNode738.Name = "CAM_50";
-            treeNode738.Text = "CAM_50";
-            treeNode739.Name = "GW_21";
-            treeNode739.Text = "Cổng chào Phú Lộc";
-            treeNode740.Name = "CAM_51";
-            treeNode740.Text = "CAM_51";
-            treeNode741.Name = "CAM_52";
-            treeNode741.Text = "CAM_52";
-            treeNode742.Name = "GW_22";
-            treeNode742.Text = "Cầu số 3 lô 6";
-            treeNode743.Name = "CAM_53";
-            treeNode743.Text = "CAM_53";
-            treeNode744.Name = "CAM_54";
-            treeNode744.Text = "CAM_54";
-            treeNode745.Name = "GW_23";
-            treeNode745.Text = "Cầu lô 1 A";
-            treeNode746.Name = "CAM_55";
-            treeNode746.Text = "CAM_55";
-            treeNode747.Name = "CAM_56";
-            treeNode747.Text = "CAM_56";
-            treeNode748.Name = "CAM_57";
-            treeNode748.Text = "CAM_57";
-            treeNode749.Name = "GW_24";
-            treeNode749.Text = "Ấp An Hoà Bình Ninh";
-            treeNode750.Name = "CAM_58";
-            treeNode750.Text = "CAM_58";
-            treeNode751.Name = "CAM_59";
-            treeNode751.Text = "CAM_59";
-            treeNode752.Name = "CAM_60";
-            treeNode752.Text = "CAM_60";
-            treeNode753.Name = "GW_25";
-            treeNode753.Text = "Cầu Rạch Lá";
-            treeNode754.Name = "CAM_61";
-            treeNode754.Text = "CAM_61";
-            treeNode755.Name = "CAM_62";
-            treeNode755.Text = "CAM_62";
-            treeNode756.Name = "GW_26";
-            treeNode756.Text = "Cổng ấp Phú Nghĩa/cây xăng Tân Phú";
-            treeNode757.Name = "CAM_63";
-            treeNode757.Text = "CAM_63";
-            treeNode758.Name = "CAM_64";
-            treeNode758.Text = "CAM_64";
-            treeNode759.Name = "GW_27";
-            treeNode759.Text = "Điểm tiếp giáp Đông Thạnh";
-            treeNode760.Name = "CAM_65";
-            treeNode760.Text = "CAM_65";
-            treeNode761.Name = "CAM_66";
-            treeNode761.Text = "CAM_66";
-            treeNode762.Name = "CAM_67";
-            treeNode762.Text = "CAM_67";
-            treeNode763.Name = "CAM_68";
-            treeNode763.Text = "CAM_68";
-            treeNode764.Name = "GW_28";
-            treeNode764.Text = "Ngã 4 Bình Quí";
-            treeNode765.Name = "CAM_69";
-            treeNode765.Text = "CAM_69";
-            treeNode766.Name = "CAM_70";
-            treeNode766.Text = "CAM_70";
-            treeNode767.Name = "CAM_71";
-            treeNode767.Text = "CAM_71";
-            treeNode768.Name = "CAM_72";
-            treeNode768.Text = "CAM_72";
-            treeNode769.Name = "GW_29";
-            treeNode769.Text = "Cầu Ngã Tắc";
-            treeNode770.Name = "CAM_73";
-            treeNode770.Text = "CAM_73";
-            treeNode771.Name = "CAM_74";
-            treeNode771.Text = "CAM_74";
-            treeNode772.Name = "GW_30";
-            treeNode772.Text = "Cửa hàng xăng dầu số 5";
-            treeNode773.Name = "CAM_75";
-            treeNode773.Text = "CAM_75";
-            treeNode774.Name = "CAM_76";
-            treeNode774.Text = "CAM_76";
-            treeNode775.Name = "CAM_77";
-            treeNode775.Text = "CAM_77";
-            treeNode776.Name = "GW_31";
-            treeNode776.Text = "Ngã ba cầu Tường Lộc";
-            treeNode777.Name = "CAM_78";
-            treeNode777.Text = "CAM_78";
-            treeNode778.Name = "CAM_79";
-            treeNode778.Text = "CAM_79";
-            treeNode779.Name = "GW_32";
-            treeNode779.Text = "Trước trường THCS Nhơn Bình";
-            treeNode780.Name = "CAM_80";
-            treeNode780.Text = "CAM_80";
-            treeNode781.Name = "CAM_81";
-            treeNode781.Text = "CAM_81";
-            treeNode782.Name = "GW_33";
-            treeNode782.Text = "Cống Phó Mùi";
-            treeNode783.Name = "CAM_82";
-            treeNode783.Text = "CAM_82";
-            treeNode784.Name = "CAM_83";
-            treeNode784.Text = "CAM_83";
-            treeNode785.Name = "CAM_84";
-            treeNode785.Text = "CAM_84";
-            treeNode786.Name = "GW_34";
-            treeNode786.Text = "Ngã ba ấp Hoà Phong/ấp 4/ấp 9/ấp 6/ấp Hoà Hiệp";
-            treeNode787.Name = "CAM_85";
-            treeNode787.Text = "CAM_85";
-            treeNode788.Name = "CAM_86";
-            treeNode788.Text = "CAM_86";
-            treeNode789.Name = "CAM_87";
-            treeNode789.Text = "CAM_87";
-            treeNode790.Name = "GW_35";
-            treeNode790.Text = "Ngã ba cầu ấp 4/ấp 9";
-            treeNode791.Name = "CAM_88";
-            treeNode791.Text = "CAM_88";
-            treeNode792.Name = "CAM_89";
-            treeNode792.Text = "CAM_89";
-            treeNode793.Name = "CAM_90";
-            treeNode793.Text = "CAM_90";
-            treeNode794.Name = "GW_36";
-            treeNode794.Text = "Ngã ba Hoà Lộc/Hậu Lộc";
-            treeNode795.Name = "CAM_91";
-            treeNode795.Text = "CAM_91";
-            treeNode796.Name = "CAM_92";
-            treeNode796.Text = "CAM_92";
-            treeNode797.Name = "GW_37";
-            treeNode797.Text = "Cua tạp hoá Thành Diễm";
-            treeNode798.Name = "CAM_93";
-            treeNode798.Text = "CAM_93";
-            treeNode799.Name = "CAM_94";
-            treeNode799.Text = "CAM_94";
-            treeNode800.Name = "GW_38";
-            treeNode800.Text = "Ngã 3 ấp 5 đầu khu dân cư";
-            treeNode801.Name = "CAM_95";
-            treeNode801.Text = "CAM_95";
-            treeNode802.Name = "CAM_96";
-            treeNode802.Text = "CAM_96";
-            treeNode803.Name = "CAM_97";
-            treeNode803.Text = "CAM_97";
-            treeNode804.Name = "GW_39";
-            treeNode804.Text = "Ngã 3 Danh Tấm";
-            treeNode805.Name = "CAM_98";
-            treeNode805.Text = "CAM_98";
-            treeNode806.Name = "CAM_99";
-            treeNode806.Text = "CAM_99";
-            treeNode807.Name = "GW_40";
-            treeNode807.Text = "Cua Tân Lộc (Trường tiểu học Tân Lộc A)";
-            treeNode808.Name = "CAM_100";
-            treeNode808.Text = "CAM_100";
-            treeNode809.Name = "CAM_101";
-            treeNode809.Text = "CAM_101";
-            treeNode810.Name = "GW_41";
-            treeNode810.Text = "Cầu Quan Vệ";
+            treeNode261.Name = "DG_1";
+            treeNode261.Text = "Đầu ghi 1";
+            treeNode262.Name = "DG_2";
+            treeNode262.Text = "Đầu ghi 2";
+            treeNode263.Name = "DG_3";
+            treeNode263.Text = "Đầu ghi 3";
+            treeNode264.BackColor = System.Drawing.Color.White;
+            treeNode264.Name = "GW_1";
+            treeNode264.Text = "CA Huyện Tam Bình";
+            treeNode265.Name = "CAM_1";
+            treeNode265.Text = "CAM_1";
+            treeNode266.Name = "CAM_2";
+            treeNode266.Text = "CAM_2";
+            treeNode267.Name = "GW_2";
+            treeNode267.Text = "Trước CA huyện Tam Bình";
+            treeNode268.Name = "CAM_3";
+            treeNode268.Text = "CAM_3";
+            treeNode269.Name = "CAM_4";
+            treeNode269.Text = "CAM_4";
+            treeNode270.Name = "CAM_5";
+            treeNode270.Text = "CAM_5";
+            treeNode271.Name = "GW_3";
+            treeNode271.Text = "Ngã ba bệnh viện";
+            treeNode272.Name = "CAM_6";
+            treeNode272.Text = "CAM_6";
+            treeNode273.Name = "CAM_7";
+            treeNode273.Text = "CAM_7";
+            treeNode274.Name = "GW_4";
+            treeNode274.Text = "Ngã ba đường liên Khóm 2/3";
+            treeNode275.Name = "CAM_8";
+            treeNode275.Text = "CAM_8";
+            treeNode276.Name = "CAM_9";
+            treeNode276.Text = "CAM_9";
+            treeNode277.Name = "GW_5";
+            treeNode277.Text = "Cầu Bình Phú/đường 909";
+            treeNode278.Name = "CAM_10";
+            treeNode278.Text = "CAM_10";
+            treeNode279.Name = "CAM_11";
+            treeNode279.Text = "CAM_11";
+            treeNode280.Name = "CAM_12";
+            treeNode280.Text = "CAM_12";
+            treeNode281.Name = "GW_6";
+            treeNode281.Text = "Ngã 4 xã Loan Mỹ";
+            treeNode282.Name = "CAM_13";
+            treeNode282.Text = "CAM_13";
+            treeNode283.Name = "CAM_14";
+            treeNode283.Text = "CAM_14";
+            treeNode284.Name = "GW_7";
+            treeNode284.Text = "Cầu Kênh Xáng";
+            treeNode285.Name = "CAM_15";
+            treeNode285.Text = "CAM_15";
+            treeNode286.Name = "CAM_16";
+            treeNode286.Text = "CAM_16";
+            treeNode287.Name = "CAM_17";
+            treeNode287.Text = "CAM_17";
+            treeNode288.Name = "GW_8";
+            treeNode288.Text = "Ngã 3 xã mới/Mỹ Thạnh Trung";
+            treeNode289.Name = "CAM_18";
+            treeNode289.Text = "CAM_18";
+            treeNode290.Name = "CAM_19";
+            treeNode290.Text = "CAM_19";
+            treeNode291.Name = "CAM_20";
+            treeNode291.Text = "CAM_20";
+            treeNode292.Name = "CAM_21";
+            treeNode292.Text = "CAM_21";
+            treeNode293.Name = "GW_9";
+            treeNode293.Text = "Vòng Xoay chợ Song Phú";
+            treeNode294.Name = "CAM_22";
+            treeNode294.Text = "CAM_22";
+            treeNode295.Name = "CAM_23";
+            treeNode295.Text = "CAM_23";
+            treeNode296.Name = "CAM_24";
+            treeNode296.Text = "CAM_24";
+            treeNode297.Name = "GW_10";
+            treeNode297.Text = "Khu dân cư Phú Ninh";
+            treeNode298.Name = "CAM_25";
+            treeNode298.Text = "CAM_25";
+            treeNode299.Name = "CAM_26";
+            treeNode299.Text = "CAM_26";
+            treeNode300.Name = "CAM_27";
+            treeNode300.Text = "CAM_27";
+            treeNode301.Name = "GW_11";
+            treeNode301.Text = "Đầu lộ khu đô thị Song Phú/Đối diện Phương Trang";
+            treeNode302.Name = "CAM_28";
+            treeNode302.Text = "CAM_28";
+            treeNode303.Name = "CAM_29";
+            treeNode303.Text = "CAM_29";
+            treeNode304.Name = "GW_12";
+            treeNode304.Text = "Ngã ba đầu đường Phú Thịnh";
+            treeNode305.Name = "CAM_30";
+            treeNode305.Text = "CAM_30";
+            treeNode306.Name = "CAM_31";
+            treeNode306.Text = "CAM_31";
+            treeNode307.Name = "GW_13";
+            treeNode307.Text = "Uỷ Ban Xã Phú Thịnh";
+            treeNode308.Name = "CAM_32";
+            treeNode308.Text = "CAM_32";
+            treeNode309.Name = "CAM_33";
+            treeNode309.Text = "CAM_33";
+            treeNode310.Name = "GW_14";
+            treeNode310.Text = "Ngã 3 đầu đường 908";
+            treeNode311.Name = "CAM_34";
+            treeNode311.Text = "CAM_34";
+            treeNode312.Name = "CAM_35";
+            treeNode312.Text = "CAM_35";
+            treeNode313.Name = "CAM_36";
+            treeNode313.Text = "CAM_36";
+            treeNode314.Name = "GW_15";
+            treeNode314.Text = "Ấp 11 ngã 3 Cả Bần";
+            treeNode315.Name = "CAM_37";
+            treeNode315.Text = "CAM_37";
+            treeNode316.Name = "CAM_38";
+            treeNode316.Text = "CAM_38";
+            treeNode317.Name = "GW_16";
+            treeNode317.Text = "Cầu Bản Đồng";
+            treeNode318.Name = "CAM_39";
+            treeNode318.Text = "CAM_39";
+            treeNode319.Name = "CAM_40";
+            treeNode319.Text = "CAM_40";
+            treeNode320.Name = "GW_17";
+            treeNode320.Text = "Cầu Cả Lá";
+            treeNode321.Name = "CAM_41";
+            treeNode321.Text = "CAM_41";
+            treeNode322.Name = "CAM_42";
+            treeNode322.Text = "CAM_42";
+            treeNode323.Name = "CAM_43";
+            treeNode323.Text = "CAM_43";
+            treeNode324.Name = "GW_18";
+            treeNode324.Text = "Ngã 3 Phú Lộc";
+            treeNode325.Name = "CAM_44";
+            treeNode325.Text = "CAM_44";
+            treeNode326.Name = "CAM_45";
+            treeNode326.Text = "CAM_45";
+            treeNode327.Name = "GW_19";
+            treeNode327.Text = "Nhà Thờ Ngã Cậy";
+            treeNode328.Name = "CAM_46";
+            treeNode328.Text = "CAM_46";
+            treeNode329.Name = "CAM_47";
+            treeNode329.Text = "CAM_47";
+            treeNode330.Name = "GW_20";
+            treeNode330.Text = "Cua 6 Hoà";
+            treeNode331.Name = "CAM_48";
+            treeNode331.Text = "CAM_48";
+            treeNode332.Name = "CAM_49";
+            treeNode332.Text = "CAM_49";
+            treeNode333.Name = "CAM_50";
+            treeNode333.Text = "CAM_50";
+            treeNode334.Name = "GW_21";
+            treeNode334.Text = "Cổng chào Phú Lộc";
+            treeNode335.Name = "CAM_51";
+            treeNode335.Text = "CAM_51";
+            treeNode336.Name = "CAM_52";
+            treeNode336.Text = "CAM_52";
+            treeNode337.Name = "GW_22";
+            treeNode337.Text = "Cầu số 3 lô 6";
+            treeNode338.Name = "CAM_53";
+            treeNode338.Text = "CAM_53";
+            treeNode339.Name = "CAM_54";
+            treeNode339.Text = "CAM_54";
+            treeNode340.Name = "GW_23";
+            treeNode340.Text = "Cầu lô 1 A";
+            treeNode341.Name = "CAM_55";
+            treeNode341.Text = "CAM_55";
+            treeNode342.Name = "CAM_56";
+            treeNode342.Text = "CAM_56";
+            treeNode343.Name = "CAM_57";
+            treeNode343.Text = "CAM_57";
+            treeNode344.Name = "GW_24";
+            treeNode344.Text = "Ấp An Hoà Bình Ninh";
+            treeNode345.Name = "CAM_58";
+            treeNode345.Text = "CAM_58";
+            treeNode346.Name = "CAM_59";
+            treeNode346.Text = "CAM_59";
+            treeNode347.Name = "CAM_60";
+            treeNode347.Text = "CAM_60";
+            treeNode348.Name = "GW_25";
+            treeNode348.Text = "Cầu Rạch Lá";
+            treeNode349.Name = "CAM_61";
+            treeNode349.Text = "CAM_61";
+            treeNode350.Name = "CAM_62";
+            treeNode350.Text = "CAM_62";
+            treeNode351.Name = "GW_26";
+            treeNode351.Text = "Cổng ấp Phú Nghĩa/cây xăng Tân Phú";
+            treeNode352.Name = "CAM_63";
+            treeNode352.Text = "CAM_63";
+            treeNode353.Name = "CAM_64";
+            treeNode353.Text = "CAM_64";
+            treeNode354.Name = "GW_27";
+            treeNode354.Text = "Điểm tiếp giáp Đông Thạnh";
+            treeNode355.Name = "CAM_65";
+            treeNode355.Text = "CAM_65";
+            treeNode356.Name = "CAM_66";
+            treeNode356.Text = "CAM_66";
+            treeNode357.Name = "CAM_67";
+            treeNode357.Text = "CAM_67";
+            treeNode358.Name = "CAM_68";
+            treeNode358.Text = "CAM_68";
+            treeNode359.Name = "GW_28";
+            treeNode359.Text = "Ngã 4 Bình Quí";
+            treeNode360.Name = "CAM_69";
+            treeNode360.Text = "CAM_69";
+            treeNode361.Name = "CAM_70";
+            treeNode361.Text = "CAM_70";
+            treeNode362.Name = "CAM_71";
+            treeNode362.Text = "CAM_71";
+            treeNode363.Name = "CAM_72";
+            treeNode363.Text = "CAM_72";
+            treeNode364.Name = "GW_29";
+            treeNode364.Text = "Cầu Ngã Tắc";
+            treeNode365.Name = "CAM_73";
+            treeNode365.Text = "CAM_73";
+            treeNode366.Name = "CAM_74";
+            treeNode366.Text = "CAM_74";
+            treeNode367.Name = "GW_30";
+            treeNode367.Text = "Cửa hàng xăng dầu số 5";
+            treeNode368.Name = "CAM_75";
+            treeNode368.Text = "CAM_75";
+            treeNode369.Name = "CAM_76";
+            treeNode369.Text = "CAM_76";
+            treeNode370.Name = "CAM_77";
+            treeNode370.Text = "CAM_77";
+            treeNode371.Name = "GW_31";
+            treeNode371.Text = "Ngã ba cầu Tường Lộc";
+            treeNode372.Name = "CAM_78";
+            treeNode372.Text = "CAM_78";
+            treeNode373.Name = "CAM_79";
+            treeNode373.Text = "CAM_79";
+            treeNode374.Name = "GW_32";
+            treeNode374.Text = "Trước trường THCS Nhơn Bình";
+            treeNode375.Name = "CAM_80";
+            treeNode375.Text = "CAM_80";
+            treeNode376.Name = "CAM_81";
+            treeNode376.Text = "CAM_81";
+            treeNode377.Name = "GW_33";
+            treeNode377.Text = "Cống Phó Mùi";
+            treeNode378.Name = "CAM_82";
+            treeNode378.Text = "CAM_82";
+            treeNode379.Name = "CAM_83";
+            treeNode379.Text = "CAM_83";
+            treeNode380.Name = "CAM_84";
+            treeNode380.Text = "CAM_84";
+            treeNode381.Name = "GW_34";
+            treeNode381.Text = "Ngã ba ấp Hoà Phong/ấp 4/ấp 9/ấp 6/ấp Hoà Hiệp";
+            treeNode382.Name = "CAM_85";
+            treeNode382.Text = "CAM_85";
+            treeNode383.Name = "CAM_86";
+            treeNode383.Text = "CAM_86";
+            treeNode384.Name = "CAM_87";
+            treeNode384.Text = "CAM_87";
+            treeNode385.Name = "GW_35";
+            treeNode385.Text = "Ngã ba cầu ấp 4/ấp 9";
+            treeNode386.Name = "CAM_88";
+            treeNode386.Text = "CAM_88";
+            treeNode387.Name = "CAM_89";
+            treeNode387.Text = "CAM_89";
+            treeNode388.Name = "CAM_90";
+            treeNode388.Text = "CAM_90";
+            treeNode389.Name = "GW_36";
+            treeNode389.Text = "Ngã ba Hoà Lộc/Hậu Lộc";
+            treeNode390.Name = "CAM_91";
+            treeNode390.Text = "CAM_91";
+            treeNode391.Name = "CAM_92";
+            treeNode391.Text = "CAM_92";
+            treeNode392.Name = "GW_37";
+            treeNode392.Text = "Cua tạp hoá Thành Diễm";
+            treeNode393.Name = "CAM_93";
+            treeNode393.Text = "CAM_93";
+            treeNode394.Name = "CAM_94";
+            treeNode394.Text = "CAM_94";
+            treeNode395.Name = "GW_38";
+            treeNode395.Text = "Ngã 3 ấp 5 đầu khu dân cư";
+            treeNode396.Name = "CAM_95";
+            treeNode396.Text = "CAM_95";
+            treeNode397.Name = "CAM_96";
+            treeNode397.Text = "CAM_96";
+            treeNode398.Name = "CAM_97";
+            treeNode398.Text = "CAM_97";
+            treeNode399.Name = "GW_39";
+            treeNode399.Text = "Ngã 3 Danh Tấm";
+            treeNode400.Name = "CAM_98";
+            treeNode400.Text = "CAM_98";
+            treeNode401.Name = "CAM_99";
+            treeNode401.Text = "CAM_99";
+            treeNode402.Name = "GW_40";
+            treeNode402.Text = "Cua Tân Lộc (Trường tiểu học Tân Lộc A)";
+            treeNode403.Name = "CAM_100";
+            treeNode403.Text = "CAM_100";
+            treeNode404.Name = "CAM_101";
+            treeNode404.Text = "CAM_101";
+            treeNode405.Name = "GW_41";
+            treeNode405.Text = "Cầu Quan Vệ";
             this.treeView_CAM_TAMBINH_Dsach.Nodes.AddRange(new System.Windows.Forms.TreeNode[] {
-            treeNode669,
-            treeNode672,
-            treeNode676,
-            treeNode679,
-            treeNode682,
-            treeNode686,
-            treeNode689,
-            treeNode693,
-            treeNode698,
-            treeNode702,
-            treeNode706,
-            treeNode709,
-            treeNode712,
-            treeNode715,
-            treeNode719,
-            treeNode722,
-            treeNode725,
-            treeNode729,
-            treeNode732,
-            treeNode735,
-            treeNode739,
-            treeNode742,
-            treeNode745,
-            treeNode749,
-            treeNode753,
-            treeNode756,
-            treeNode759,
-            treeNode764,
-            treeNode769,
-            treeNode772,
-            treeNode776,
-            treeNode779,
-            treeNode782,
-            treeNode786,
-            treeNode790,
-            treeNode794,
-            treeNode797,
-            treeNode800,
-            treeNode804,
-            treeNode807,
-            treeNode810});
+            treeNode264,
+            treeNode267,
+            treeNode271,
+            treeNode274,
+            treeNode277,
+            treeNode281,
+            treeNode284,
+            treeNode288,
+            treeNode293,
+            treeNode297,
+            treeNode301,
+            treeNode304,
+            treeNode307,
+            treeNode310,
+            treeNode314,
+            treeNode317,
+            treeNode320,
+            treeNode324,
+            treeNode327,
+            treeNode330,
+            treeNode334,
+            treeNode337,
+            treeNode340,
+            treeNode344,
+            treeNode348,
+            treeNode351,
+            treeNode354,
+            treeNode359,
+            treeNode364,
+            treeNode367,
+            treeNode371,
+            treeNode374,
+            treeNode377,
+            treeNode381,
+            treeNode385,
+            treeNode389,
+            treeNode392,
+            treeNode395,
+            treeNode399,
+            treeNode402,
+            treeNode405});
             this.treeView_CAM_TAMBINH_Dsach.Size = new System.Drawing.Size(580, 696);
             this.treeView_CAM_TAMBINH_Dsach.TabIndex = 0;
             this.treeView_CAM_TAMBINH_Dsach.BeforeCollapse += new System.Windows.Forms.TreeViewCancelEventHandler(this.treeView_CAM_TAMBINH_Dsach_BeforeCollapse);
@@ -2795,6 +2799,29 @@
             this.cskh1.Url = "http://10.70.122.49:298/cskh.asmx";
             this.cskh1.UseDefaultCredentials = false;
             // 
+            // notifyIcon1
+            // 
+            this.notifyIcon1.BalloonTipIcon = System.Windows.Forms.ToolTipIcon.Info;
+            this.notifyIcon1.ContextMenuStrip = this.contextMenuStrip1;
+            this.notifyIcon1.Icon = ((System.Drawing.Icon)(resources.GetObject("notifyIcon1.Icon")));
+            this.notifyIcon1.Text = "OMC CAMERA";
+            this.notifyIcon1.MouseClick += new System.Windows.Forms.MouseEventHandler(this.notifyIcon1_MouseClick);
+            // 
+            // contextMenuStrip1
+            // 
+            this.contextMenuStrip1.ImageScalingSize = new System.Drawing.Size(20, 20);
+            this.contextMenuStrip1.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.ToolStripMenuItemThoat});
+            this.contextMenuStrip1.Name = "contextMenuStrip1";
+            this.contextMenuStrip1.Size = new System.Drawing.Size(117, 28);
+            // 
+            // ToolStripMenuItemThoat
+            // 
+            this.ToolStripMenuItemThoat.Name = "ToolStripMenuItemThoat";
+            this.ToolStripMenuItemThoat.Size = new System.Drawing.Size(116, 24);
+            this.ToolStripMenuItemThoat.Text = "Thoát";
+            this.ToolStripMenuItemThoat.Click += new System.EventHandler(this.ToolStripMenuItemThoat_Click);
+            // 
             // frmMain
             // 
             this.Appearance.BackColor = System.Drawing.Color.White;
@@ -2817,6 +2844,7 @@
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.StatusBar = this.ribbonStatusBar;
             this.Text = "OMC CAMERA";
+            this.FormClosing += new System.Windows.Forms.FormClosingEventHandler(this.frmMain_FormClosing);
             this.FormClosed += new System.Windows.Forms.FormClosedEventHandler(this.frmMain_FormClosed);
             this.Load += new System.EventHandler(this.frmMain_Load);
             ((System.ComponentModel.ISupportInitialize)(this.ribbon)).EndInit();
@@ -2873,6 +2901,7 @@
             ((System.ComponentModel.ISupportInitialize)(this.tabbedView1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.tabbedView2)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.layoutControlItem22)).EndInit();
+            this.contextMenuStrip1.ResumeLayout(false);
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -2983,6 +3012,9 @@
         private DevExpress.XtraLayout.LayoutControlItem layoutControlItem24;
         private System.Windows.Forms.Label lblTKVL;
         private DevExpress.XtraLayout.LayoutControlItem layoutControlItem25;
+        private System.Windows.Forms.NotifyIcon notifyIcon1;
+        private System.Windows.Forms.ContextMenuStrip contextMenuStrip1;
+        private System.Windows.Forms.ToolStripMenuItem ToolStripMenuItemThoat;
         // private DevExpress.XtraEditors.GroupControl groupControl2;
         // private DevExpress.XtraEditors.ComboBoxEdit comboBoxEdit2;
         // private System.Windows.Forms.Label label2;

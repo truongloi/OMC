@@ -924,10 +924,6 @@ namespace Telnet_OMC
             string ip = inif.Read(bientoancuc.TenTram, "IP");
             toolTip1.SetToolTip(lblIPVL, ip);
         }
-        private void frmMain_FormClosed(object sender, FormClosedEventArgs e)
-        {
-            Application.Exit();
-        }
 
         private void treeView_CAM_TAMBINH_Dsach_BeforeExpand(object sender, TreeViewCancelEventArgs e)
         {
@@ -988,11 +984,51 @@ namespace Telnet_OMC
             DateTime now = DateTime.Now;
             logFile(now.ToString(), "Dang xuat");
         }
+
+        private void frmMain_FormClosed(object sender, FormClosedEventArgs e)
+        {
+            Application.Exit();
+        }
+
+        private void frmMain_FormClosing(object sender, FormClosingEventArgs e)
+        {
+            if(bientoancuc.close == false)
+            {
+                // Cho hiện notifyIcon
+                notifyIcon1.Visible = true;
+                // Chọn ẩn
+                this.Hide();
+                // Thu nhỏ
+                WindowState = FormWindowState.Minimized;
+
+                e.Cancel = true;
+            }
+        }
+
+        private void notifyIcon1_MouseClick(object sender, MouseEventArgs e)
+        {
+            if (e.Button == System.Windows.Forms.MouseButtons.Left)
+            {
+                // Ẩn notifyIcon đi
+                notifyIcon1.Visible = false;
+                // Phóng to
+                WindowState = FormWindowState.Normal;
+                // Hoặc
+                this.Show();
+            }
+        }
+
+        private void ToolStripMenuItemThoat_Click(object sender, EventArgs e)
+        {
+            bientoancuc.close = true;
+            Application.Exit();
+        }
     }
 
     public class bientoancuc
     {
         public static string TenTram;
         public static WaitForm1 waitting;
+        public static bool close = false;
     }
 }
