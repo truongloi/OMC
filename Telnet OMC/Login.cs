@@ -42,7 +42,7 @@ namespace Telnet_OMC
             using (MD5 md5Hash = MD5.Create())
             {
                 // Ket noi file ini
-                INIFile inif = new INIFile(Application.StartupPath + @"\ConfigFile\Config.ini");
+                INIFile inif = new INIFile(@"d:\OMC CAMERA\ConfigFile\Config.ini");
                 string hash = inif.Read("CONFIG", "KEY");
 
                 if (VerifyMd5Hash(md5Hash, key, hash))

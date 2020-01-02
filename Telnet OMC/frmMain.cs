@@ -36,7 +36,7 @@ namespace Telnet_OMC
             //dockPanelLOG.Close();
 
             // Ket noi file ini
-            INIFile inif = new INIFile(Application.StartupPath + @"\ConfigFile\Config.ini");
+            INIFile inif = new INIFile(@"d:\OMC CAMERA\ConfigFile\Config.ini");
             string menu = inif.Read("CONFIG", "LOAD");
             string[] list_menu = tachChuoi(menu);
             foreach(string m in list_menu)
@@ -68,7 +68,7 @@ namespace Telnet_OMC
             splashScreenManager1.ShowWaitForm();
             // TAM BINH
             // Ket noi file ini
-            INIFile inif = new INIFile(Application.StartupPath + @"\ConfigFile\Conf_CAM_TAMBINH.ini");
+            INIFile inif = new INIFile(@"d:\OMC CAMERA\ConfigFile\Conf_CAM_TAMBINH.ini");
             Debug.WriteLine("LOAD DANH SÁCH TAM BÌNH");
             //txtLOG.Text += "LOAD DANH SÁCH TAM BÌNH" + "\r\n";
             // Load thông tin kết nối từ file
@@ -86,7 +86,7 @@ namespace Telnet_OMC
             splashScreenManager1.ShowWaitForm();
             // BINH MINH
             // Ket noi file ini
-            INIFile inif_bm = new INIFile(Application.StartupPath + @"\ConfigFile\Conf_CAM_BINHMINH.ini");
+            INIFile inif_bm = new INIFile(@"d:\OMC CAMERA\ConfigFile\Conf_CAM_BINHMINH.ini");
             Debug.WriteLine("LOAD DANH SÁCH BÌNH MINH");
             //txtLOG.Text += "LOAD DANH SÁCH BÌNH MINH" + "\r\n";
             // Load thông tin kết nối từ file
@@ -104,13 +104,13 @@ namespace Telnet_OMC
             splashScreenManager1.ShowWaitForm();
             // VUNG LIEM
             // Ket noi file ini
-            INIFile inif_bm = new INIFile(Application.StartupPath + @"\ConfigFile\Conf_CAM_VUNGLIEM.ini");
+            INIFile inif_bm = new INIFile(@"d:\OMC CAMERA\ConfigFile\Conf_CAM_VUNGLIEM.ini");
             Debug.WriteLine("LOAD DANH SÁCH VŨNG LIÊM");
             //txtLOG.Text += "LOAD DANH SÁCH VŨNG LIÊM" + "\r\n";
             // Load thông tin kết nối từ file
             loadCam(treeView_CAM_VUNGLIEM_Dsach, inif_bm);
             // Set thời gian timeout
-            timer2.Interval = int.Parse(inif_bm.Read("CONFIG", "TIMEOUT"));
+            timer3.Interval = int.Parse(inif_bm.Read("CONFIG", "TIMEOUT"));
             // Mở dock
             dockPanel_CAM_VUNGLIEM_Dsach.Close();
             dockPanel_CAM_VUNGLIEM_Dsach.Show();
@@ -144,11 +144,16 @@ namespace Telnet_OMC
                     SearchTree(node.Nodes, bientoancuc.TenTram).BackColor = Color.FromArgb(192, 255, 192);
                     inif.Write(bientoancuc.TenTram, "Connect", "1");
                     string sdt = inif.Read(bientoancuc.TenTram, "SDT");
-                    foreach (String s in tachChuoi(sdt))
+                    if (inif.Read("CONFIG", "MESSAGE_AGAIN") == "1")
                     {
-                        string nd = "KET NOI LAI: " + bientoancuc.TenTram + " ip: " + replaceIP(inif.Read(bientoancuc.TenTram, "IP")) + " vi tri: " + inif.Read(bientoancuc.TenTram, "Name");
-                        string rs = WS.SendSMS6_VNPT(s, nd, "vnpthaiphong_cskh_pttb");
-                        logFileSMS(now.ToString(), s, nd);
+                        foreach (String s in tachChuoi(sdt))
+                        {
+                            string nd = "KET NOI LAI: " + bientoancuc.TenTram + " ip: " + replaceIP(inif.Read(bientoancuc.TenTram, "IP")) + " vi tri: " + inif.Read(bientoancuc.TenTram, "Name");
+                            string rs = WS.SendSMS6_VNPT(s, nd, "vnpthaiphong_cskh_pttb");
+                            txtLOG.Text += "SDT: " + s + "   " + nd + "\r\n";
+                            logFileSMS(now.ToString(), s, nd);
+                            thongKe(node, inif);
+                        }
                     }
                 }
             }
@@ -165,11 +170,16 @@ namespace Telnet_OMC
                     SearchTree(node.Nodes, bientoancuc.TenTram).BackColor = Color.FromArgb(255, 128, 128);
                     inif.Write(bientoancuc.TenTram, "Connect", "0");
                     string sdt = inif.Read(bientoancuc.TenTram, "SDT");
-                    foreach (String s in tachChuoi(sdt))
+                    if (inif.Read("CONFIG", "MESSAGE") == "1")
                     {
-                        string nd = "MAT KET NOI: " + bientoancuc.TenTram + " ip: " + replaceIP(inif.Read(bientoancuc.TenTram, "IP")) + " vi tri: " + inif.Read(bientoancuc.TenTram, "Name");
-                        string rs = WS.SendSMS6_VNPT(s, nd, "vnpthaiphong_cskh_pttb");
-                        logFileSMS(now.ToString(), s, nd);
+                        foreach (String s in tachChuoi(sdt))
+                        {
+                            string nd = "MAT KET NOI: " + bientoancuc.TenTram + " ip: " + replaceIP(inif.Read(bientoancuc.TenTram, "IP")) + " vi tri: " + inif.Read(bientoancuc.TenTram, "Name");
+                            string rs = WS.SendSMS6_VNPT(s, nd, "vnpthaiphong_cskh_pttb");
+                            txtLOG.Text += "SDT: " + s + "   " + nd + "\r\n";
+                            logFileSMS(now.ToString(), s, nd);
+                            thongKe(node, inif);
+                        }
                     }
                 }
             }
@@ -178,7 +188,7 @@ namespace Telnet_OMC
         private void checkEditAuto_TAMBINH_CheckStateChanged(object sender, EventArgs e)
         {
             // Ket noi file ini
-            INIFile inif = new INIFile(Application.StartupPath + @"\ConfigFile\Conf_CAM_TAMBINH.ini");
+            INIFile inif = new INIFile(@"d:\OMC CAMERA\ConfigFile\Conf_CAM_TAMBINH.ini");
             DateTime now = DateTime.Now;
             if (checkEditAuto_TAMBINH.CheckState == CheckState.Checked)
             {
@@ -203,7 +213,7 @@ namespace Telnet_OMC
         private void checkEditAuto_BINHMINH_CheckStateChanged(object sender, EventArgs e)
         {
             // Ket noi file ini
-            INIFile inif = new INIFile(Application.StartupPath + @"\ConfigFile\Conf_CAM_BINHMINH.ini");
+            INIFile inif = new INIFile(@"d:\OMC CAMERA\ConfigFile\Conf_CAM_BINHMINH.ini");
             DateTime now = DateTime.Now;
 
             if (checkEditAuto_BINHMINH.CheckState == CheckState.Checked)
@@ -229,7 +239,7 @@ namespace Telnet_OMC
         private void checkEditAuto_VUNGLIEM_CheckStateChanged(object sender, EventArgs e)
         {
             // Ket noi file ini
-            INIFile inif = new INIFile(Application.StartupPath + @"\ConfigFile\Conf_CAM_VUNGLIEM.ini");
+            INIFile inif = new INIFile(@"d:\OMC CAMERA\ConfigFile\Conf_CAM_VUNGLIEM.ini");
             DateTime now = DateTime.Now;
 
             if (checkEditAuto_VUNGLIEM.CheckState == CheckState.Checked)
@@ -659,7 +669,7 @@ namespace Telnet_OMC
                 splashScreenManager1.ShowWaitForm();
                 //TAM BINH
                 // Ket noi file ini
-                INIFile inif = new INIFile(Application.StartupPath + @"\ConfigFile\Conf_CAM_TAMBINH.ini");
+                INIFile inif = new INIFile(@"d:\OMC CAMERA\ConfigFile\Conf_CAM_TAMBINH.ini");
                 
                 Debug.WriteLine("TAM BÌNH");
                 txtLOG.Text += "TAM BÌNH" + "\r\n";
@@ -676,7 +686,7 @@ namespace Telnet_OMC
                 splashScreenManager1.ShowWaitForm();
                 //BINH MINH
                 // Ket noi file ini
-                INIFile inif = new INIFile(Application.StartupPath + @"\ConfigFile\Conf_CAM_BINHMINH.ini");
+                INIFile inif = new INIFile(@"d:\OMC CAMERA\ConfigFile\Conf_CAM_BINHMINH.ini");
                 
                 Debug.WriteLine("BÌNH MINH");
                 txtLOG.Text += "BÌNH MINH" + "\r\n";
@@ -693,7 +703,7 @@ namespace Telnet_OMC
                 splashScreenManager1.ShowWaitForm();
                 //VUNG LIEM
                 // Ket noi file ini
-                INIFile inif = new INIFile(Application.StartupPath + @"\ConfigFile\Conf_CAM_VUNGLIEM.ini");
+                INIFile inif = new INIFile(@"d:\OMC CAMERA\ConfigFile\Conf_CAM_VUNGLIEM.ini");
 
                 Debug.WriteLine("VŨNG LIÊM");
                 txtLOG.Text += "VŨNG LIÊM" + "\r\n";
@@ -735,7 +745,7 @@ namespace Telnet_OMC
         {
             bientoancuc.TenTram = e.Node.Name; //lay bien de tìm trong file ini
             // Ket noi file ini
-            INIFile inif = new INIFile(Application.StartupPath + @"\ConfigFile\Conf_CAM_TAMBINH.ini");
+            INIFile inif = new INIFile(@"d:\OMC CAMERA\ConfigFile\Conf_CAM_TAMBINH.ini");
 
             Debug.WriteLine("TAM BÌNH");
             txtLOG.Text += "TAM BÌNH" + "\r\n";
@@ -747,7 +757,7 @@ namespace Telnet_OMC
         {
             bientoancuc.TenTram = e.Node.Name; //lay bien de tìm trong file ini
             // Ket noi file ini
-            INIFile inif = new INIFile(Application.StartupPath + @"\ConfigFile\Conf_CAM_BINHMINH.ini");
+            INIFile inif = new INIFile(@"d:\OMC CAMERA\ConfigFile\Conf_CAM_BINHMINH.ini");
 
             Debug.WriteLine("BÌNH MINH");
             txtLOG.Text += "BÌNH MINH" + "\r\n";
@@ -759,7 +769,7 @@ namespace Telnet_OMC
         {
             bientoancuc.TenTram = e.Node.Name; //lay bien de tìm trong file ini
             // Ket noi file ini
-            INIFile inif = new INIFile(Application.StartupPath + @"\ConfigFile\Conf_CAM_VUNGLIEM.ini");
+            INIFile inif = new INIFile(@"d:\OMC CAMERA\ConfigFile\Conf_CAM_VUNGLIEM.ini");
 
             Debug.WriteLine("VŨNG LIÊM");
             txtLOG.Text += "VŨNG LIÊM" + "\r\n";
@@ -772,7 +782,7 @@ namespace Telnet_OMC
             splashScreenManager1.ShowWaitForm();
             // TAM BINH
             // Ket noi file ini
-            INIFile inif = new INIFile(Application.StartupPath + @"\ConfigFile\Conf_CAM_TAMBINH.ini");
+            INIFile inif = new INIFile(@"d:\OMC CAMERA\ConfigFile\Conf_CAM_TAMBINH.ini");
 
             Debug.WriteLine("TAM BÌNH");
             txtLOG.Text += "TAM BÌNH" + "\r\n";
@@ -786,7 +796,7 @@ namespace Telnet_OMC
             splashScreenManager1.ShowWaitForm();
             // BINH MINH
             // Ket noi file ini
-            INIFile inif = new INIFile(Application.StartupPath + @"\ConfigFile\Conf_CAM_BINHMINH.ini");
+            INIFile inif = new INIFile(@"d:\OMC CAMERA\ConfigFile\Conf_CAM_BINHMINH.ini");
 
             Debug.WriteLine("BÌNH MINH");
             txtLOG.Text += "BÌNH MINH" + "\r\n";
@@ -800,7 +810,7 @@ namespace Telnet_OMC
             splashScreenManager1.ShowWaitForm();
             // VUNG LIEM
             // Ket noi file ini
-            INIFile inif = new INIFile(Application.StartupPath + @"\ConfigFile\Conf_CAM_VUNGLIEM.ini");
+            INIFile inif = new INIFile(@"d:\OMC CAMERA\ConfigFile\Conf_CAM_VUNGLIEM.ini");
 
             Debug.WriteLine("VŨNG LIÊM");
             txtLOG.Text += "VŨNG LIÊM" + "\r\n";
@@ -857,7 +867,7 @@ namespace Telnet_OMC
             splashScreenManager1.ShowWaitForm();
             // TAM BINH
             // Ket noi file ini
-            INIFile inif = new INIFile(Application.StartupPath + @"\ConfigFile\Conf_CAM_TAMBINH.ini");
+            INIFile inif = new INIFile(@"d:\OMC CAMERA\ConfigFile\Conf_CAM_TAMBINH.ini");
             Debug.WriteLine("NHẮN TIN TAM BÌNH");
             txtLOG.Text += "NHẮN TIN TAM BÌNH" + "\r\n";
             sendMessageFromFile(treeView_CAM_TAMBINH_Dsach, inif);
@@ -869,7 +879,7 @@ namespace Telnet_OMC
             splashScreenManager1.ShowWaitForm();
             // BINH MINH
             // Ket noi file ini
-            INIFile inif = new INIFile(Application.StartupPath + @"\ConfigFile\Conf_CAM_BINHMINH.ini");
+            INIFile inif = new INIFile(@"d:\OMC CAMERA\ConfigFile\Conf_CAM_BINHMINH.ini");
             Debug.WriteLine("NHẮN TIN BÌNH MINH");
             txtLOG.Text += "NHẮN TIN BÌNH MINH" + "\r\n";
             sendMessageFromFile(treeView_CAM_BINHMINH_Dsach, inif);
@@ -881,7 +891,7 @@ namespace Telnet_OMC
             splashScreenManager1.ShowWaitForm();
             // VUNG LIEM
             // Ket noi file ini
-            INIFile inif = new INIFile(Application.StartupPath + @"\ConfigFile\Conf_CAM_VUNGLIEM.ini");
+            INIFile inif = new INIFile(@"d:\OMC CAMERA\ConfigFile\Conf_CAM_VUNGLIEM.ini");
             Debug.WriteLine("NHẮN TIN VŨNG LIÊM");
             txtLOG.Text += "NHẮN TIN VŨNG LIÊM" + "\r\n";
             sendMessageFromFile(treeView_CAM_VUNGLIEM_Dsach, inif);
@@ -892,7 +902,7 @@ namespace Telnet_OMC
         {
             bientoancuc.TenTram = e.Node.Name; //lay bien de tìm trong file ini
             // Ket noi file ini
-            INIFile inif = new INIFile(Application.StartupPath + @"\ConfigFile\Conf_CAM_TAMBINH.ini");
+            INIFile inif = new INIFile(@"d:\OMC CAMERA\ConfigFile\Conf_CAM_TAMBINH.ini");
             string ip = inif.Read(bientoancuc.TenTram, "IP");
             toolTip1.SetToolTip(lblIPTB, ip);
         }
@@ -901,7 +911,7 @@ namespace Telnet_OMC
         {
             bientoancuc.TenTram = e.Node.Name; //lay bien de tìm trong file ini
             // Ket noi file ini
-            INIFile inif = new INIFile(Application.StartupPath + @"\ConfigFile\Conf_CAM_BINHMINH.ini");
+            INIFile inif = new INIFile(@"d:\OMC CAMERA\ConfigFile\Conf_CAM_BINHMINH.ini");
             string ip = inif.Read(bientoancuc.TenTram, "IP");
             toolTip1.SetToolTip(lblIPBM, ip);
         }
@@ -910,7 +920,7 @@ namespace Telnet_OMC
         {
             bientoancuc.TenTram = e.Node.Name; //lay bien de tìm trong file ini
             // Ket noi file ini
-            INIFile inif = new INIFile(Application.StartupPath + @"\ConfigFile\Conf_CAM_VUNGLIEM.ini");
+            INIFile inif = new INIFile(@"d:\OMC CAMERA\ConfigFile\Conf_CAM_VUNGLIEM.ini");
             string ip = inif.Read(bientoancuc.TenTram, "IP");
             toolTip1.SetToolTip(lblIPVL, ip);
         }
