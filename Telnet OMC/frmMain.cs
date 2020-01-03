@@ -1023,6 +1023,12 @@ namespace Telnet_OMC
             bientoancuc.close = true;
             Application.Exit();
         }
+
+        private void btnThoat_ItemClick(object sender, ItemClickEventArgs e)
+        {
+            bientoancuc.close = true;
+            Application.Exit();
+        }
     }
 
     public class bientoancuc
